@@ -1,12 +1,19 @@
 # Retail Pharmacy Consultation Tool
 
-A small Flask + SQLite web app for a retail pharmacy: a searchable database of
-commonly dispensed pharmaceutical agents, and a consultation generator that
-lets a pharmacist select the drug(s) being dispensed and produces a patient
-consultation covering the components required for an oral drug consultation
-under **California Code of Regulations, Title 16, §1707.2**, including
-interaction checking (drug-drug and OTC/nonprescription) across the selected
-medications.
+A searchable database of commonly dispensed pharmaceutical agents and a
+consultation generator that lets a pharmacist select the drug(s) being
+dispensed and produces a patient consultation covering the components
+required for an oral drug consultation under **California Code of
+Regulations, Title 16, §1707.2**, including interaction checking (drug-drug
+and OTC/nonprescription) across the selected medications.
+
+There are two versions of the app in this repo:
+
+- **`app.py` (Flask + SQLite)** — a desktop/server web app, useful for local
+  development and for editing/testing the drug database.
+- **`docs/` (installable phone app / PWA)** — a fully static, offline-capable
+  build of the same tool meant to be installed to a phone's home screen and
+  shared with colleagues. See [Phone app (PWA)](#phone-app-pwa) below.
 
 > **Disclaimer:** The drug and interaction data in this repo is a curated
 > reference set built for this prototype. It is **not** a substitute for
@@ -62,18 +69,83 @@ Then open http://127.0.0.1:5000/. `pharmacy.db` is built automatically on
 first run from the data in `data/`; delete it and restart to rebuild from
 scratch (e.g., after editing the source data).
 
+## Phone app (PWA)
+
+`docs/` is a self-contained, offline-first build of the tool: same drug
+database and consultation logic, reimplemented in plain client-side
+JavaScript (`docs/app.js`, `docs/ui.js`) instead of Flask endpoints, so it
+needs no server or internet connection once installed. It's a **Progressive
+Web App** — there's no app store, developer account, or review process
+involved.
+
+### One-time setup (repo owner)
+
+GitHub Pages needs to be turned on once so there's a URL to share:
+
+1. Go to the repo on GitHub → **Settings → Pages**.
+2. Under "Build and deployment" → **Source**, choose **Deploy from a branch**.
+3. Pick the branch this app lives on (or `main`, once merged) and set the
+   folder to **`/docs`**.
+4. Save. GitHub will publish it at
+   `https://<your-username>.github.io/<repo-name>/` within a minute or two.
+
+Note: if the repository is private, this URL is still reachable by anyone
+who has the exact link (GitHub Pages doesn't enforce repo privacy on a free
+plan) — it isn't discoverable/indexed anywhere, but it isn't access-controlled
+either. The bundled data is general pharmacology reference content, not
+patient data, but let me know if you'd rather it be locked down further.
+
+### Installing it (colleagues)
+
+Share the Pages URL. Opening it once (with any internet connection) downloads
+and caches the whole app, including all 496 drugs — after that it works with
+no signal at all.
+
+- **iPhone:** open the link in **Safari**, tap the **Share** icon, then
+  **"Add to Home Screen."**
+- **Android:** open the link in **Chrome**; a banner/button will offer to
+  **install the app** directly (or use Chrome's ⋮ menu → "Install app").
+
+The app also shows this same guidance in an in-app banner on first visit.
+
+### Updating the data later
+
+The PWA has its own copy of the data for offline use. After editing
+`data/drugs.json` / `data/interactions.json`, run:
+
+```bash
+python3 scripts/sync_pwa_data.py
+```
+
+then commit and push — this copies the updated files into `docs/data/` and
+bumps nothing else automatically. To force already-installed phones to pick
+up the change, bump `CACHE_VERSION` in `docs/service-worker.js` (e.g.
+`rxconsult-v2`) so the service worker knows to re-fetch everything; otherwise
+installed copies keep serving their originally cached data until it's
+evicted or reinstalled.
+
 ## Project layout
 
 ```
-app.py                 Flask routes (UI + /api/search, /api/classes, /api/consultation)
-db.py                   SQLite connection, schema loading/seeding, query helpers
-consultation.py         Maps drug + interaction data onto the 7 CCR components
-schema.sql              SQLite schema for drugs and interactions tables
-data/drugs.json         Source drug records (JSON array)
-data/interactions.json  Source pairwise interaction records (JSON array)
-templates/index.html    Search/select UI + consultation display
-static/style.css        Styling (incl. print stylesheet for the consultation)
-static/app.js           Client-side search, selection, and consultation rendering
+app.py                    Flask routes (UI + /api/search, /api/classes, /api/consultation)
+db.py                      SQLite connection, schema loading/seeding, query helpers
+consultation.py            Maps drug + interaction data onto the 7 CCR components
+schema.sql                 SQLite schema for drugs and interactions tables
+data/drugs.json            Source drug records (JSON array) - canonical data
+data/interactions.json     Source pairwise interaction records (JSON array) - canonical data
+templates/index.html       Flask UI template
+static/                    Flask app's CSS/JS
+scripts/sync_pwa_data.py   Copies data/*.json into docs/data/ for the PWA build
+
+docs/                      Static, installable phone app (PWA) - see "Phone app" above
+docs/index.html             App shell + PWA meta tags
+docs/app.js                 Client-side reimplementation of db.py/consultation.py
+docs/ui.js                  Search/select/consultation rendering (mirrors static/app.js)
+docs/install.js              iOS/Android "add to home screen" prompt handling
+docs/service-worker.js        Offline caching (precaches app + full drug database)
+docs/manifest.webmanifest      PWA manifest (name, icons, display mode)
+docs/data/*.json                Copies of data/drugs.json and data/interactions.json
+docs/icons/                      App icons for home screen (incl. maskable variants)
 ```
 
 ## Extending the data
@@ -89,3 +161,6 @@ Given the size of this dataset (nearly 500 drugs), a validation pass is
 recommended after editing by hand — check for: exact schema key match on
 every drug record, unique ids, and that every interaction's `drug_a`/`drug_b`
 resolve to a real drug id.
+
+Run `python3 scripts/sync_pwa_data.py` afterward to propagate the change to
+the phone app build in `docs/` (see [Phone app (PWA)](#phone-app-pwa)).
