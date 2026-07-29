@@ -61,7 +61,6 @@ DRUGS = [
             "Report new or worsening muscle symptoms right away.",
             "Keep scheduled lab appointments for liver enzymes and cholesterol panels.",
         ],
-        "refill_information": "Refillable per prescription; this is a chronic, long-term medication - request refills before your supply runs out to avoid a gap in therapy.",
         "missed_dose_instructions": "Take the missed dose as soon as you remember unless it is almost time for the next dose - then skip the missed dose. Do not double up.",
     },
     {
@@ -94,7 +93,6 @@ DRUGS = [
             "Report unexplained muscle symptoms immediately, especially if you start a new medication.",
         ],
         "self_monitoring": ["Watch for new muscle pain, especially after any new prescription is added.", "Attend scheduled lipid and liver panels."],
-        "refill_information": "Chronic therapy - refillable per prescription; avoid gaps in supply.",
         "missed_dose_instructions": "If remembered same day, take it; if it's the next day, skip the missed dose and resume schedule. Do not double up.",
     },
     {
@@ -126,7 +124,6 @@ DRUGS = [
             "Call prescriber for a persistent cough or signs of high potassium; do not stop abruptly without guidance.",
         ],
         "self_monitoring": ["Check blood pressure at home if recommended and keep a log.", "Report unusual swelling right away.", "Keep scheduled potassium/kidney function labs."],
-        "refill_information": "Chronic therapy - refill before running out; do not stop abruptly.",
         "missed_dose_instructions": "Take as soon as remembered unless close to the next dose; then skip and resume normal schedule. Do not double up.",
     },
     {
@@ -148,7 +145,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Avoid potassium supplements/salt substitutes unless directed.", "NSAIDs may reduce effectiveness and stress kidneys."],
         "action_if_adverse_effects": ["Seek emergency care for swelling/breathing trouble.", "Call prescriber for persistent dizziness or fainting."],
         "self_monitoring": ["Home blood pressure log if recommended.", "Keep kidney function/potassium labs as scheduled."],
-        "refill_information": "Chronic therapy - refill on schedule; do not stop abruptly.",
         "missed_dose_instructions": "Take when remembered unless near the next dose, then skip it. Do not double up.",
     },
     {
@@ -170,7 +166,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Avoid grapefruit juice in large amounts - can raise drug levels.", "Simvastatin dose should be capped at 20 mg when combined."],
         "action_if_adverse_effects": ["Call prescriber for significant swelling or worsening chest pain.", "Seek emergency care for fainting or a very rapid/irregular heartbeat."],
         "self_monitoring": ["Home blood pressure log if recommended.", "Watch for and report increasing ankle swelling."],
-        "refill_information": "Chronic therapy - refill on schedule; do not stop abruptly.",
         "missed_dose_instructions": "Take as soon as remembered unless it is nearly time for the next dose, then skip it. Do not double up.",
     },
     {
@@ -192,7 +187,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Can mask symptoms of low blood sugar (rapid heartbeat) in patients on insulin/sulfonylureas.", "NSAIDs may reduce blood-pressure-lowering effect.", "Decongestants (pseudoephedrine) may raise blood pressure/heart rate - use caution."],
         "action_if_adverse_effects": ["Call prescriber for resting heart rate under 50 bpm, fainting, or worsening breathing.", "Never stop abruptly - can cause rebound high blood pressure or chest pain."],
         "self_monitoring": ["Check pulse/blood pressure at home if recommended before each dose.", "Track weight daily if history of heart failure."],
-        "refill_information": "Chronic therapy - refill on schedule; abrupt discontinuation is dangerous.",
         "missed_dose_instructions": "Take as soon as remembered unless close to the next dose, then skip it. Do not double up.",
     },
     {
@@ -214,7 +208,6 @@ DRUGS = [
         "otc_and_other_interactions": ["NSAIDs can reduce effectiveness and raise kidney risk.", "Avoid excess licorice and monitor potassium if using potassium-depleting laxatives.", "Increases sensitivity to sunlight - use sunscreen."],
         "action_if_adverse_effects": ["Call prescriber for muscle cramping/weakness, confusion, or a fast/irregular heartbeat.", "Seek care for severe dizziness or fainting."],
         "self_monitoring": ["Home blood pressure log if recommended.", "Keep scheduled electrolyte/kidney labs.", "Weigh yourself regularly if you have heart failure."],
-        "refill_information": "Chronic therapy - refill on schedule.",
         "missed_dose_instructions": "Take when remembered; if late in the day, consider skipping to avoid nighttime urination and resume next morning - ask your pharmacist.",
     },
     {
@@ -236,7 +229,6 @@ DRUGS = [
         "otc_and_other_interactions": ["NSAIDs can blunt diuretic effect and increase kidney risk.", "Increases sensitivity to sunlight."],
         "action_if_adverse_effects": ["Call prescriber urgently for signs of dehydration, low potassium, or hearing changes.", "Seek emergency care for fainting or a very irregular heartbeat."],
         "self_monitoring": ["Weigh yourself daily at the same time; report rapid gain/loss.", "Track fluid intake/output if instructed.", "Keep scheduled electrolyte/kidney labs."],
-        "refill_information": "Refill on schedule; do not stop without prescriber guidance.",
         "missed_dose_instructions": "Take as soon as remembered; if it's late in the day, ask your pharmacist whether to skip it to avoid nighttime urination.",
     },
     {
@@ -279,7 +271,6 @@ DRUGS = [
             "Watch for and report any unusual bruising or bleeding.",
             "Carry a warfarin/anticoagulant alert card.",
         ],
-        "refill_information": "Refill on schedule; dose may change based on INR results, so verify the current dose with your pharmacist at each refill.",
         "missed_dose_instructions": "Take the missed dose the same day if remembered. If not remembered until the next day, skip it - do NOT double up. Record the missed dose and tell the anticoagulation clinic/prescriber.",
     },
     {
@@ -307,7 +298,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care for serious bleeding or neurologic symptoms.", "Inform every provider you take this before any procedure or new medication."],
         "self_monitoring": ["Watch for and report unusual bruising or bleeding.", "Carry an anticoagulant alert card."],
-        "refill_information": "Refill on schedule without gaps - missed doses raise clot risk; do not stockpile or stop early.",
         "missed_dose_instructions": "Take the missed dose as soon as remembered on the same day; if it's almost time for the next dose, skip the missed one and resume schedule - do not double up.",
     },
     {
@@ -332,7 +322,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek care for significant bleeding.", "Never stop this medication early (especially after a stent) without cardiologist approval - risk of stent clotting."],
         "self_monitoring": ["Watch for unusual bruising/bleeding.", "Tell your dentist/surgeon you take this before any procedure."],
-        "refill_information": "Refill on schedule without gaps; stopping early after a stent can be life-threatening.",
         "missed_dose_instructions": "Take as soon as remembered the same day; if not until the next day, skip the missed dose and continue as scheduled. Do not double up.",
     },
     {
@@ -357,7 +346,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Stop and seek care for signs of GI bleeding or ringing in the ears.", "Ask your pharmacist before adding any other NSAID."],
         "self_monitoring": ["Watch for dark stools or unusual bruising.", "Report any new bleeding symptoms."],
-        "refill_information": "OTC - keep a steady supply; discuss any brand switch with your pharmacist.",
         "missed_dose_instructions": "Take as soon as remembered; if near the next dose, skip it. Do not double up.",
     },
     {
@@ -385,7 +373,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care for signs of lactic acidosis.", "Call prescriber if GI side effects don't improve after a few weeks."],
         "self_monitoring": ["Check blood sugar as directed and keep a log.", "Keep scheduled kidney function and vitamin B12 labs (long-term use can lower B12)."],
-        "refill_information": "Chronic therapy - refill on schedule.",
         "missed_dose_instructions": "Take with your next meal if remembered same day; if it's almost time for the next dose, skip the missed one. Do not double up.",
     },
     {
@@ -413,7 +400,6 @@ DRUGS = [
             "Call prescriber if low blood sugar episodes are frequent.",
         ],
         "self_monitoring": ["Check blood sugar as directed, especially before meals and driving.", "Carry a fast-acting sugar source at all times.", "Wear medical alert identification."],
-        "refill_information": "Chronic therapy - refill on schedule; do not skip doses.",
         "missed_dose_instructions": "If a meal was skipped, skip that dose too. Otherwise take as soon as remembered; if close to the next meal/dose, skip it. Do not double up.",
     },
     {
@@ -445,7 +431,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Treat low blood sugar immediately with fast-acting sugar; seek emergency help for seizure or unconsciousness.", "Report severe injection site reactions to your prescriber."],
         "self_monitoring": ["Check blood glucose as directed and keep a log.", "Rotate injection sites to avoid skin changes.", "Carry a fast-acting sugar source and wear medical alert ID."],
-        "refill_information": "Refill before your pen/vial runs out; check the expiration and in-use discard date at each refill.",
         "missed_dose_instructions": "If a dose is missed, contact your prescriber or diabetes care team for guidance rather than guessing - do not double the next dose.",
     },
     {
@@ -474,7 +459,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Call prescriber for symptoms of over- or under-treatment rather than adjusting the dose yourself.", "Seek care for chest pain or a rapid irregular heartbeat."],
         "self_monitoring": ["Keep scheduled TSH lab draws (typically 6-8 weeks after any dose change).", "Track symptoms of over/under-treatment."],
-        "refill_information": "Lifelong chronic therapy - refill on schedule; stay on the same manufacturer/brand consistently if possible.",
         "missed_dose_instructions": "Take as soon as remembered that day; if not remembered until the next day, take one dose only (do not double up) and resume schedule.",
     },
     {
@@ -500,7 +484,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Call prescriber for severe diarrhea or symptoms lasting beyond the OTC treatment course.", "Report bone pain or muscle spasms with long-term use."],
         "self_monitoring": ["Track symptom improvement; if no relief within 14 days of OTC use, see a prescriber.", "With long-term use, periodic magnesium/B12 monitoring may be recommended."],
-        "refill_information": "OTC - available without a prescription for short courses; long-term Rx use should be reviewed periodically with your prescriber.",
         "missed_dose_instructions": "Take as soon as remembered; if near the next dose, skip the missed one. Do not double up.",
     },
     {
@@ -522,7 +505,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Generally fewer interactions than PPIs; still separate from drugs requiring stomach acid for absorption if advised."],
         "action_if_adverse_effects": ["See a prescriber if symptoms persist beyond 2 weeks or if warning symptoms (difficulty swallowing, weight loss) occur."],
         "self_monitoring": ["Track symptom frequency/severity.", "Reduce dose adjustments in kidney disease should be directed by a prescriber."],
-        "refill_information": "OTC - available without prescription; long-term or high-dose use should involve a prescriber.",
         "missed_dose_instructions": "Take as soon as remembered, or simply take the next dose at its scheduled time if it is being used on an as-needed basis.",
     },
     {
@@ -544,7 +526,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Can raise risk of serotonin syndrome when combined with SSRIs (e.g., sertraline) or tramadol.", "Use caution with other QT-prolonging medications."],
         "action_if_adverse_effects": ["Seek care for fainting, an irregular heartbeat, or symptoms of serotonin syndrome."],
         "self_monitoring": ["Track nausea/vomiting frequency and hydration status.", "Report any heart palpitations."],
-        "refill_information": "Typically prescribed in limited quantities for a specific course; contact prescriber if ongoing nausea persists.",
         "missed_dose_instructions": "This is usually taken as needed; if on a scheduled regimen and a dose is missed, take it when remembered unless close to the next dose.",
     },
     {
@@ -566,7 +547,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Generally minimal drug interactions; avoid taking at the same time as mineral oil."],
         "action_if_adverse_effects": ["See a prescriber if constipation persists beyond 1 week or is accompanied by severe pain/bleeding."],
         "self_monitoring": ["Track bowel movement frequency.", "Ensure adequate fluid and fiber intake."],
-        "refill_information": "OTC - available as needed.",
         "missed_dose_instructions": "Not typically critical if used for occasional constipation; resume normal use as needed.",
     },
     {
@@ -597,7 +577,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Other stimulants (e.g., decongestants like pseudoephedrine) can add to jitteriness/heart racing.", "Beta-blockers (e.g., metoprolol) can reduce albuterol's effectiveness."],
         "action_if_adverse_effects": ["Seek emergency care if breathing does not improve after use or symptoms rapidly worsen.", "Contact prescriber if you are using your rescue inhaler more than twice a week - asthma control may need adjustment."],
         "self_monitoring": ["Track how often you need to use the rescue inhaler.", "Know the number of actuations remaining (track doses used) since canisters do not always show a reliable fill level."],
-        "refill_information": "Keep a spare inhaler if you use this frequently; refill before running out, especially if using it often.",
         "missed_dose_instructions": "This is used as needed for symptoms, not on a fixed schedule - use when symptoms occur, following prescribed maximum frequency.",
     },
     {
@@ -619,7 +598,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Minimal systemic drug interactions at recommended doses; avoid combining multiple nasal steroid products."],
         "action_if_adverse_effects": ["Stop and contact a prescriber for recurrent nosebleeds, vision changes, or signs of nasal septum injury."],
         "self_monitoring": ["Track symptom improvement over 1-2 weeks.", "Watch for nosebleeds and proper spray technique (aim away from the septum)."],
-        "refill_information": "OTC - available without prescription; refill as needed for ongoing allergy control.",
         "missed_dose_instructions": "Take as soon as remembered; if near the next dose, skip the missed one. Do not double up.",
     },
     {
@@ -644,7 +622,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Minimal significant OTC interactions; still review all new medications with your pharmacist."],
         "action_if_adverse_effects": ["Contact prescriber immediately for any new mood, behavior, or suicidal thoughts.", "This is not a rescue inhaler substitute - use a rescue inhaler for acute symptoms."],
         "self_monitoring": ["Track asthma/allergy control and any mood/behavior changes, especially in children and teens."],
-        "refill_information": "Chronic therapy - refill on schedule.",
         "missed_dose_instructions": "Take as soon as remembered unless it's almost time for the next dose, then skip it. Do not double up.",
     },
     {
@@ -666,7 +643,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Generally minimal sedation compared to diphenhydramine; still use caution combining with other sedating medications."],
         "action_if_adverse_effects": ["Stop and seek care for signs of an allergic reaction."],
         "self_monitoring": ["Track symptom relief; if inadequate after regular use, discuss alternatives with your pharmacist."],
-        "refill_information": "OTC - available without prescription.",
         "missed_dose_instructions": "Take as soon as remembered; if near the next dose, skip it. Do not double up.",
     },
     {
@@ -688,7 +664,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Additive drowsiness with alcohol, sedatives, opioids, or other sedating antihistamines (e.g., diphenhydramine)."],
         "action_if_adverse_effects": ["Avoid driving/operating machinery until you know how it affects you.", "Seek care for signs of a severe allergic reaction."],
         "self_monitoring": ["Track symptom relief and daytime drowsiness."],
-        "refill_information": "OTC - available without prescription.",
         "missed_dose_instructions": "Take as soon as remembered; if near the next dose, skip it. Do not double up.",
     },
     {
@@ -717,7 +692,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Avoid combining with other sedating medications or alcohol.", "Seek care for severe confusion, difficulty urinating, or a fast heartbeat."],
         "self_monitoring": ["Use the lowest effective dose for the shortest time needed, particularly in older adults.", "Avoid daily long-term use as a sleep aid."],
-        "refill_information": "OTC - available without prescription; not intended for long-term daily use without medical guidance.",
         "missed_dose_instructions": "This is generally used as needed; there is no need to make up a missed dose - resume as needed for symptoms.",
     },
     {
@@ -739,7 +713,6 @@ DRUGS = [
         "otc_and_other_interactions": ["Fruit juices (grapefruit, orange, apple) can reduce absorption/effectiveness - take with water.", "Aluminum/magnesium antacids can reduce absorption."],
         "action_if_adverse_effects": ["Seek care for signs of a severe allergic reaction."],
         "self_monitoring": ["Track symptom control."],
-        "refill_information": "OTC - available without prescription.",
         "missed_dose_instructions": "Take as soon as remembered; if near the next dose, skip it. Do not double up.",
     },
     {
@@ -767,7 +740,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care for signs of a severe allergic reaction.", "Contact prescriber for severe or bloody diarrhea, especially if it develops during or after the course."],
         "self_monitoring": ["Complete the entire course as prescribed, even if symptoms improve early.", "Watch for rash or diarrhea."],
-        "refill_information": "This is a limited-course antibiotic - not typically refilled; contact your prescriber if symptoms don't improve or return.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip the missed one and continue the regular schedule - do not double up. Complete the full course.",
     },
     {
@@ -796,7 +768,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek care for an irregular heartbeat, signs of liver injury, or severe diarrhea."],
         "self_monitoring": ["Complete the full course as prescribed.", "Watch for GI symptoms and heart palpitations."],
-        "refill_information": "Limited-course antibiotic, not typically refilled; contact prescriber if symptoms persist after completing the course.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip the missed dose - do not double up. Complete the full course.",
     },
     {
@@ -818,7 +789,6 @@ DRUGS = [
         "otc_and_other_interactions": ["May slightly increase warfarin's effect - monitor INR if used together."],
         "action_if_adverse_effects": ["Seek emergency care for signs of a severe allergic reaction.", "Contact prescriber for severe/bloody diarrhea."],
         "self_monitoring": ["Complete the full course as prescribed even if feeling better."],
-        "refill_information": "Limited-course antibiotic, not typically refilled.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip it and continue the schedule - do not double up. Complete the full course.",
     },
     {
@@ -849,7 +819,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Stop the medication and contact your prescriber immediately for tendon pain, nerve symptoms, or mood/mental changes.", "Seek emergency care for sudden severe muscle weakness or breathing difficulty."],
         "self_monitoring": ["Watch for and report tendon pain or nerve symptoms right away.", "Monitor blood sugar closely if diabetic."],
-        "refill_information": "Limited-course antibiotic, not typically refilled.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip the missed one - do not double up. Complete the full course.",
     },
     {
@@ -882,7 +851,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek care for chest pain, painful swallowing, or severe headache with vision changes.", "Use sun protection to prevent severe sunburn reactions."],
         "self_monitoring": ["Take with adequate water and remain upright afterward.", "Watch for sun sensitivity and use protection."],
-        "refill_information": "Course length depends on indication; not typically refilled beyond the prescribed course without reassessment.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip the missed one - do not double up. Complete the full course.",
     },
     {
@@ -912,7 +880,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Stop and seek emergency care for a severe blistering/peeling skin reaction or signs of a severe allergic reaction.", "Contact prescriber for unusual bruising, bleeding, fever, or sore throat."],
         "self_monitoring": ["Complete the full course.", "Watch for rash, especially with fever or mouth sores.", "Monitor blood sugar closely if diabetic."],
-        "refill_information": "Limited-course antibiotic, not typically refilled.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip the missed one - do not double up. Complete the full course.",
     },
     {
@@ -942,7 +909,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Stop use and seek care for signs of GI bleeding, chest pain, or kidney-related swelling.", "Do not exceed labeled maximum daily dose or combine with other NSAIDs."],
         "self_monitoring": ["Track pain/fever relief; if OTC use exceeds the recommended duration, see a prescriber.", "Watch for stomach pain or dark stools."],
-        "refill_information": "OTC - available without prescription for short-term use; long-term use should be supervised by a prescriber.",
         "missed_dose_instructions": "This is generally used as needed for pain/fever; if on a scheduled regimen, take as soon as remembered unless close to the next dose - do not double up.",
     },
     {
@@ -970,7 +936,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care immediately for suspected overdose, even without symptoms yet.", "Check all medication labels to avoid duplicate acetaminophen dosing."],
         "self_monitoring": ["Track total daily acetaminophen from all sources (including combination products) to stay under the maximum."],
-        "refill_information": "OTC - available without prescription.",
         "missed_dose_instructions": "This is generally used as needed; if on a scheduled regimen, take as soon as remembered unless close to the next dose - do not double up.",
     },
     {
@@ -1000,7 +965,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Stop use and seek care for signs of GI bleeding, chest pain, or kidney-related swelling.", "Do not combine with other NSAIDs."],
         "self_monitoring": ["Track pain/fever relief; if OTC use exceeds recommended duration, see a prescriber."],
-        "refill_information": "OTC - available without prescription for short-term use; long-term/prescription-strength use should be supervised.",
         "missed_dose_instructions": "Used as needed for pain; if on a scheduled regimen, take as soon as remembered unless close to the next dose - do not double up.",
     },
     {
@@ -1030,7 +994,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care immediately for slowed/shallow breathing, unresponsiveness, or signs of serotonin syndrome.", "Never combine with alcohol or other sedatives without prescriber approval."],
         "self_monitoring": ["Do not drive or operate machinery until you know how this affects you.", "Track pain relief and constipation; use a stool softener if needed.", "Store securely to prevent misuse."],
-        "refill_information": "Controlled substance - refills require a new prescription each time (no automatic refills); California law limits early refills. Bring ID when picking up.",
         "missed_dose_instructions": "If on a scheduled regimen, take as soon as remembered unless close to the next dose - skip it and do not double up. This is a controlled substance; do not take extra to make up for a missed dose.",
     },
     {
@@ -1059,7 +1022,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care immediately for slowed breathing or unresponsiveness.", "Check all other medications for hidden acetaminophen before taking this."],
         "self_monitoring": ["Track total daily acetaminophen intake from all sources.", "Do not drive or operate machinery until you know how this affects you.", "Use a stool softener/laxative proactively if using for more than a couple of days."],
-        "refill_information": "Schedule II controlled substance - no refills permitted; a new written or electronic prescription is required each time.",
         "missed_dose_instructions": "Take as soon as remembered if pain persists; if close to the next dose, skip the missed one - do not double up or take extra.",
     },
     {
@@ -1089,7 +1051,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek care immediately for suicidal thoughts, signs of serotonin syndrome, or unusual bleeding.", "Never stop abruptly - discuss any concerns with your prescriber first."],
         "self_monitoring": ["Track mood, especially in the first few weeks and after any dose change.", "Report thoughts of self-harm immediately to a provider or crisis line."],
-        "refill_information": "Chronic therapy - refill on schedule; do not stop abruptly.",
         "missed_dose_instructions": "Take as soon as remembered unless close to the next dose, then skip it. Do not double up.",
     },
     {
@@ -1119,7 +1080,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek care immediately for suicidal thoughts or signs of serotonin syndrome.", "Do not stop abruptly - taper under prescriber guidance."],
         "self_monitoring": ["Track mood, especially early in treatment and after dose changes."],
-        "refill_information": "Chronic therapy - refill on schedule; do not stop abruptly.",
         "missed_dose_instructions": "Take as soon as remembered unless close to the next dose, then skip it. Do not double up.",
     },
     {
@@ -1147,7 +1107,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care immediately for slowed breathing or unresponsiveness.", "Never stop abruptly after regular use - contact prescriber to taper safely."],
         "self_monitoring": ["Do not drive or operate machinery until you know how this affects you.", "Track frequency of use and effectiveness; discuss long-term use plans with your prescriber."],
-        "refill_information": "Controlled substance - refills require a new prescription each time; California law restricts early refills.",
         "missed_dose_instructions": "Take as soon as remembered if on a scheduled regimen; if close to the next dose, skip the missed one - do not double up.",
     },
     {
@@ -1176,7 +1135,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care for significant breathing problems or severe allergic reaction.", "Do not stop abruptly if used for seizures - taper under prescriber guidance."],
         "self_monitoring": ["Track pain relief and drowsiness.", "Do not drive or operate machinery until you know how this affects you."],
-        "refill_information": "Refill on schedule per prescription; some states/pharmacies monitor this as a substance of interest.",
         "missed_dose_instructions": "Take as soon as remembered; if close to the next dose, skip the missed one. Do not double up.",
     },
     {
@@ -1206,7 +1164,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Never stop abruptly after a course longer than about 2-3 weeks - follow the taper exactly and call your prescriber with concerns.", "Seek care for severe mood changes, high blood sugar symptoms, or GI bleeding."],
         "self_monitoring": ["Monitor blood sugar closely if diabetic.", "Watch for mood changes, swelling, and signs of infection.", "Follow the taper schedule precisely."],
-        "refill_information": "Typically a defined, non-refillable short course with a taper; contact prescriber if the condition requires ongoing treatment.",
         "missed_dose_instructions": "Take as soon as remembered on a multi-dose-per-day schedule; if closer to the next scheduled dose, follow your written taper instructions or call your pharmacist - do not double up without guidance.",
     },
     {
@@ -1238,7 +1195,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Seek emergency care for chest pain, sudden vision/hearing changes, or a prolonged erection.", "Never combine with nitrate medications under any circumstances."],
         "self_monitoring": ["Be aware of interactions before taking any new heart medication, including nitroglycerin for chest pain."],
-        "refill_information": "Refill as prescribed; typically dispensed in limited quantities for as-needed use.",
         "missed_dose_instructions": "Taken as needed before activity - there is no daily dosing schedule to miss.",
     },
     {
@@ -1263,7 +1219,6 @@ DRUGS = [
         ],
         "action_if_adverse_effects": ["Avoid driving until you know how it affects you the next morning.", "Discuss with your pharmacist if combining with other sedating medications."],
         "self_monitoring": ["Track sleep quality and next-day alertness."],
-        "refill_information": "OTC supplement - available without prescription; not typically tracked as a prescription refill.",
         "missed_dose_instructions": "Used as needed at bedtime; if missed, simply skip that night's dose rather than taking it later in the night.",
     },
 ]

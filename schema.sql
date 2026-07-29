@@ -22,7 +22,6 @@ CREATE TABLE drugs (
     otc_and_other_interactions  TEXT NOT NULL,  -- JSON array
     action_if_adverse_effects   TEXT NOT NULL,  -- JSON array
     self_monitoring             TEXT NOT NULL,  -- JSON array
-    refill_information          TEXT NOT NULL,
     missed_dose_instructions    TEXT NOT NULL
 );
 

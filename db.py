@@ -58,8 +58,8 @@ def _seed(conn):
                 directions_for_use, storage_instructions, contraindications,
                 severe_side_effects_seek_care, common_side_effects,
                 otc_and_other_interactions, action_if_adverse_effects,
-                self_monitoring, refill_information, missed_dose_instructions
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                self_monitoring, missed_dose_instructions
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
             """,
             (
                 d["id"],
@@ -80,7 +80,6 @@ def _seed(conn):
                 json.dumps(d["otc_and_other_interactions"]),
                 json.dumps(d["action_if_adverse_effects"]),
                 json.dumps(d["self_monitoring"]),
-                d["refill_information"],
                 d["missed_dose_instructions"],
             ),
         )

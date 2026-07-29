@@ -73,7 +73,14 @@ def _drug_consultation(d):
             {
                 "number": 6,
                 "title": "Refill information",
-                "content": {"refill_information": d["refill_information"]},
+                "content": {
+                    "refill_information": (
+                        "Refill authorization, quantity, and remaining refills are specific to "
+                        "this patient's prescription, not to the drug itself - verify the current "
+                        "refill count, last-fill date, and prescriber authorization for this "
+                        "prescription before dispensing, and advise the patient accordingly."
+                    )
+                },
             },
             {
                 "number": 7,
