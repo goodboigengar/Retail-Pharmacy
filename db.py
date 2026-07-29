@@ -7,6 +7,8 @@ import sqlite3
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "pharmacy.db")
 SCHEMA_PATH = os.path.join(BASE_DIR, "schema.sql")
+DRUGS_JSON_PATH = os.path.join(BASE_DIR, "data", "drugs.json")
+INTERACTIONS_JSON_PATH = os.path.join(BASE_DIR, "data", "interactions.json")
 
 LIST_FIELDS = (
     "brand_names",
@@ -29,7 +31,7 @@ def get_connection():
 
 
 def build_database(force=False):
-    """(Re)build pharmacy.db from data/drugs.py and data/interactions.py."""
+    """(Re)build pharmacy.db from data/drugs.json and data/interactions.json."""
     if force and os.path.exists(DB_PATH):
         os.remove(DB_PATH)
 
@@ -46,8 +48,10 @@ def build_database(force=False):
 
 
 def _seed(conn):
-    from data.drugs import DRUGS
-    from data.interactions import INTERACTIONS
+    with open(DRUGS_JSON_PATH) as f:
+        DRUGS = json.load(f)
+    with open(INTERACTIONS_JSON_PATH) as f:
+        INTERACTIONS = json.load(f)
 
     for d in DRUGS:
         conn.execute(

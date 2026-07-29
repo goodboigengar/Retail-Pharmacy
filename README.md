@@ -16,12 +16,15 @@ medications.
 
 ## What it does
 
-1. **Database** (`data/drugs.py`, `data/interactions.py` → SQLite `pharmacy.db`,
-   built from `schema.sql`): ~45 commonly dispensed retail-pharmacy
-   medications (Rx and OTC) spanning cardiovascular, diabetes, GI, respiratory,
-   antibiotic, pain/opioid, mental health, and other classes, plus ~70 curated
-   pairwise drug interactions (including several flagged as involving an
-   OTC/nonprescription product).
+1. **Database** (`data/drugs.json`, `data/interactions.json` → SQLite
+   `pharmacy.db`, built from `schema.sql`): ~496 commonly dispensed
+   retail-pharmacy medications (Rx, OTC, and specialty/injectable) spanning
+   cardiovascular, diabetes/GLP-1, GI, respiratory, antibiotic/antiviral,
+   pain/opioid, mental health, women's health, urology, dermatology/biologics,
+   ophthalmology, and OTC vitamin/supplement classes, plus ~680 curated
+   pairwise drug interactions (including many flagged as involving an
+   OTC/nonprescription product, duplicate-ingredient combination products,
+   and MAOI/opioid-antagonist contraindications).
 
 2. **Search** (`/api/search?q=...`, `/api/classes`): search by generic name,
    brand name, or drug class; filter by class. The UI lets a pharmacist check
@@ -36,7 +39,9 @@ medications.
    4. Precautions and warnings (contraindications, severe side effects,
       adverse effects/interactions incl. OTC, and required action)
    5. Self-monitoring techniques
-   6. Refill information
+   6. Refill information — shown as a generic reminder to verify the current
+      refill count/authorization for the specific prescription, since that
+      information is prescription-specific rather than drug-specific
    7. Missed dose instructions
 
    It also cross-checks every pair of selected drugs against the interactions
@@ -60,21 +65,27 @@ scratch (e.g., after editing the source data).
 ## Project layout
 
 ```
-app.py              Flask routes (UI + /api/search, /api/classes, /api/consultation)
-db.py                SQLite connection, schema loading/seeding, query helpers
-consultation.py      Maps drug + interaction data onto the 7 CCR components
-schema.sql           SQLite schema for drugs and interactions tables
-data/drugs.py        Source drug records
-data/interactions.py Source pairwise interaction records
-templates/index.html Search/select UI + consultation display
-static/style.css      Styling (incl. print stylesheet for the consultation)
-static/app.js         Client-side search, selection, and consultation rendering
+app.py                 Flask routes (UI + /api/search, /api/classes, /api/consultation)
+db.py                   SQLite connection, schema loading/seeding, query helpers
+consultation.py         Maps drug + interaction data onto the 7 CCR components
+schema.sql              SQLite schema for drugs and interactions tables
+data/drugs.json         Source drug records (JSON array)
+data/interactions.json  Source pairwise interaction records (JSON array)
+templates/index.html    Search/select UI + consultation display
+static/style.css        Styling (incl. print stylesheet for the consultation)
+static/app.js           Client-side search, selection, and consultation rendering
 ```
 
 ## Extending the data
 
-Add a new drug by appending a record to `DRUGS` in `data/drugs.py` (see
-existing entries for the required fields), and add any relevant pairwise
-interactions to `INTERACTIONS` in `data/interactions.py` using the new drug's
-`id`. Delete `pharmacy.db` and restart the app to rebuild the database with
-the new data.
+Add a new drug by appending an object to the array in `data/drugs.json` (see
+existing entries for the required fields — every drug needs exactly the same
+set of keys, no more, no less; note there is intentionally no
+`refill_information` field). Add any relevant pairwise interactions to the
+array in `data/interactions.json`, referencing drugs by their `id`. Delete
+`pharmacy.db` and restart the app to rebuild the database with the new data.
+
+Given the size of this dataset (nearly 500 drugs), a validation pass is
+recommended after editing by hand — check for: exact schema key match on
+every drug record, unique ids, and that every interaction's `drug_a`/`drug_b`
+resolve to a real drug id.
