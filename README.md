@@ -143,7 +143,8 @@ docs/app.js                 Client-side reimplementation of db.py/consultation.p
 docs/ui.js                  Search/select/consultation rendering (mirrors static/app.js)
 docs/install.js              iOS/Android "add to home screen" prompt handling
 docs/service-worker.js        Offline caching (precaches app + full drug database)
-docs/manifest.webmanifest      PWA manifest (name, icons, display mode)
+docs/manifest.json              PWA manifest (name, icons, display mode)
+docs/.nojekyll                   Tells GitHub Pages to serve docs/ as-is, skipping Jekyll processing
 docs/data/*.json                Copies of data/drugs.json and data/interactions.json
 docs/icons/                      App icons for home screen (incl. maskable variants)
 ```

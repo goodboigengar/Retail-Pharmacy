@@ -1,4 +1,4 @@
-const CACHE_VERSION = "rxconsult-v1";
+const CACHE_VERSION = "rxconsult-v2";
 
 const PRECACHE_ASSETS = [
   "./",
@@ -7,7 +7,7 @@ const PRECACHE_ASSETS = [
   "app.js",
   "ui.js",
   "install.js",
-  "manifest.webmanifest",
+  "manifest.json",
   "data/drugs.json",
   "data/interactions.json",
   "icons/icon-192.png",
@@ -19,7 +19,16 @@ const PRECACHE_ASSETS = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_VERSION).then((cache) => cache.addAll(PRECACHE_ASSETS)).then(() => self.skipWaiting())
+    caches
+      .open(CACHE_VERSION)
+      .then((cache) =>
+        Promise.all(
+          PRECACHE_ASSETS.map((url) =>
+            cache.add(url).catch((err) => console.error("Precache failed for", url, err))
+          )
+        )
+      )
+      .then(() => self.skipWaiting())
   );
 });
 
