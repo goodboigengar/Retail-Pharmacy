@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Pharmacy Consultation Tool</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Retail Pharmacy Consultation Tool</h1>
+    <p class="subtitle">Search the drug inventory, select medications for dispensing, and generate a patient
+      consultation covering the components required under California Code of Regulations, Title 16, §1707.2.</p>
+  </header>
+
+  <div class="disclaimer">
+    <strong>For demonstration/decision-support use only.</strong> This tool's drug and interaction data is a
+    curated reference set and is <em>not</em> a substitute for current, authoritative labeling (FDA package
+    insert), a validated clinical interaction database (e.g., Lexicomp, Micromedex), or pharmacist clinical
+    judgment. Verify all information before counseling a patient.
+  </div>
+
+  <main class="layout">
+    <section class="panel search-panel">
+      <h2>1. Search &amp; select drug(s) for dispensing</h2>
+      <div class="search-controls">
+        <input id="search-input" type="text" placeholder="Search by generic name, brand name, or drug class…" autocomplete="off">
+        <select id="class-filter">
+          <option value="">All classes</option>
+        </select>
+      </div>
+      <ul id="results-list" class="results-list"></ul>
+    </section>
+
+    <section class="panel selected-panel">
+      <h2>2. Selected for dispensing</h2>
+      <ul id="selected-list" class="selected-list">
+        <li class="empty-hint">No drugs selected yet.</li>
+      </ul>
+      <button id="generate-btn" class="primary-btn" disabled>Generate Patient Consultation</button>
+      <div id="generate-error" class="error-msg" hidden></div>
+    </section>
+  </main>
+
+  <section id="consultation-section" class="panel consultation-panel" hidden>
+    <div class="consultation-header">
+      <h2>3. Patient Consultation</h2>
+      <button id="print-btn" class="secondary-btn">Print</button>
+    </div>
+    <div id="consultation-output"></div>
+  </section>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
