@@ -25,11 +25,47 @@
       Works fully offline once installed.</p>
   </header>
 
-  <div id="install-banner" class="install-banner" hidden>
-    <span id="install-banner-text">Install this app on your phone for one-tap offline access at the counter.</span>
-    <button id="install-btn" class="secondary-btn" hidden>Install App</button>
-    <button id="install-dismiss" class="text-btn">Dismiss</button>
-  </div>
+  <section id="install-panel" class="panel install-panel">
+    <h2>Install this app</h2>
+
+    <div id="install-not-mobile" class="install-variant" hidden>
+      <p>Open <strong id="install-url-text">this page</strong> on the phone you want to install it on, then
+        follow the on-screen steps to add it to the home screen.</p>
+    </div>
+
+    <div id="install-ios-safari" class="install-variant" hidden>
+      <p>Add this app to your Home Screen so it opens like a normal app and works with no signal:</p>
+      <ol class="install-steps">
+        <li>Tap the <strong>Share</strong> button <span class="icon-inline icon-share" aria-hidden="true"></span>
+          in the Safari toolbar.</li>
+        <li>Scroll down and tap <strong>"Add to Home Screen."</strong></li>
+        <li>Tap <strong>"Add"</strong> in the top-right corner.</li>
+      </ol>
+    </div>
+
+    <div id="install-ios-other" class="install-variant" hidden>
+      <p><strong>This browser can't install apps to your Home Screen on iPhone/iPad.</strong> Open this same
+        link in <strong>Safari</strong> instead (copy the link, or tap the browser menu and choose
+        "Open in Safari"), then use Safari's <strong>Share</strong> button →
+        <strong>"Add to Home Screen."</strong></p>
+    </div>
+
+    <div id="install-android" class="install-variant" hidden>
+      <p id="install-android-text">Install this app to your Home Screen for one-tap offline access at the
+        counter.</p>
+      <button id="install-btn" class="primary-btn" hidden>Install App</button>
+      <ol id="install-android-steps" class="install-steps" hidden>
+        <li>Tap the <strong>⋮</strong> menu (top-right of the browser).</li>
+        <li>Tap <strong>"Add to Home screen"</strong> or <strong>"Install app."</strong></li>
+      </ol>
+    </div>
+
+    <div id="install-already" class="install-variant" hidden>
+      <p>✓ You're using the installed app.</p>
+    </div>
+
+    <button id="install-dismiss" class="text-btn">Hide these instructions</button>
+  </section>
 
   <div id="loading-banner" class="disclaimer">Loading drug database…</div>
 

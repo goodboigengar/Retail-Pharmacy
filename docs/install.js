@@ -1,52 +1,89 @@
 (() => {
-  const banner = document.getElementById("install-banner");
-  const bannerText = document.getElementById("install-banner-text");
-  const installBtn = document.getElementById("install-btn");
+  const panel = document.getElementById("install-panel");
   const dismissBtn = document.getElementById("install-dismiss");
 
+  const variants = {
+    notMobile: document.getElementById("install-not-mobile"),
+    iosSafari: document.getElementById("install-ios-safari"),
+    iosOther: document.getElementById("install-ios-other"),
+    android: document.getElementById("install-android"),
+    already: document.getElementById("install-already"),
+  };
+
+  const installBtn = document.getElementById("install-btn");
+  const androidSteps = document.getElementById("install-android-steps");
+  const urlText = document.getElementById("install-url-text");
+
   const DISMISS_KEY = "rxconsult_install_dismissed";
+
+  function showOnly(key) {
+    for (const [k, el] of Object.entries(variants)) {
+      if (el) el.hidden = k !== key;
+    }
+  }
+
+  const ua = navigator.userAgent;
 
   const isStandalone =
     window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
 
-  if (isStandalone || sessionStorage.getItem(DISMISS_KEY)) {
+  if (isStandalone) {
+    showOnly("already");
+    dismissBtn.hidden = true;
     return;
   }
 
-  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-  let deferredPrompt = null;
-
-  window.addEventListener("beforeinstallprompt", (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    bannerText.textContent = "Install this app on your phone for one-tap offline access at the counter.";
-    installBtn.hidden = false;
-    banner.hidden = false;
-  });
-
-  installBtn.addEventListener("click", async () => {
-    if (!deferredPrompt) return;
-    deferredPrompt.prompt();
-    await deferredPrompt.userChoice;
-    deferredPrompt = null;
-    banner.hidden = true;
-  });
-
-  window.addEventListener("appinstalled", () => {
-    banner.hidden = true;
-  });
+  if (sessionStorage.getItem(DISMISS_KEY)) {
+    panel.hidden = true;
+    return;
+  }
 
   dismissBtn.addEventListener("click", () => {
     sessionStorage.setItem(DISMISS_KEY, "1");
-    banner.hidden = true;
+    panel.hidden = true;
   });
 
+  // iPadOS 13+ sends a desktop-class UA string, so also check for a
+  // touch-capable "Mac" as a stand-in for "this is actually an iPad."
+  const isIPadDesktopUA = navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || isIPadDesktopUA;
+  const isAndroid = /Android/.test(ua);
+
   if (isIOS) {
-    bannerText.innerHTML =
-      "To install: tap the <strong>Share</strong> icon in Safari, then choose " +
-      "<strong>“Add to Home Screen.”</strong>";
-    installBtn.hidden = true;
-    banner.hidden = false;
+    const isOtherIOSBrowser = /CriOS|FxiOS|EdgiOS|OPiOS|mercury|DuckDuckGo/.test(ua);
+    showOnly(isOtherIOSBrowser ? "iosOther" : "iosSafari");
+    return;
   }
+
+  if (isAndroid) {
+    showOnly("android");
+    androidSteps.hidden = false; // always show manual steps as a fallback
+
+    let deferredPrompt = null;
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      installBtn.hidden = false;
+      androidSteps.hidden = true; // the button is more reliable than the steps, prefer it
+    });
+
+    installBtn.addEventListener("click", async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      installBtn.hidden = true;
+      androidSteps.hidden = false;
+    });
+
+    window.addEventListener("appinstalled", () => {
+      showOnly("already");
+      dismissBtn.hidden = true;
+    });
+    return;
+  }
+
+  // Desktop / unrecognized device: point them at opening the link on a phone.
+  urlText.textContent = window.location.href;
+  showOnly("notMobile");
 })();

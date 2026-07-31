@@ -41,23 +41,66 @@ body {
   max-width: 70ch;
 }
 
-.install-banner {
+.install-panel {
   margin: 0 2rem 1.25rem;
-  padding: 0.75rem 1rem;
   background: #eaf3f6;
   border: 1px solid #b9d6e0;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  color: var(--color-primary-dark);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.75rem;
 }
 
-.install-banner span {
-  flex: 1;
-  min-width: 200px;
+.install-panel h2 {
+  color: var(--color-primary-dark);
+}
+
+.install-variant p {
+  margin: 0 0 0.5rem;
+}
+
+.install-steps {
+  margin: 0 0 0.75rem;
+  padding-left: 1.4rem;
+}
+
+.install-steps li {
+  margin-bottom: 0.35rem;
+}
+
+.icon-inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.15rem;
+}
+
+.icon-share {
+  width: 1rem;
+  height: 1.2rem;
+  position: relative;
+  border: 2px solid var(--color-primary-dark);
+  border-top: none;
+  border-radius: 0 0 2px 2px;
+}
+
+.icon-share::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -0.75rem;
+  width: 2px;
+  height: 0.7rem;
+  background: var(--color-primary-dark);
+  transform: translateX(-50%);
+}
+
+.icon-share::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -0.78rem;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 5px solid var(--color-primary-dark);
+  transform: translateX(-50%);
 }
 
 .text-btn {
@@ -332,7 +375,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .app-header, .install-banner, .disclaimer, .layout, .consultation-panel {
+  .app-header, .install-panel, .disclaimer, .layout, .consultation-panel {
     margin-left: 1rem;
     margin-right: 1rem;
     padding-left: 1rem;
@@ -342,7 +385,7 @@ body {
 }
 
 @media print {
-  .app-header, .install-banner, .disclaimer, .layout, .consultation-header button { display: none; }
+  .app-header, .install-panel, .disclaimer, .layout, .consultation-header button { display: none; }
   #consultation-section { display: block !important; border: none; margin: 0; padding: 0; }
   .drug-consult, .interactions-block { break-inside: avoid; }
 }
