@@ -24,14 +24,26 @@ There are two versions of the app in this repo:
 ## What it does
 
 1. **Database** (`data/drugs.json`, `data/interactions.json` → SQLite
-   `pharmacy.db`, built from `schema.sql`): ~496 commonly dispensed
+   `pharmacy.db`, built from `schema.sql`): ~567 commonly dispensed
    retail-pharmacy medications (Rx, OTC, and specialty/injectable) spanning
    cardiovascular, diabetes/GLP-1, GI, respiratory, antibiotic/antiviral,
    pain/opioid, mental health, women's health, urology, dermatology/biologics,
-   ophthalmology, and OTC vitamin/supplement classes, plus ~680 curated
-   pairwise drug interactions (including many flagged as involving an
-   OTC/nonprescription product, duplicate-ingredient combination products,
-   and MAOI/opioid-antagonist contraindications).
+   ophthalmology, oral oncology, transplant immunosuppression, and a broad
+   range of OTC categories (first aid, foot/dental/eye/ear care, nutrition,
+   skin care, and more), plus ~800 curated pairwise drug interactions
+   (including many flagged as involving an OTC/nonprescription product,
+   duplicate-ingredient combination products, and MAOI/opioid-antagonist
+   contraindications).
+   >
+   > There is no single "Medicare formulary" to encode — each Part D/Medicare
+   > Advantage plan (thousands of them) publishes its own, and CMS only sets
+   > minimum coverage rules. Rather than reflect any one plan, this dataset
+   > was broadened to cover CMS's required "protected classes"
+   > (antidepressants, antipsychotics, anticonvulsants, immunosuppressants,
+   > antiretrovirals, antineoplastics) more completely, alongside broader
+   > geriatric/chronic-disease and OTC coverage generally relevant to a
+   > Medicare-age population. No plan-specific tier, prior-authorization, or
+   > quantity-limit data is included.
 
 2. **Search** (`/api/search?q=...`, `/api/classes`): search by generic name,
    brand name, or drug class; filter by class. The UI lets a pharmacist check
@@ -98,7 +110,7 @@ patient data, but let me know if you'd rather it be locked down further.
 ### Installing it (colleagues)
 
 Share the Pages URL. Opening it once (with any internet connection) downloads
-and caches the whole app, including all 496 drugs — after that it works with
+and caches the whole app, including all 567 drugs — after that it works with
 no signal at all.
 
 - **iPhone:** open the link in **Safari**, tap the **Share** icon, then
@@ -158,7 +170,7 @@ set of keys, no more, no less; note there is intentionally no
 array in `data/interactions.json`, referencing drugs by their `id`. Delete
 `pharmacy.db` and restart the app to rebuild the database with the new data.
 
-Given the size of this dataset (nearly 500 drugs), a validation pass is
+Given the size of this dataset (500+ drugs), a validation pass is
 recommended after editing by hand — check for: exact schema key match on
 every drug record, unique ids, and that every interaction's `drug_a`/`drug_b`
 resolve to a real drug id.
