@@ -97,12 +97,11 @@
     const q = searchInput.value;
     const cls = classFilter.value;
     const params = new URLSearchParams({ q });
+    if (cls) params.set("class", cls);
     fetch(`/api/search?${params.toString()}`)
       .then((r) => r.json())
       .then((data) => {
-        let results = data.results;
-        if (cls) results = results.filter((d) => d.drug_class === cls);
-        renderResults(results);
+        renderResults(data.results);
       })
       .catch(() => {
         resultsList.innerHTML = `<li class="empty-hint">Search failed. Please try again.</li>`;

@@ -90,8 +90,7 @@
   function runSearch() {
     const q = searchInput.value;
     const cls = classFilter.value;
-    let results = window.PharmacyData.searchDrugs(q, 50);
-    if (cls) results = results.filter((d) => d.drug_class === cls);
+    const results = window.PharmacyData.searchDrugs(q, cls, 50);
     renderResults(results);
   }
 

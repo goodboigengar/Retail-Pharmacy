@@ -36,8 +36,13 @@
     DRUGS_BY_ID = new Map(DRUGS.map((d) => [d.id, d]));
   }
 
-  function searchDrugs(query, limit = 50) {
-    const sorted = [...DRUGS].sort((a, b) => a.generic_name.localeCompare(b.generic_name));
+  function searchDrugs(query, classFilter, limit = 50) {
+    let pool = DRUGS;
+    if (classFilter) {
+      pool = pool.filter((d) => d.drug_class === classFilter);
+      limit = Math.max(limit, pool.length);
+    }
+    const sorted = [...pool].sort((a, b) => a.generic_name.localeCompare(b.generic_name));
     const q = (query || "").trim().toLowerCase();
     if (!q) return sorted.slice(0, limit);
 

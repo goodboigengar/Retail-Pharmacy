@@ -26,7 +26,8 @@ def index():
 @app.route("/api/search")
 def api_search():
     query = request.args.get("q", "")
-    results = db.search_drugs(query, limit=50)
+    class_filter = request.args.get("class", "")
+    results = db.search_drugs(query, class_filter=class_filter, limit=50)
     slim = [
         {
             "id": d["id"],

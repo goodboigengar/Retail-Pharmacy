@@ -109,8 +109,12 @@ def row_to_drug(row):
     return d
 
 
-def search_drugs(query, limit=25):
-    """Search by generic name, brand name, or drug class (case-insensitive substring)."""
+def search_drugs(query, class_filter=None, limit=25):
+    """Search by generic name, brand name, or drug class (case-insensitive substring).
+
+    If class_filter is set, results are restricted to drugs with an exact
+    drug_class match before the query and limit are applied.
+    """
     conn = get_connection()
     try:
         rows = conn.execute("SELECT * FROM drugs ORDER BY generic_name").fetchall()
@@ -118,6 +122,10 @@ def search_drugs(query, limit=25):
         conn.close()
 
     drugs = [row_to_drug(r) for r in rows]
+    if class_filter:
+        drugs = [d for d in drugs if d["drug_class"] == class_filter]
+        limit = max(limit, len(drugs))
+
     if not query or not query.strip():
         return drugs[:limit]
 
