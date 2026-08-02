@@ -7207,5 +7207,3038 @@
     "clinical_effect": "This combination may be intentional thromboprophylaxis under oncology direction, but still carries increased bleeding risk versus either drug alone; discontinuing aspirin without guidance removes intended clot protection.",
     "management": "Confirm this combination is intended by the oncology team (it is a standard VTE-prevention strategy with lenalidomide); do not stop either medication without discussing with the prescriber, and report leg swelling/pain, chest pain, or unusual bleeding immediately.",
     "otc_related": true
+  },
+  {
+    "drug_a": "riociguat",
+    "drug_b": "sildenafil",
+    "severity": "Contraindicated",
+    "mechanism": "Both drugs increase cGMP-mediated vasodilation via different mechanisms (sGC stimulation and PDE5 inhibition).",
+    "clinical_effect": "Risk of severe, symptomatic hypotension.",
+    "management": "Do not use together; choose one pulmonary hypertension/erectile dysfunction therapy in consultation with the prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "riociguat",
+    "drug_b": "tadalafil",
+    "severity": "Contraindicated",
+    "mechanism": "Both drugs increase cGMP-mediated vasodilation via different mechanisms (sGC stimulation and PDE5 inhibition).",
+    "clinical_effect": "Risk of severe, symptomatic hypotension.",
+    "management": "Do not use together.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tacrolimus",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4, the enzyme that metabolizes tacrolimus.",
+    "clinical_effect": "Significantly increased tacrolimus levels and risk of nephrotoxicity/neurotoxicity.",
+    "management": "Avoid if possible; if required, reduce tacrolimus dose and monitor trough levels closely under transplant team supervision.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tacrolimus",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4 metabolism of tacrolimus.",
+    "clinical_effect": "Significantly increased tacrolimus levels and toxicity risk.",
+    "management": "Avoid if possible; use an alternative antibiotic when feasible, or adjust tacrolimus dose with close monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tacrolimus",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort strongly induces CYP3A4 metabolism of tacrolimus.",
+    "clinical_effect": "Significantly reduced tacrolimus levels, risking organ transplant rejection.",
+    "management": "Strictly avoid St. John's Wort in transplant patients.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "tacrolimus",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "Additive nephrotoxic effects of NSAIDs and calcineurin inhibitors.",
+    "clinical_effect": "Increased risk of kidney injury.",
+    "management": "Avoid regular NSAID use; recommend acetaminophen for pain relief instead.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "dextromethorphan_bupropion",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity from the dextromethorphan component plus SSRI.",
+    "clinical_effect": "Increased risk of serotonin syndrome (agitation, rapid heartbeat, fever, muscle rigidity).",
+    "management": "Use combination cautiously if at all; educate patient on serotonin syndrome symptoms and to seek care immediately if they occur.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dextromethorphan_bupropion",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity and additive lowering of seizure threshold.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination if possible; use an alternative analgesic and monitor closely if combined.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "armodafinil",
+    "drug_b": "levonorgestrel_ethinyl_estradiol",
+    "severity": "Major",
+    "mechanism": "Armodafinil induces CYP3A4, increasing metabolism of estrogen/progestin.",
+    "clinical_effect": "Reduced hormonal contraceptive effectiveness and risk of unintended pregnancy.",
+    "management": "Use an additional non-hormonal contraceptive method during use and for one month after stopping armodafinil.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "armodafinil",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Armodafinil can inhibit CYP2C19 metabolism of warfarin.",
+    "clinical_effect": "Potential increase in warfarin levels/INR.",
+    "management": "Monitor INR more closely when starting or stopping armodafinil.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "zanubrutinib",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "BTK inhibitors impair platelet function; additive effect with anticoagulation.",
+    "clinical_effect": "Increased risk of major bleeding.",
+    "management": "Use with caution; avoid if possible, and monitor closely for bleeding; hold before procedures as directed by the oncology team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "zanubrutinib",
+    "drug_b": "apixaban",
+    "severity": "Major",
+    "mechanism": "BTK inhibitors impair platelet function; additive effect with anticoagulation.",
+    "clinical_effect": "Increased risk of major bleeding.",
+    "management": "Use with caution and close monitoring; discuss anticoagulant choice and bleeding precautions with the oncology team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "acalabrutinib",
+    "drug_b": "omeprazole",
+    "severity": "Moderate",
+    "mechanism": "Acalabrutinib solubility and absorption depend on gastric acidity, which PPIs reduce.",
+    "clinical_effect": "Significantly reduced acalabrutinib absorption and effectiveness.",
+    "management": "Avoid concurrent PPI use; if an acid reducer is needed, use an H2 blocker (e.g., famotidine) separated by several hours, per oncology guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atazanavir",
+    "drug_b": "omeprazole",
+    "severity": "Contraindicated",
+    "mechanism": "Atazanavir requires an acidic gastric environment for absorption; PPIs raise gastric pH.",
+    "clinical_effect": "Markedly reduced atazanavir levels, risking HIV treatment failure and resistance.",
+    "management": "Avoid PPIs in atazanavir-treated (especially treatment-naive) patients; use alternative acid-suppression strategies only under HIV specialist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atazanavir",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Atazanavir strongly inhibits CYP3A4 metabolism of simvastatin.",
+    "clinical_effect": "Markedly increased simvastatin levels and risk of rhabdomyolysis.",
+    "management": "Do not use together; use an alternative statin (e.g., a low-dose, specialist-directed atorvastatin regimen) if lipid-lowering therapy is needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tipranavir",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Ritonavir-boosted tipranavir strongly inhibits CYP3A4 metabolism of simvastatin.",
+    "clinical_effect": "Markedly increased simvastatin levels and risk of rhabdomyolysis.",
+    "management": "Do not use together; discuss alternative lipid-lowering options with the HIV specialist.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "bosutinib",
+    "drug_b": "omeprazole",
+    "severity": "Moderate",
+    "mechanism": "Bosutinib solubility and absorption are reduced at higher gastric pH.",
+    "clinical_effect": "Reduced bosutinib absorption and effectiveness.",
+    "management": "Avoid concurrent use when possible; discuss acid-reducer alternatives and timing with the oncology pharmacist.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "bexarotene",
+    "drug_b": "levothyroxine",
+    "severity": "Moderate",
+    "mechanism": "Bexarotene commonly suppresses TSH/causes central hypothyroidism.",
+    "clinical_effect": "Most patients on bexarotene require levothyroxine initiation or dose increases to maintain normal thyroid function.",
+    "management": "Monitor thyroid function regularly and adjust levothyroxine dose as directed by the prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "bosentan",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Bosentan induces CYP2C9/3A4, increasing warfarin metabolism.",
+    "clinical_effect": "Reduced warfarin effect (lower INR) with the potential for inadequate anticoagulation.",
+    "management": "Monitor INR closely when starting, changing the dose of, or stopping bosentan.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "somatropin",
+    "drug_b": "prednisone",
+    "severity": "Moderate",
+    "mechanism": "Glucocorticoids can inhibit the growth-promoting effect of growth hormone and worsen glucose intolerance.",
+    "clinical_effect": "Reduced growth hormone effectiveness and additive hyperglycemia risk.",
+    "management": "Use the lowest effective glucocorticoid dose; monitor growth and blood glucose closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "amoxapine",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity from a tricyclic antidepressant combined with an SSRI.",
+    "clinical_effect": "Increased risk of serotonin syndrome.",
+    "management": "Avoid combination if possible; if used together, monitor closely for serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "encorafenib",
+    "drug_b": "ondansetron",
+    "severity": "Moderate",
+    "mechanism": "Both drugs can prolong the QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and irregular heart rhythm.",
+    "management": "Use the lowest effective ondansetron dose and consider ECG monitoring if other QT-prolongation risk factors are present.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "erdafitinib",
+    "drug_b": "omeprazole",
+    "severity": "Moderate",
+    "mechanism": "Combining agents that alter phosphate/electrolyte handling can compound electrolyte disturbances; additionally, gastric pH changes may modestly affect absorption of some concurrent oncology regimens.",
+    "clinical_effect": "Potential for altered drug levels and additive electrolyte disturbance monitoring needs.",
+    "management": "Report all acid-reducing medication use to the oncology team; phosphate levels should be monitored closely regardless.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atropine_sulfate",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic effects.",
+    "clinical_effect": "Increased risk of confusion, dry mouth, constipation, urinary retention, and overheating, especially in older adults or young children.",
+    "management": "Avoid combining when possible, particularly in older adults; use non-anticholinergic alternatives for allergy/sleep symptoms when feasible.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "benztropine_mesylate",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic effects.",
+    "clinical_effect": "Increased risk of confusion, dry mouth, constipation, urinary retention, and overheating.",
+    "management": "Avoid combining when possible, particularly in older adults; monitor for anticholinergic toxicity if used together.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "aripiprazole_lauroxil",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Additive CNS depression and seizure-threshold lowering.",
+    "clinical_effect": "Increased sedation and seizure risk.",
+    "management": "Use caution; monitor for excessive sedation or seizure activity.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dasatinib",
+    "drug_b": "omeprazole",
+    "severity": "Major",
+    "mechanism": "Dasatinib requires an acidic gastric environment for dissolution and absorption; proton pump inhibitors raise gastric pH.",
+    "clinical_effect": "Significantly reduced dasatinib absorption and blood levels, risking treatment failure.",
+    "management": "Avoid PPIs with dasatinib; if acid suppression is needed, consider a short-acting antacid separated by several hours, or an H2 blocker with careful timing, under oncologist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "dasatinib",
+    "drug_b": "ondansetron",
+    "severity": "Moderate",
+    "mechanism": "Additive QT interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythm disturbances (torsades de pointes).",
+    "management": "Use with caution; consider ECG monitoring if combined, especially with other risk factors for QT prolongation.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dofetilide",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Additive QT interval prolongation from two QT-prolonging drugs.",
+    "clinical_effect": "Increased risk of torsades de pointes, a life-threatening irregular heart rhythm.",
+    "management": "Avoid combination if possible; if unavoidable, use with cardiology guidance and ECG monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dofetilide",
+    "drug_b": "sulfamethoxazole_trimethoprim",
+    "severity": "Contraindicated",
+    "mechanism": "Trimethoprim inhibits renal cation transporters responsible for dofetilide elimination.",
+    "clinical_effect": "Dramatically increased dofetilide blood levels, causing life-threatening QT prolongation and torsades de pointes.",
+    "management": "This combination is contraindicated. Notify all prescribers and pharmacists that you take dofetilide before starting any new antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clomipramine",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity and lowered seizure threshold from both drugs.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination if possible; if used together, educate patient on serotonin syndrome symptoms and seek immediate care if they occur.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clomipramine",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity; SSRIs can also inhibit TCA metabolism, raising clomipramine levels.",
+    "clinical_effect": "Increased risk of serotonin syndrome and TCA toxicity (cardiac arrhythmia, sedation).",
+    "management": "Use combination cautiously if at all, with close monitoring and lower TCA doses; educate on serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clomipramine",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort has serotonergic activity and induces CYP enzymes that metabolize clomipramine.",
+    "clinical_effect": "Increased risk of serotonin syndrome and reduced clomipramine effectiveness.",
+    "management": "Avoid combination; advise patient not to start St. John's Wort while on clomipramine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "chlorpromazine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic and sedative effects.",
+    "clinical_effect": "Increased dry mouth, constipation, urinary retention, confusion, and sedation, particularly in older adults.",
+    "management": "Use combination cautiously; consider alternative allergy/sleep aids in older adults.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "chlorpromazine",
+    "drug_b": "ondansetron",
+    "severity": "Moderate",
+    "mechanism": "Additive QT interval prolongation.",
+    "clinical_effect": "Increased risk of abnormal heart rhythm.",
+    "management": "Use with caution, especially in patients with other QT-prolongation risk factors; consider ECG monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clorazepate",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive CNS and respiratory depression from combining a benzodiazepine with an opioid-like analgesic.",
+    "clinical_effect": "Increased risk of profound sedation, respiratory depression, coma, and death.",
+    "management": "Avoid combination when possible (boxed warning); if co-prescribed, use lowest effective doses with close monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clorazepate",
+    "drug_b": "hydrocodone_acetaminophen",
+    "severity": "Major",
+    "mechanism": "Additive CNS and respiratory depression from combining a benzodiazepine with an opioid.",
+    "clinical_effect": "Increased risk of profound sedation, respiratory depression, coma, and death.",
+    "management": "Avoid combination when possible (boxed warning); if co-prescribed, use lowest effective doses with close monitoring and consider naloxone availability.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dapsone",
+    "drug_b": "sulfamethoxazole_trimethoprim",
+    "severity": "Major",
+    "mechanism": "Additive risk of hemolysis and methemoglobinemia; trimethoprim can also increase dapsone levels.",
+    "clinical_effect": "Increased risk of hemolytic anemia and methemoglobinemia, especially in patients with G6PD deficiency.",
+    "management": "Use combination only with close hematologic monitoring if both are clinically necessary (e.g., PCP prophylaxis regimens); watch for cyanosis, fatigue, or pallor.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "colestipol",
+    "drug_b": "levothyroxine",
+    "severity": "Major",
+    "mechanism": "Colestipol binds levothyroxine in the gut, preventing absorption.",
+    "clinical_effect": "Reduced levothyroxine absorption, which can lead to under-treated hypothyroidism.",
+    "management": "Take levothyroxine at least 4 hours before or after colestipol; monitor thyroid function if dosing changes.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "colestipol",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Colestipol binds warfarin and reduces vitamin K absorption in the gut.",
+    "clinical_effect": "Altered (often reduced) anticoagulant effect and unpredictable INR.",
+    "management": "Separate dosing by several hours and monitor INR closely, especially when starting or stopping colestipol.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "colestipol",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "Colestipol can bind statins in the gut, reducing absorption.",
+    "clinical_effect": "Reduced cholesterol-lowering effect of the statin if taken at the same time.",
+    "management": "Take statin at least 1 hour before or 4 hours after colestipol.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "deferasirox",
+    "drug_b": "ibuprofen",
+    "severity": "Major",
+    "mechanism": "Additive GI mucosal irritation and ulcerogenic effect.",
+    "clinical_effect": "Significantly increased risk of gastrointestinal ulceration and bleeding.",
+    "management": "Avoid NSAIDs if possible; use acetaminophen for pain relief instead and report any GI symptoms promptly.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "deferasirox",
+    "drug_b": "aspirin_81",
+    "severity": "Moderate",
+    "mechanism": "Additive GI irritation and antiplatelet effect.",
+    "clinical_effect": "Increased risk of GI bleeding.",
+    "management": "Use combination only if necessary and under medical supervision; report black stools or stomach pain immediately.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "desmopressin",
+    "drug_b": "sertraline",
+    "severity": "Moderate",
+    "mechanism": "SSRIs can independently cause hyponatremia (SIADH-like effect), adding to desmopressin's water-retaining, sodium-diluting effect.",
+    "clinical_effect": "Increased risk of clinically significant hyponatremia (confusion, headache, seizures in severe cases).",
+    "management": "Monitor sodium levels more closely when combined, especially in older adults; limit fluid intake as directed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "desmopressin",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "NSAIDs can potentiate the antidiuretic (water-retaining) effect of desmopressin.",
+    "clinical_effect": "Increased risk of water retention and hyponatremia.",
+    "management": "Use NSAIDs cautiously with desmopressin; monitor for signs of low sodium (headache, nausea, confusion).",
+    "otc_related": true
+  },
+  {
+    "drug_a": "cyclophosphamide",
+    "drug_b": "tacrolimus",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppressive effect when both agents suppress the immune system.",
+    "clinical_effect": "Increased risk of infection and myelosuppression.",
+    "management": "This combination is sometimes used intentionally in transplant/autoimmune protocols under close specialist supervision with frequent blood count and infection monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dronabinol",
+    "drug_b": "alprazolam",
+    "severity": "Moderate",
+    "mechanism": "Additive CNS depressant and sedative effects.",
+    "clinical_effect": "Increased drowsiness, impaired coordination, and cognitive effects.",
+    "management": "Use combination cautiously; avoid driving or operating machinery until effects are known.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "diphenoxylate_atropine",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Additive CNS depression and anticholinergic effects from combining an opioid-like antidiarrheal with an opioid-like analgesic.",
+    "clinical_effect": "Increased sedation, constipation, and risk of respiratory depression.",
+    "management": "Use combination cautiously and only short-term; monitor for excessive sedation or severe constipation.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "doxepin",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity and lowered seizure threshold.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination if possible; if used together, educate patient on serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "doxepin",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity; SSRIs can inhibit TCA metabolism, raising doxepin levels.",
+    "clinical_effect": "Increased risk of serotonin syndrome and TCA toxicity.",
+    "management": "Use combination cautiously if at all, with close monitoring and lower TCA doses.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "desipramine",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity and lowered seizure threshold.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination if possible; if used together, educate patient on serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "chloroquine",
+    "drug_b": "azithromycin",
+    "severity": "Major",
+    "mechanism": "Additive QT interval prolongation from two QT-prolonging drugs.",
+    "clinical_effect": "Increased risk of torsades de pointes, a life-threatening irregular heart rhythm.",
+    "management": "Use combination only if clearly necessary and with ECG monitoring, especially in patients with other cardiac risk factors.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cinacalcet",
+    "drug_b": "clarithromycin",
+    "severity": "Moderate",
+    "mechanism": "Clarithromycin is a strong CYP3A4 inhibitor and increases cinacalcet blood levels.",
+    "clinical_effect": "Increased risk of hypocalcemia and other cinacalcet-related side effects.",
+    "management": "Monitor calcium levels more closely if combined; dose adjustment of cinacalcet may be needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cabozantinib",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin is a strong CYP3A4 inhibitor and increases cabozantinib blood levels.",
+    "clinical_effect": "Increased risk of cabozantinib toxicity (bleeding, GI perforation, hand-foot reaction).",
+    "management": "Avoid combination if possible; if unavoidable, reduce cabozantinib dose per prescribing guidance and monitor closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "duvelisib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4, increasing duvelisib blood levels.",
+    "clinical_effect": "Increased risk of duvelisib toxicity, including colitis, hepatotoxicity, and infections.",
+    "management": "Avoid combination when possible; if needed, monitor liver function and GI symptoms closely and consider dose adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cobimetinib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4, increasing cobimetinib blood levels.",
+    "clinical_effect": "Increased risk of cobimetinib toxicity (liver injury, cardiomyopathy, skin reactions).",
+    "management": "Avoid combination when possible; if needed, use with close monitoring and consider dose adjustment per oncologist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "isavuconazonium",
+    "drug_b": "tacrolimus",
+    "severity": "Major",
+    "mechanism": "Isavuconazole inhibits CYP3A4, reducing tacrolimus metabolism.",
+    "clinical_effect": "Significantly increased tacrolimus blood levels, raising risk of nephrotoxicity and neurotoxicity.",
+    "management": "Reduce tacrolimus dose (often substantially) when starting isavuconazonium and monitor tacrolimus levels closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dicloxacillin",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Dicloxacillin may induce hepatic metabolism of warfarin and reduce gut flora vitamin K production varies.",
+    "clinical_effect": "Potential decrease in warfarin's anticoagulant effect (reduced INR).",
+    "management": "Monitor INR more closely when starting or stopping dicloxacillin in patients on warfarin.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "demeclocycline",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Tetracyclines can reduce gut bacteria that produce vitamin K, potentiating anticoagulant effect.",
+    "clinical_effect": "Increased warfarin effect and bleeding risk.",
+    "management": "Monitor INR more closely when starting or stopping demeclocycline in patients on warfarin.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dimethyl_fumarate",
+    "drug_b": "tacrolimus",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppressive/lymphocyte-lowering effects.",
+    "clinical_effect": "Increased risk of infection, including rare but serious opportunistic infections such as PML.",
+    "management": "Generally avoid combining with other immunosuppressants unless specifically directed and monitored by a specialist; monitor lymphocyte counts closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "azilsartan",
+    "drug_b": "lisinopril",
+    "severity": "Major",
+    "mechanism": "Dual blockade of the renin-angiotensin-aldosterone system (ARB plus ACE inhibitor).",
+    "clinical_effect": "Increased risk of hyperkalemia, hypotension, and acute kidney injury.",
+    "management": "Avoid combining an ARB with an ACE inhibitor in most patients; use one agent from this class only.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "azilsartan",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "NSAIDs reduce prostaglandin-mediated renal blood flow and can blunt the antihypertensive effect of ARBs.",
+    "clinical_effect": "Reduced blood-pressure control and increased risk of kidney injury, especially with regular NSAID use.",
+    "management": "Use acetaminophen for pain when possible; if NSAIDs are needed, use the lowest effective dose for the shortest time and monitor blood pressure/kidney function.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "brimonidine_timolol_ophthalmic",
+    "drug_b": "metoprolol",
+    "severity": "Moderate",
+    "mechanism": "Additive systemic beta-blockade; timolol eye drops are absorbed systemically.",
+    "clinical_effect": "Increased risk of excessive slowing of heart rate and low blood pressure.",
+    "management": "Use combination with caution; monitor heart rate and blood pressure, particularly when starting either medication.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "mometasone_formoterol",
+    "drug_b": "metoprolol",
+    "severity": "Moderate",
+    "mechanism": "Beta-blockers can antagonize the bronchodilating effect of the formoterol component and may worsen bronchospasm.",
+    "clinical_effect": "Reduced asthma control and possible worsening of bronchospasm.",
+    "management": "Use cardioselective beta-blockers cautiously and only if necessary; monitor respiratory status closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fingolimod",
+    "drug_b": "metoprolol",
+    "severity": "Major",
+    "mechanism": "Additive negative chronotropic (heart-rate-slowing) effects.",
+    "clinical_effect": "Increased risk of significant bradycardia or heart block, particularly during fingolimod treatment initiation.",
+    "management": "Use with caution; first-dose cardiac monitoring is especially important if the patient is on a beta-blocker. Consult prescriber before combining.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cyclosporine_oral",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Cyclosporine strongly inhibits CYP3A4 and OATP1B1-mediated statin clearance.",
+    "clinical_effect": "Markedly elevated simvastatin levels with a high risk of severe myopathy/rhabdomyolysis.",
+    "management": "Avoid this combination; use a lower-interaction statin at a reduced dose only under transplant specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cyclosporine_oral",
+    "drug_b": "atorvastatin",
+    "severity": "Major",
+    "mechanism": "Cyclosporine inhibits CYP3A4 and transporters involved in atorvastatin clearance.",
+    "clinical_effect": "Significantly increased atorvastatin levels, raising the risk of myopathy/rhabdomyolysis.",
+    "management": "Use the lowest effective statin dose and monitor for muscle pain/weakness; discuss with transplant team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cyclosporine_oral",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, accelerating cyclosporine metabolism.",
+    "clinical_effect": "Markedly reduced cyclosporine levels, risking organ transplant rejection.",
+    "management": "Avoid St. John's Wort entirely in transplant patients on cyclosporine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "cyclosporine_oral",
+    "drug_b": "ibuprofen",
+    "severity": "Major",
+    "mechanism": "Additive nephrotoxic effects; NSAIDs reduce renal prostaglandin-mediated blood flow.",
+    "clinical_effect": "Increased risk of kidney injury and elevated cyclosporine levels.",
+    "management": "Avoid NSAIDs when possible; use acetaminophen for pain relief and monitor kidney function if NSAID use is unavoidable.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "levomilnacipran",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity from two antidepressants acting on serotonin.",
+    "clinical_effect": "Increased risk of serotonin syndrome (agitation, rapid heartbeat, fever, muscle rigidity).",
+    "management": "Avoid combination unless supervised by a prescriber; educate patient on serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "levomilnacipran",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity.",
+    "clinical_effect": "Increased risk of serotonin syndrome.",
+    "management": "Use combination cautiously if at all; monitor closely and seek care for symptoms of serotonin syndrome.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "perampanel",
+    "drug_b": "alprazolam",
+    "severity": "Moderate",
+    "mechanism": "Additive central nervous system depressant effects.",
+    "clinical_effect": "Increased sedation, dizziness, and risk of falls, particularly in elderly patients.",
+    "management": "Use lowest effective doses; counsel patient to avoid driving/operating machinery until effects are known.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fenfluramine",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity from two serotonergic agents.",
+    "clinical_effect": "Increased risk of serotonin syndrome.",
+    "management": "Use combination only under close specialist supervision; monitor for serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sacubitril_valsartan",
+    "drug_b": "lisinopril",
+    "severity": "Contraindicated",
+    "mechanism": "Dual inhibition of the renin-angiotensin system combined with neprilysin inhibition increases bradykinin levels.",
+    "clinical_effect": "Significantly increased risk of angioedema, a potentially life-threatening reaction.",
+    "management": "Never combine; a minimum 36-hour washout is required when switching between an ACE inhibitor and sacubitril/valsartan.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sacubitril_valsartan",
+    "drug_b": "losartan",
+    "severity": "Major",
+    "mechanism": "Sacubitril/valsartan already contains an ARB (valsartan); adding another ARB causes redundant RAAS blockade.",
+    "clinical_effect": "Increased risk of hyperkalemia, hypotension, and kidney injury.",
+    "management": "Do not use another ARB concurrently with sacubitril/valsartan.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sacubitril_valsartan",
+    "drug_b": "ibuprofen",
+    "severity": "Major",
+    "mechanism": "NSAIDs reduce prostaglandin-mediated renal blood flow and blunt the antihypertensive/heart-failure benefit.",
+    "clinical_effect": "Reduced effectiveness and increased risk of kidney injury and hyperkalemia.",
+    "management": "Avoid NSAIDs when possible; use acetaminophen for pain relief and monitor kidney function if unavoidable.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atazanavir_cobicistat",
+    "drug_b": "omeprazole",
+    "severity": "Major",
+    "mechanism": "Proton pump inhibitors raise gastric pH, markedly reducing atazanavir solubility and absorption.",
+    "clinical_effect": "Significantly reduced atazanavir levels, risking virologic failure and resistance.",
+    "management": "Avoid concurrent use; if unavoidable, use only per specialist-directed strict dose timing and low PPI dose.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atazanavir_cobicistat",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Cobicistat strongly inhibits CYP3A4, dramatically increasing simvastatin levels.",
+    "clinical_effect": "Greatly increased risk of severe myopathy/rhabdomyolysis.",
+    "management": "Avoid this combination entirely; use an alternative statin with less CYP3A4 dependence at a low dose.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "atazanavir_cobicistat",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, accelerating atazanavir/cobicistat metabolism.",
+    "clinical_effect": "Markedly reduced antiretroviral levels, risking treatment failure and resistance.",
+    "management": "Avoid St. John's Wort entirely in patients on this regimen.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atazanavir_cobicistat",
+    "drug_b": "sildenafil",
+    "severity": "Major",
+    "mechanism": "Cobicistat's strong CYP3A4 inhibition significantly raises sildenafil levels.",
+    "clinical_effect": "Increased risk of sildenafil-related hypotension, syncope, and priapism.",
+    "management": "Avoid or use a substantially reduced sildenafil dose with close monitoring, per specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fosamprenavir",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Protease inhibitors strongly inhibit CYP3A4, greatly increasing simvastatin levels.",
+    "clinical_effect": "Greatly increased risk of severe myopathy/rhabdomyolysis.",
+    "management": "Avoid this combination; use an alternative statin at a reduced dose under specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fosamprenavir",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort induces CYP3A4, accelerating fosamprenavir metabolism.",
+    "clinical_effect": "Markedly reduced antiretroviral levels, risking treatment failure and resistance.",
+    "management": "Avoid St. John's Wort entirely in patients on this regimen.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "etravirine",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort induces CYP enzymes, accelerating etravirine metabolism.",
+    "clinical_effect": "Markedly reduced etravirine levels, risking treatment failure and resistance.",
+    "management": "Avoid St. John's Wort entirely in patients on this regimen.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "flutamide",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Flutamide can potentiate the anticoagulant effect of warfarin, mechanism not fully established.",
+    "clinical_effect": "Increased INR and risk of bleeding.",
+    "management": "Monitor INR closely when starting or stopping flutamide in a patient on warfarin; adjust warfarin dose as needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "granisetron",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Both agents have serotonergic activity; granisetron can also contribute to QT prolongation.",
+    "clinical_effect": "Increased risk of serotonin syndrome and additive QT prolongation.",
+    "management": "Use cautiously together; monitor for serotonin syndrome symptoms and consider ECG if other risk factors are present.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "gefitinib",
+    "drug_b": "omeprazole",
+    "severity": "Major",
+    "mechanism": "Proton pump inhibitors raise gastric pH, reducing gefitinib solubility and absorption.",
+    "clinical_effect": "Reduced gefitinib levels and potentially reduced anticancer effectiveness.",
+    "management": "Avoid concurrent use if possible; discuss acid-suppression alternatives/timing with the oncology team.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "pralsetinib",
+    "drug_b": "omeprazole",
+    "severity": "Major",
+    "mechanism": "Proton pump inhibitors raise gastric pH, reducing pralsetinib absorption.",
+    "clinical_effect": "Reduced pralsetinib levels and potentially reduced anticancer effectiveness.",
+    "management": "Avoid concurrent use if possible; discuss acid-suppression alternatives/timing with the oncology team.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "degarelix",
+    "drug_b": "ondansetron",
+    "severity": "Moderate",
+    "mechanism": "Both drugs can prolong the QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and associated arrhythmia.",
+    "management": "Use cautiously together; consider ECG monitoring if other QT-prolongation risk factors are present.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fluphenazine",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Additive CNS depression and lowering of seizure threshold.",
+    "clinical_effect": "Increased sedation and increased risk of seizures.",
+    "management": "Use combination cautiously; monitor for excess sedation and seizure risk factors.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fluphenazine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic and sedative effects.",
+    "clinical_effect": "Increased confusion, dry mouth, constipation, urinary retention, and sedation, especially in elderly patients.",
+    "management": "Avoid routine use of sedating antihistamines in patients on fluphenazine; use non-anticholinergic alternatives when possible.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "iloperidone",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Both agents can prolong the QT interval and lower the seizure threshold.",
+    "clinical_effect": "Additive risk of QT prolongation/arrhythmia and seizures.",
+    "management": "Use cautiously together; consider ECG monitoring if other risk factors are present.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "glycopyrrolate",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic effects.",
+    "clinical_effect": "Increased dry mouth, constipation, urinary retention, blurred vision, and confusion.",
+    "management": "Avoid combining routinely; use non-anticholinergic alternatives for allergy symptoms when possible.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "cannabidiol",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Cannabidiol inhibits CYP2C9 and CYP3A4, enzymes involved in warfarin metabolism.",
+    "clinical_effect": "Increased warfarin levels and INR, raising bleeding risk.",
+    "management": "Monitor INR closely when starting, stopping, or changing the cannabidiol dose in a patient on warfarin.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cannabidiol",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive central nervous system depressant/sedative effects.",
+    "clinical_effect": "Increased drowsiness and impaired alertness.",
+    "management": "Use combination cautiously; counsel patient to avoid driving/operating machinery until effects are known.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "somatropin",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Growth hormone can increase insulin resistance and raise blood glucose.",
+    "clinical_effect": "Reduced effectiveness of sulfonylurea therapy and higher blood glucose levels.",
+    "management": "Monitor blood glucose closely and adjust diabetes medication doses as directed by the prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "empagliflozin_linagliptin",
+    "drug_b": "glipizide",
+    "severity": "Major",
+    "mechanism": "Additive blood-glucose-lowering effect when an SGLT2/DPP-4 combination is added to a sulfonylurea.",
+    "clinical_effect": "Increased risk of hypoglycemia.",
+    "management": "Monitor blood glucose closely; a lower sulfonylurea dose may be needed when starting this combination.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "empagliflozin_linagliptin",
+    "drug_b": "prednisone",
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids raise blood glucose and can antagonize the glucose-lowering effect of antidiabetic medications.",
+    "clinical_effect": "Reduced blood sugar control.",
+    "management": "Monitor blood glucose closely during corticosteroid therapy; diabetes medication doses may need temporary adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "enoxaparin",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Additive anticoagulant effect from two different anticoagulant mechanisms.",
+    "clinical_effect": "Increased risk of bleeding.",
+    "management": "Often used together short-term during warfarin initiation (bridging) under close medical supervision; monitor INR and for bleeding signs.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "enoxaparin",
+    "drug_b": "aspirin_81",
+    "severity": "Major",
+    "mechanism": "Additive antiplatelet and anticoagulant effects.",
+    "clinical_effect": "Increased risk of bleeding.",
+    "management": "Use combination only as directed by prescriber; monitor for signs of bleeding.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "enoxaparin",
+    "drug_b": "ibuprofen",
+    "severity": "Major",
+    "mechanism": "NSAID antiplatelet/GI-irritant effects combine with anticoagulation.",
+    "clinical_effect": "Increased risk of GI and other bleeding.",
+    "management": "Avoid NSAIDs if possible; use acetaminophen for pain relief instead.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "fondaparinux",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Additive anticoagulant effect from two different anticoagulant mechanisms.",
+    "clinical_effect": "Increased risk of bleeding.",
+    "management": "Often used together short-term during warfarin initiation under close medical supervision; monitor INR and for bleeding signs.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fondaparinux",
+    "drug_b": "ibuprofen",
+    "severity": "Major",
+    "mechanism": "NSAID antiplatelet/GI-irritant effects combine with anticoagulation.",
+    "clinical_effect": "Increased risk of bleeding.",
+    "management": "Avoid NSAIDs if possible; use acetaminophen for pain relief instead.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "leucovorin_calcium",
+    "drug_b": "methotrexate",
+    "severity": "Major",
+    "mechanism": "Leucovorin (folinic acid) bypasses methotrexate's inhibition of dihydrofolate reductase, restoring folate availability to normal cells.",
+    "clinical_effect": "This is a deliberate, protective interaction (methotrexate 'rescue') when timed correctly; however, if leucovorin is delayed, skipped, or mistimed relative to high-dose methotrexate, severe methotrexate toxicity (mucositis, myelosuppression, kidney injury) can occur.",
+    "management": "Give leucovorin exactly at the times scheduled by the oncology team relative to methotrexate dosing - never skip, delay, or double a dose without contacting the care team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "hydroxychloroquine",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Hydroxychloroquine can enhance the effect of sulfonylureas and improve insulin sensitivity.",
+    "clinical_effect": "Increased risk of hypoglycemia (low blood sugar).",
+    "management": "Monitor blood sugar more closely after starting hydroxychloroquine; a dose adjustment of glipizide may be needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "hydroxychloroquine",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Both drugs can prolong the cardiac QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and dangerous heart rhythm disturbances (torsades de pointes).",
+    "management": "Use cautiously together; a prescriber may order an ECG if both are needed, and other risk factors (electrolyte imbalance, other QT-prolonging drugs) should be avoided.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "imipramine",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity and lowered seizure threshold.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination if possible; if used together, educate the patient on serotonin syndrome symptoms and seek immediate care if they occur.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "imipramine",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Sertraline inhibits CYP2D6 metabolism of imipramine, increasing TCA levels; additive serotonergic activity.",
+    "clinical_effect": "Increased risk of TCA toxicity (cardiac arrhythmia, sedation) and serotonin syndrome.",
+    "management": "Avoid combination when possible; if necessary, use lower TCA doses with close monitoring and ECG as directed by the prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "imipramine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic and sedating effects.",
+    "clinical_effect": "Increased risk of confusion, dry mouth, constipation, urinary retention, and excessive drowsiness, especially in older adults.",
+    "management": "Avoid routine use of OTC diphenhydramine-containing sleep aids/allergy products; consider non-anticholinergic alternatives.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ivabradine",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary enzyme that metabolizes ivabradine.",
+    "clinical_effect": "Markedly increased ivabradine levels, raising the risk of severe bradycardia and QT prolongation.",
+    "management": "Avoid this combination; use an alternative antibiotic not affecting CYP3A4.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ivabradine",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole moderately inhibits CYP3A4, slowing ivabradine metabolism.",
+    "clinical_effect": "Increased ivabradine levels and risk of bradycardia.",
+    "management": "Use cautiously; monitor heart rate closely if coadministered, and consider a lower ivabradine dose.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ivabradine",
+    "drug_b": "metoprolol",
+    "severity": "Major",
+    "mechanism": "Both drugs slow heart rate through different mechanisms (HCN channel blockade and beta-blockade).",
+    "clinical_effect": "Additive risk of excessive bradycardia.",
+    "management": "Use together only under close cardiology supervision with heart rate monitoring; dose adjustments may be needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ruxolitinib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4 and CYP2C9, reducing ruxolitinib clearance.",
+    "clinical_effect": "Increased ruxolitinib exposure, raising the risk of low blood counts and other side effects.",
+    "management": "A ruxolitinib dose reduction is typically required when used with fluconazole; coordinate with the prescribing oncologist/hematologist.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tolvaptan",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary enzyme that metabolizes tolvaptan.",
+    "clinical_effect": "Markedly increased tolvaptan levels, raising the risk of serious liver injury and excessive fluid/electrolyte shifts.",
+    "management": "Avoid this combination entirely; use an alternative antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "lopinavir_ritonavir",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Ritonavir strongly inhibits CYP3A4, the enzyme responsible for simvastatin metabolism.",
+    "clinical_effect": "Markedly increased simvastatin levels, raising the risk of severe myopathy and rhabdomyolysis.",
+    "management": "Avoid this combination; use an alternative statin (e.g., atorvastatin at a reduced dose, or pravastatin) under specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "lopinavir_ritonavir",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, dramatically increasing the clearance of lopinavir/ritonavir.",
+    "clinical_effect": "Significantly reduced antiretroviral drug levels, risking loss of viral suppression and development of drug resistance.",
+    "management": "Avoid St. John's Wort completely while taking this medication.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "lopinavir_ritonavir",
+    "drug_b": "sildenafil",
+    "severity": "Major",
+    "mechanism": "Ritonavir strongly inhibits CYP3A4, the enzyme responsible for sildenafil metabolism.",
+    "clinical_effect": "Significantly increased sildenafil levels, raising the risk of prolonged erection (priapism) and hypotension.",
+    "management": "Avoid usual sildenafil doses; if needed, use a substantially reduced dose with extended dosing interval only under specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dolutegravir_rilpivirine",
+    "drug_b": "omeprazole",
+    "severity": "Contraindicated",
+    "mechanism": "Rilpivirine absorption depends on gastric acidity; proton pump inhibitors like omeprazole raise gastric pH and prevent adequate absorption.",
+    "clinical_effect": "Significantly reduced rilpivirine levels, risking loss of viral suppression and resistance.",
+    "management": "Do not use proton pump inhibitors with this medication; discuss alternative acid-reducing strategies with the HIV specialist.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "dolutegravir_rilpivirine",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4 and other enzymes, increasing clearance of dolutegravir and rilpivirine.",
+    "clinical_effect": "Reduced antiretroviral drug levels, risking loss of viral suppression and drug resistance.",
+    "management": "Avoid St. John's Wort completely while taking this medication.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "leflunomide",
+    "drug_b": "methotrexate",
+    "severity": "Major",
+    "mechanism": "Both medications are independently hepatotoxic; combined use increases liver stress.",
+    "clinical_effect": "Increased risk of severe liver toxicity.",
+    "management": "If used together (sometimes done for refractory rheumatoid arthritis under specialist care), liver function must be monitored very closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ivacaftor",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole moderately inhibits CYP3A4, slowing ivacaftor metabolism.",
+    "clinical_effect": "Increased ivacaftor exposure and risk of side effects.",
+    "management": "A dose adjustment of ivacaftor may be needed; coordinate with the cystic fibrosis care team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ribociclib",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary enzyme that metabolizes ribociclib; both drugs can prolong the QT interval.",
+    "clinical_effect": "Markedly increased ribociclib levels and additive QT prolongation, raising risk of dangerous heart rhythm disturbances.",
+    "management": "Avoid this combination; use an alternative antibiotic not affecting CYP3A4/QT interval.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ribociclib",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Both drugs can prolong the cardiac QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and dangerous heart rhythm disturbances.",
+    "management": "Use an alternative antiemetic when possible; if ondansetron is necessary, monitor with an ECG as directed by the oncology team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "finerenone",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary enzyme that metabolizes finerenone.",
+    "clinical_effect": "Markedly increased finerenone levels, raising the risk of dangerous hyperkalemia.",
+    "management": "Avoid this combination; use an alternative antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "finerenone",
+    "drug_b": "lisinopril",
+    "severity": "Moderate",
+    "mechanism": "Both medications reduce potassium excretion by the kidney through different mechanisms.",
+    "clinical_effect": "Increased risk of hyperkalemia (high potassium).",
+    "management": "Regular potassium monitoring is required when these are combined, which is a common intentional combination in chronic kidney disease management.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "finerenone",
+    "drug_b": "losartan",
+    "severity": "Moderate",
+    "mechanism": "Both medications reduce potassium excretion by the kidney through different mechanisms.",
+    "clinical_effect": "Increased risk of hyperkalemia (high potassium).",
+    "management": "Regular potassium monitoring is required when these are combined, which is a common intentional combination in chronic kidney disease management.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "adagrasib",
+    "drug_b": "omeprazole",
+    "severity": "Moderate",
+    "mechanism": "Adagrasib absorption is reduced in a less acidic stomach environment.",
+    "clinical_effect": "Reduced adagrasib absorption and effectiveness.",
+    "management": "Coordinate timing or use of acid-reducing medications with the oncology team; alternative acid-reduction strategies may be recommended.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "adagrasib",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Both drugs can prolong the cardiac QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and dangerous heart rhythm disturbances.",
+    "management": "Use an alternative antiemetic when possible; if ondansetron is necessary, monitor with an ECG as directed by the oncology team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "lapatinib",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary enzyme that metabolizes lapatinib.",
+    "clinical_effect": "Significantly increased lapatinib levels, raising the risk of toxicity including QT prolongation and liver effects.",
+    "management": "Avoid this combination when possible; use an alternative antibiotic not affecting CYP3A4.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "levonorgestrel_ethinyl_estradiol",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4, increasing the metabolism of the estrogen and progestin components.",
+    "clinical_effect": "Reduced contraceptive effectiveness and increased risk of breakthrough bleeding/unintended pregnancy.",
+    "management": "Use a backup non-hormonal contraceptive method while taking St. John's Wort, or avoid the supplement.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "desogestrel_ethinyl_estradiol",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4, increasing the metabolism of the estrogen and progestin components.",
+    "clinical_effect": "Reduced contraceptive effectiveness and increased risk of breakthrough bleeding/unintended pregnancy.",
+    "management": "Use a backup non-hormonal contraceptive method while taking St. John's Wort, or avoid the supplement.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ethynodiol_diacetate_ethinyl_estradiol",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4, increasing the metabolism of the estrogen and progestin components.",
+    "clinical_effect": "Reduced contraceptive effectiveness and increased risk of breakthrough bleeding/unintended pregnancy.",
+    "management": "Use a backup non-hormonal contraceptive method while taking St. John's Wort, or avoid the supplement.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "levonorgestrel_ethinyl_estradiol_extended_cycle",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4, increasing the metabolism of the estrogen and progestin components.",
+    "clinical_effect": "Reduced contraceptive effectiveness and increased risk of breakthrough bleeding/unintended pregnancy.",
+    "management": "Use a backup non-hormonal contraceptive method while taking St. John's Wort, or avoid the supplement.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "sitagliptin_metformin",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Additive blood-glucose-lowering effects from combining a sulfonylurea with the sitagliptin/metformin combination.",
+    "clinical_effect": "Increased risk of hypoglycemia (low blood sugar).",
+    "management": "Monitor blood sugar closely; dose adjustment of glipizide may be needed when combined.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "paliperidone_palmitate_1_month",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive lowering of the seizure threshold and additive sedative/QT effects.",
+    "clinical_effect": "Increased risk of seizures and excessive sedation.",
+    "management": "Use tramadol cautiously, if at all, in patients on paliperidone; consider alternative pain management and monitor closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "anakinra",
+    "drug_b": "methotrexate",
+    "severity": "Moderate",
+    "mechanism": "Combined immunosuppressive effects on the immune system.",
+    "clinical_effect": "Increased risk of infection when used together, though this combination is sometimes intentionally used in rheumatoid arthritis under specialist supervision.",
+    "management": "Monitor closely for signs of infection; report fever or illness promptly to the prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "axitinib",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary enzyme that metabolizes axitinib.",
+    "clinical_effect": "Increased axitinib levels, raising the risk of toxicity including hypertension and bleeding.",
+    "management": "Avoid this combination when possible; use an alternative antibiotic not affecting CYP3A4, or the oncology team may reduce the axitinib dose.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "mecasermin",
+    "drug_b": "glipizide",
+    "severity": "Major",
+    "mechanism": "Mecasermin (IGF-1) has insulin-like effects that lower blood glucose, adding to the effect of sulfonylureas.",
+    "clinical_effect": "Increased risk of significant hypoglycemia.",
+    "management": "Monitor blood sugar closely, especially around mecasermin dosing times; ensure mecasermin is always given with food.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "isocarboxazid",
+    "drug_b": "tramadol",
+    "severity": "Contraindicated",
+    "mechanism": "Additive serotonergic/monoamine effects; MAOIs combined with tramadol markedly increase synaptic serotonin.",
+    "clinical_effect": "Significantly increased risk of serotonin syndrome and seizures; can be life-threatening.",
+    "management": "Do not use together. Allow at least a 2-week washout period between stopping one and starting the other.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "isocarboxazid",
+    "drug_b": "sertraline",
+    "severity": "Contraindicated",
+    "mechanism": "Combined MAOI and SSRI activity leads to excessive serotonin accumulation.",
+    "clinical_effect": "High risk of serotonin syndrome (agitation, hyperthermia, rigidity, autonomic instability), potentially fatal.",
+    "management": "Do not use together. Requires a washout period of at least 2 weeks (5 weeks after stopping sertraline) before starting the other.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "isocarboxazid",
+    "drug_b": "escitalopram",
+    "severity": "Contraindicated",
+    "mechanism": "Combined MAOI and SSRI activity leads to excessive serotonin accumulation.",
+    "clinical_effect": "High risk of serotonin syndrome, potentially fatal.",
+    "management": "Do not use together. Requires an adequate washout period between the two medications.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "mercaptopurine",
+    "drug_b": "sulfamethoxazole_trimethoprim",
+    "severity": "Major",
+    "mechanism": "Both drugs can suppress bone marrow function; sulfamethoxazole/trimethoprim may also displace/inhibit thiopurine metabolism.",
+    "clinical_effect": "Increased risk of severe myelosuppression (low blood counts) and infection.",
+    "management": "Avoid if possible; if required, monitor CBC closely and watch for signs of infection or bleeding.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "modafinil",
+    "drug_b": "levonorgestrel_ethinyl_estradiol",
+    "severity": "Major",
+    "mechanism": "Modafinil induces CYP3A4, increasing metabolism of estrogen and progestin components of hormonal contraceptives.",
+    "clinical_effect": "Reduced contraceptive effectiveness and risk of unintended pregnancy.",
+    "management": "Use an alternative or additional barrier contraceptive method during modafinil therapy and for one month after stopping.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "modafinil",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Modafinil inhibits CYP2C19, which can reduce warfarin clearance.",
+    "clinical_effect": "Potential increase in INR and bleeding risk.",
+    "management": "Monitor INR more closely when starting, stopping, or changing the dose of modafinil.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "glecaprevir_pibrentasvir",
+    "drug_b": "atorvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Glecaprevir/pibrentasvir inhibits OATP1B1/3 and BCRP transporters, greatly increasing statin plasma concentrations.",
+    "clinical_effect": "Significantly increased risk of statin-associated myopathy/rhabdomyolysis.",
+    "management": "Do not use together. Discuss an alternative statin or temporary discontinuation with the prescriber during the treatment course.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "glecaprevir_pibrentasvir",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Glecaprevir/pibrentasvir inhibits OATP1B1/3 and BCRP transporters, greatly increasing statin plasma concentrations.",
+    "clinical_effect": "Significantly increased risk of statin-associated myopathy/rhabdomyolysis.",
+    "management": "Do not use together. Discuss an alternative statin or temporary discontinuation with the prescriber during the treatment course.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "glecaprevir_pibrentasvir",
+    "drug_b": "levonorgestrel_ethinyl_estradiol",
+    "severity": "Contraindicated",
+    "mechanism": "Ethinyl estradiol-containing products increase the risk of ALT (liver enzyme) elevations when combined with glecaprevir/pibrentasvir.",
+    "clinical_effect": "Increased risk of significant liver enzyme elevation.",
+    "management": "Avoid ethinyl estradiol-containing contraceptives during treatment; use an alternative contraceptive method (e.g., progestin-only) during the treatment course and for a period after.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nitroglycerin_topical",
+    "drug_b": "sildenafil",
+    "severity": "Contraindicated",
+    "mechanism": "Both drugs increase nitric oxide/cGMP-mediated vasodilation.",
+    "clinical_effect": "Severe, potentially life-threatening hypotension.",
+    "management": "Do not use together. Nitrates are contraindicated with any PDE5 inhibitor use within the recommended timeframe (typically 24-48 hours).",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ritonavir",
+    "drug_b": "sildenafil",
+    "severity": "Major",
+    "mechanism": "Ritonavir is a potent CYP3A4 inhibitor and markedly increases sildenafil plasma concentrations.",
+    "clinical_effect": "Increased risk of sildenafil-related hypotension, syncope, and prolonged erection.",
+    "management": "Avoid combination or use a substantially reduced sildenafil dose only under specialist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ritonavir",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Ritonavir strongly inhibits CYP3A4, the primary pathway for simvastatin metabolism.",
+    "clinical_effect": "Markedly increased simvastatin levels with high risk of rhabdomyolysis.",
+    "management": "Do not use together. Choose an alternative statin less dependent on CYP3A4 (e.g., pravastatin) under prescriber guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ritonavir",
+    "drug_b": "alprazolam",
+    "severity": "Major",
+    "mechanism": "Ritonavir strongly inhibits CYP3A4, which metabolizes alprazolam.",
+    "clinical_effect": "Markedly increased sedation and risk of respiratory depression.",
+    "management": "Avoid combination if possible; if necessary, use with close monitoring and consider dose reduction.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dextromethorphan_quinidine",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Quinidine inhibits CYP2D6 (increasing dextromethorphan levels/serotonergic activity), and both drugs add to serotonergic and seizure risk.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination if possible; monitor closely for serotonin syndrome symptoms if used together.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dextromethorphan_quinidine",
+    "drug_b": "sertraline",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity from dextromethorphan and sertraline.",
+    "clinical_effect": "Increased risk of serotonin syndrome.",
+    "management": "Use combination cautiously; educate patient on serotonin syndrome symptoms and seek care if they occur.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nilotinib",
+    "drug_b": "fluconazole",
+    "severity": "Contraindicated",
+    "mechanism": "Fluconazole inhibits CYP3A4, substantially increasing nilotinib levels; both drugs also prolong the QT interval.",
+    "clinical_effect": "Significantly increased risk of QT prolongation and potentially fatal arrhythmia.",
+    "management": "Avoid combination. Use an alternative antifungal that does not prolong QT or strongly inhibit CYP3A4, under oncology guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nilotinib",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin is a strong CYP3A4 inhibitor and also independently prolongs the QT interval.",
+    "clinical_effect": "Significantly increased risk of QT prolongation and potentially fatal arrhythmia.",
+    "management": "Avoid combination. Use an alternative antibiotic (e.g., azithromycin only with caution, or a non-macrolide) under guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nilotinib",
+    "drug_b": "omeprazole",
+    "severity": "Moderate",
+    "mechanism": "Nilotinib's solubility and absorption are pH-dependent; acid-suppressing drugs like PPIs reduce its absorption.",
+    "clinical_effect": "Reduced nilotinib levels and potential loss of cancer treatment effectiveness.",
+    "management": "Avoid concurrent use if possible; if an acid-reducing agent is needed, an H2 blocker or antacid with appropriate spacing is generally preferred over a PPI - discuss with the oncology team.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "naloxegol",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4, the primary pathway for naloxegol metabolism.",
+    "clinical_effect": "Markedly increased naloxegol levels, raising the risk of opioid withdrawal symptoms or GI perforation risk factors.",
+    "management": "Do not use together. Avoid strong CYP3A4 inhibitors during naloxegol therapy.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "naloxegol",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole moderately-to-strongly inhibits CYP3A4, increasing naloxegol levels.",
+    "clinical_effect": "Increased risk of naloxegol side effects, including possible opioid withdrawal symptoms.",
+    "management": "Use with caution; consider naloxegol dose reduction per labeling if combination is necessary.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nateglinide",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole inhibits CYP2C9, the enzyme responsible for nateglinide metabolism.",
+    "clinical_effect": "Increased nateglinide levels and higher risk of hypoglycemia.",
+    "management": "Monitor blood glucose more closely if these are used together; educate the patient on hypoglycemia symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pimavanserin",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin inhibits CYP3A4, increasing pimavanserin levels; both drugs can independently prolong the QT interval.",
+    "clinical_effect": "Increased risk of QT prolongation and arrhythmia.",
+    "management": "Avoid combination if possible; if necessary, monitor ECG and consider an alternative antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "dronedarone",
+    "drug_b": "simvastatin",
+    "severity": "Major",
+    "mechanism": "Dronedarone inhibits CYP3A4, substantially increasing simvastatin plasma levels.",
+    "clinical_effect": "Increased risk of statin-associated myopathy/rhabdomyolysis.",
+    "management": "Limit simvastatin dose per labeling (commonly not to exceed 10 mg/day) or use an alternative statin.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "loxapine",
+    "drug_b": "alprazolam",
+    "severity": "Moderate",
+    "mechanism": "Additive CNS and respiratory depressant effects.",
+    "clinical_effect": "Increased sedation, dizziness, and risk of respiratory depression, especially in elderly patients.",
+    "management": "Use combination cautiously with the lowest effective doses; monitor for excessive sedation.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tacrolimus",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "Tacrolimus mildly inhibits CYP3A4 metabolism of simvastatin.",
+    "clinical_effect": "Increased simvastatin levels and risk of myopathy/rhabdomyolysis.",
+    "management": "Use the lowest effective statin dose; consider a statin less dependent on CYP3A4 (e.g., pravastatin); monitor for muscle pain.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "darunavir_cobicistat",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Cobicistat is a potent CYP3A4 inhibitor that markedly raises simvastatin exposure.",
+    "clinical_effect": "Greatly increased risk of severe myopathy/rhabdomyolysis.",
+    "management": "Do not combine; use an alternative statin such as a reduced-dose atorvastatin or pravastatin with monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "darunavir_cobicistat",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, reducing darunavir levels.",
+    "clinical_effect": "Loss of virologic control and risk of resistance.",
+    "management": "Do not use St. John's Wort with this regimen.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "darunavir_cobicistat",
+    "drug_b": "sildenafil",
+    "severity": "Major",
+    "mechanism": "Cobicistat inhibits CYP3A4-mediated clearance of sildenafil.",
+    "clinical_effect": "Significantly increased sildenafil levels, raising risk of hypotension, syncope, and priapism.",
+    "management": "Avoid or use only a substantially reduced sildenafil dose with medical supervision.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "darunavir_cobicistat",
+    "drug_b": "alprazolam",
+    "severity": "Major",
+    "mechanism": "Cobicistat inhibits CYP3A4 metabolism of alprazolam.",
+    "clinical_effect": "Increased alprazolam levels and prolonged sedation/respiratory depression risk.",
+    "management": "Use with caution at a reduced dose, or choose a benzodiazepine less dependent on CYP3A4 (e.g., lorazepam).",
+    "otc_related": false
+  },
+  {
+    "drug_a": "lumacaftor_ivacaftor",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "Lumacaftor is a strong CYP3A4 inducer, increasing statin metabolism.",
+    "clinical_effect": "Reduced statin levels and potentially reduced cholesterol-lowering effect.",
+    "management": "Monitor lipid levels; statin dose may need adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ospemifene",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Estrogen-agonist effects of ospemifene may alter clotting factor synthesis.",
+    "clinical_effect": "Potential change in anticoagulant effect and increased thromboembolism risk.",
+    "management": "Monitor INR more closely when starting or stopping ospemifene.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ospemifene",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole inhibits CYP2C9/CYP3A4 metabolism of ospemifene.",
+    "clinical_effect": "Increased ospemifene levels and side effect risk.",
+    "management": "Use with caution; monitor for increased side effects.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "relugolix",
+    "drug_b": "ondansetron",
+    "severity": "Moderate",
+    "mechanism": "Both drugs can prolong the QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and arrhythmia.",
+    "management": "Use ondansetron cautiously; consider ECG monitoring if other QT risk factors are present.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "alpelisib",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Alpelisib may inhibit CYP2C9 metabolism of warfarin.",
+    "clinical_effect": "Increased warfarin levels and bleeding risk.",
+    "management": "Monitor INR more frequently when starting or stopping alpelisib.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "alpelisib",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Alpelisib commonly causes hyperglycemia via PI3K pathway inhibition.",
+    "clinical_effect": "Reduced effectiveness of glipizide and worsened blood sugar control.",
+    "management": "Monitor blood glucose frequently; diabetes medication doses often need adjustment during alpelisib therapy.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "azacitidine_oral",
+    "drug_b": "methotrexate",
+    "severity": "Major",
+    "mechanism": "Both drugs suppress bone marrow function.",
+    "clinical_effect": "Additive risk of severe low blood counts, infection, and bleeding.",
+    "management": "Avoid combination when possible; if unavoidable, monitor blood counts closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pomalidomide",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Pomalidomide increases the risk of blood clots; anticoagulants alter this balance.",
+    "clinical_effect": "Unpredictable changes in clotting risk requiring careful monitoring - both under- and over-anticoagulation are concerns.",
+    "management": "Close INR monitoring and coordination between oncology and anticoagulation management.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pemigatinib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole is a strong CYP3A4 inhibitor.",
+    "clinical_effect": "Significantly increased pemigatinib levels and toxicity risk (including phosphate elevation).",
+    "management": "Avoid strong/moderate CYP3A4 inhibitors; if unavoidable, reduce pemigatinib dose per prescribing guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nintedanib",
+    "drug_b": "clarithromycin",
+    "severity": "Moderate",
+    "mechanism": "Clarithromycin inhibits P-glycoprotein/CYP3A4-mediated clearance of nintedanib.",
+    "clinical_effect": "Increased nintedanib exposure and side effect risk.",
+    "management": "Use with caution and monitor for increased GI and liver side effects.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nintedanib",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Nintedanib has antiangiogenic activity associated with an increased bleeding tendency.",
+    "clinical_effect": "Additive bleeding risk when combined with anticoagulation.",
+    "management": "Monitor closely for signs of bleeding; coordinate anticoagulation management with the prescribing pulmonologist.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sonidegib",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin is a strong CYP3A4 inhibitor.",
+    "clinical_effect": "Increased sonidegib exposure, raising the risk of musculoskeletal toxicity.",
+    "management": "Avoid concurrent use of strong/moderate CYP3A4 inhibitors when possible.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "ripretinib",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort strongly induces CYP3A4 metabolism of ripretinib.",
+    "clinical_effect": "Reduced ripretinib levels and effectiveness.",
+    "management": "Avoid St. John's Wort during ripretinib therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "elacestrant",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort strongly induces CYP3A4 metabolism of elacestrant.",
+    "clinical_effect": "Reduced elacestrant levels and reduced anticancer effectiveness.",
+    "management": "Avoid St. John's Wort during elacestrant therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "doravirine",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4 metabolism of doravirine.",
+    "clinical_effect": "Substantial loss of viral suppression and risk of resistance.",
+    "management": "Do not use St. John's Wort with doravirine-containing regimens.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "letermovir",
+    "drug_b": "simvastatin",
+    "severity": "Major",
+    "mechanism": "Letermovir inhibits OATP1B1/3 and CYP3A, reducing statin clearance.",
+    "clinical_effect": "Significantly increased statin levels and risk of myopathy.",
+    "management": "Reduce statin dose and monitor for muscle symptoms during concurrent therapy.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "octreotide",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Octreotide alters insulin, glucagon, and growth hormone secretion.",
+    "clinical_effect": "Unpredictable changes in blood glucose control (can increase or decrease glucose).",
+    "management": "Monitor blood glucose closely and adjust diabetes medication doses as needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "nalmefene_nasal",
+    "drug_b": "hydrocodone_acetaminophen",
+    "severity": "Major",
+    "mechanism": "Nalmefene is an opioid antagonist that displaces opioids from their receptors.",
+    "clinical_effect": "Precipitates acute opioid withdrawal symptoms - this is the intended lifesaving reversal effect but can be distressing and requires monitoring.",
+    "management": "This interaction is the therapeutic goal in an overdose emergency; seek emergency medical follow-up after every use.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "perindopril",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "NSAIDs reduce prostaglandin-mediated vasodilation, blunting the antihypertensive effect of ACE inhibitors and stressing kidney blood flow.",
+    "clinical_effect": "Reduced blood pressure control and increased risk of kidney injury.",
+    "management": "Use acetaminophen for pain when possible; monitor blood pressure and kidney function if NSAIDs are needed.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "pindolol",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "NSAIDs can blunt the blood-pressure-lowering effect of beta-blockers via prostaglandin inhibition.",
+    "clinical_effect": "Reduced antihypertensive effectiveness.",
+    "management": "Use acetaminophen for pain when possible; monitor blood pressure with regular NSAID use.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "propafenone",
+    "drug_b": "metoprolol",
+    "severity": "Moderate",
+    "mechanism": "Propafenone inhibits CYP2D6, the enzyme that metabolizes metoprolol, and has intrinsic beta-blocking activity of its own.",
+    "clinical_effect": "Increased metoprolol levels and additive slowing of heart rate/blood pressure.",
+    "management": "Use combination cautiously with dose adjustment and heart rate monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "propafenone",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Propafenone can inhibit warfarin metabolism.",
+    "clinical_effect": "Increased warfarin effect and bleeding risk.",
+    "management": "Monitor INR more closely when starting or stopping propafenone.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "quinidine_gluconate_er",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Both drugs prolong the QT interval.",
+    "clinical_effect": "Additive risk of dangerous ventricular arrhythmia (torsades de pointes).",
+    "management": "Avoid combination when possible; if needed, use with ECG monitoring and correct electrolyte abnormalities first.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "phenobarbital",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Phenobarbital strongly induces hepatic enzymes that metabolize warfarin.",
+    "clinical_effect": "Reduced anticoagulant effect and unpredictable INR, especially if phenobarbital is later stopped.",
+    "management": "Monitor INR closely with any dose change; warfarin dose often needs significant adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "phenobarbital",
+    "drug_b": "alprazolam",
+    "severity": "Major",
+    "mechanism": "Additive CNS and respiratory depression from two sedating drugs.",
+    "clinical_effect": "Increased risk of profound sedation, respiratory depression, and overdose.",
+    "management": "Avoid combination when possible; use only with close medical supervision.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "primidone",
+    "drug_b": "alprazolam",
+    "severity": "Major",
+    "mechanism": "Primidone is metabolized to phenobarbital, adding to CNS depressant effects of alprazolam.",
+    "clinical_effect": "Increased risk of profound sedation and respiratory depression.",
+    "management": "Avoid combination when possible; use only with close medical supervision.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pyrimethamine",
+    "drug_b": "methotrexate",
+    "severity": "Major",
+    "mechanism": "Both drugs are folate antagonists.",
+    "clinical_effect": "Additive antifolate toxicity, greatly increasing the risk of severe bone marrow suppression.",
+    "management": "Avoid combination when possible; if unavoidable, use with folinic acid rescue and close blood count monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "probenecid",
+    "drug_b": "methotrexate",
+    "severity": "Major",
+    "mechanism": "Probenecid reduces renal tubular secretion of methotrexate.",
+    "clinical_effect": "Increased methotrexate levels and toxicity risk (bone marrow suppression, mucositis).",
+    "management": "Avoid combination when possible; if unavoidable, reduce methotrexate dose and monitor levels closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pentoxifylline_er",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Pentoxifylline has mild antiplatelet activity that adds to anticoagulant effect.",
+    "clinical_effect": "Increased bleeding risk.",
+    "management": "Monitor for bruising/bleeding; INR monitoring as appropriate.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rifapentine",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Rifapentine strongly induces hepatic enzymes that metabolize warfarin.",
+    "clinical_effect": "Markedly reduced anticoagulant effect.",
+    "management": "Monitor INR closely and expect the need for a substantially higher warfarin dose during co-therapy, with re-adjustment after stopping.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rifapentine",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "Rifapentine induces CYP3A4 metabolism of simvastatin.",
+    "clinical_effect": "Reduced statin levels and cholesterol-lowering effect.",
+    "management": "Monitor lipid levels during and after rifapentine therapy; statin dose may need adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "emtricitabine_rilpivirine_tenofovir_af",
+    "drug_b": "omeprazole",
+    "severity": "Contraindicated",
+    "mechanism": "Rilpivirine requires an acidic gastric environment for absorption, which proton pump inhibitors eliminate.",
+    "clinical_effect": "Substantially reduced rilpivirine absorption, risking loss of viral suppression and resistance.",
+    "management": "Do not co-administer with proton pump inhibitors; if acid suppression is needed, use an H2 blocker like famotidine with proper spacing instead.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "emtricitabine_rilpivirine_tenofovir_af",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4 metabolism of rilpivirine.",
+    "clinical_effect": "Substantial loss of viral suppression and risk of resistance.",
+    "management": "Do not use St. John's Wort with this regimen.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "treprostinil_oral",
+    "drug_b": "clopidogrel",
+    "severity": "Major",
+    "mechanism": "Treprostinil inhibits platelet aggregation, adding to the antiplatelet effect of clopidogrel.",
+    "clinical_effect": "Increased bleeding risk.",
+    "management": "Use combination with caution; monitor for unusual bruising or bleeding.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "treprostinil_oral",
+    "drug_b": "amlodipine",
+    "severity": "Moderate",
+    "mechanism": "Both drugs cause vasodilation and can lower blood pressure.",
+    "clinical_effect": "Additive hypotension, especially with dose increases.",
+    "management": "Monitor blood pressure closely, particularly during treprostinil dose titration.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "peginterferon_alfa_2a",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Interferon therapy can alter hepatic metabolism affecting warfarin clearance.",
+    "clinical_effect": "Unpredictable changes in INR.",
+    "management": "Monitor INR more frequently while starting or stopping peginterferon alfa-2a.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pilocarpine_oral",
+    "drug_b": "metoprolol",
+    "severity": "Moderate",
+    "mechanism": "Both drugs can slow heart rate through different mechanisms (cholinergic and beta-blockade).",
+    "clinical_effect": "Additive risk of bradycardia and conduction disturbances.",
+    "management": "Use combination with caution; monitor heart rate.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "conjugated_estrogens_medroxyprogesterone",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Estrogens can alter hepatic synthesis of clotting factors.",
+    "clinical_effect": "Altered anticoagulant effect and increased baseline clot risk.",
+    "management": "Monitor INR more closely when starting or stopping hormone therapy; discuss individual clot risk with prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pimozide",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4 metabolism of pimozide.",
+    "clinical_effect": "Markedly increased pimozide levels, risking dangerous QT prolongation and torsades de pointes.",
+    "management": "Do not combine; select a non-interacting antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pimozide",
+    "drug_b": "fluconazole",
+    "severity": "Contraindicated",
+    "mechanism": "Fluconazole strongly inhibits CYP3A4/CYP2D6 metabolism of pimozide.",
+    "clinical_effect": "Markedly increased pimozide levels, risking dangerous QT prolongation and torsades de pointes.",
+    "management": "Do not combine; select a non-interacting antifungal.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "prednisolone_oral",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids impair GI mucosal protection; combined with NSAIDs the ulcer risk compounds.",
+    "clinical_effect": "Increased risk of stomach ulcers and GI bleeding.",
+    "management": "Use acetaminophen for pain when possible; consider a stomach-protecting medication if NSAIDs are necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "pyridostigmine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Diphenhydramine has anticholinergic activity that directly opposes pyridostigmine's cholinergic mechanism.",
+    "clinical_effect": "Reduced effectiveness of pyridostigmine and potential worsening of myasthenia gravis symptoms.",
+    "management": "Avoid anticholinergic OTC products; choose a non-anticholinergic allergy medication if needed and discuss with your neurologist.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "momelotinib",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4 metabolism of momelotinib.",
+    "clinical_effect": "Reduced momelotinib levels and effectiveness.",
+    "management": "Avoid St. John's Wort during momelotinib therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "tovorafenib",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4 metabolism of tovorafenib.",
+    "clinical_effect": "Reduced tovorafenib levels and effectiveness.",
+    "management": "Avoid St. John's Wort during tovorafenib therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "nirogacestat",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole moderately inhibits CYP3A4 metabolism of nirogacestat.",
+    "clinical_effect": "Increased nirogacestat levels and side effect risk.",
+    "management": "Use with caution; monitor for increased diarrhea/rash; dose adjustment may be needed per prescribing guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "paliperidone_er",
+    "drug_b": "ondansetron",
+    "severity": "Moderate",
+    "mechanism": "Both drugs can prolong the QT interval.",
+    "clinical_effect": "Additive risk of QT prolongation and arrhythmia.",
+    "management": "Use combination cautiously; consider ECG monitoring if other risk factors for QT prolongation are present.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "perphenazine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic and sedating effects.",
+    "clinical_effect": "Increased drowsiness, confusion (especially in older adults), dry mouth, and constipation.",
+    "management": "Use combination cautiously; consider a non-anticholinergic alternative for allergy symptoms.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "mitapivat",
+    "drug_b": "atorvastatin",
+    "severity": "Moderate",
+    "mechanism": "Mitapivat is a moderate inducer of CYP3A4, increasing statin metabolism.",
+    "clinical_effect": "Reduced statin levels and potentially reduced cholesterol-lowering effect.",
+    "management": "Monitor lipid levels; statin dose may need adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "potassium_citrate_er",
+    "drug_b": "lisinopril",
+    "severity": "Moderate",
+    "mechanism": "ACE inhibitors reduce potassium excretion; combined with a potassium supplement, potassium can rise excessively.",
+    "clinical_effect": "Increased risk of hyperkalemia (high potassium), which can cause dangerous heart rhythm changes.",
+    "management": "Monitor potassium levels periodically when these are combined.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "quinidine_sulfate",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Protein-binding displacement and additive effects on anticoagulation.",
+    "clinical_effect": "Increased bleeding risk from potentiated warfarin effect.",
+    "management": "Monitor INR closely if combined; adjust warfarin dose as needed.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "quinidine_sulfate",
+    "drug_b": "metoprolol",
+    "severity": "Major",
+    "mechanism": "Quinidine is a potent CYP2D6 inhibitor that reduces metoprolol metabolism.",
+    "clinical_effect": "Significantly elevated metoprolol levels, risking bradycardia and hypotension.",
+    "management": "Avoid combination if possible; if necessary, reduce metoprolol dose and monitor heart rate/blood pressure closely.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "quinidine_sulfate",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms (torsades de pointes).",
+    "management": "Avoid combination when possible; use ECG monitoring if both are necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "quinine_sulfate",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Quinine can potentiate anticoagulant effect through additive and pharmacokinetic mechanisms.",
+    "clinical_effect": "Increased bleeding risk.",
+    "management": "Monitor INR closely if combined.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "daridorexant",
+    "drug_b": "alprazolam",
+    "severity": "Moderate",
+    "mechanism": "Additive central nervous system depression.",
+    "clinical_effect": "Increased sedation, dizziness, and risk of impaired next-day alertness/driving.",
+    "management": "Avoid combining if possible; use lowest effective doses and counsel on driving precautions.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "daridorexant",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Additive central nervous system and respiratory depression.",
+    "clinical_effect": "Increased sedation and risk of slowed breathing.",
+    "management": "Use combination cautiously; counsel patient on signs of excess sedation.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "rasagiline",
+    "drug_b": "tramadol",
+    "severity": "Contraindicated",
+    "mechanism": "Both increase synaptic serotonin; MAO-B inhibition combined with serotonergic opioid activity.",
+    "clinical_effect": "Risk of serotonin syndrome (agitation, rapid heartbeat, fever, muscle rigidity).",
+    "management": "Do not combine. Use a non-serotonergic pain reliever such as acetaminophen.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rasagiline",
+    "drug_b": "sertraline",
+    "severity": "Contraindicated",
+    "mechanism": "Combined MAO-B inhibition and serotonin reuptake inhibition increases serotonergic tone.",
+    "clinical_effect": "Risk of serotonin syndrome.",
+    "management": "Do not combine; allow an appropriate washout period between these medicines as directed by a prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rasagiline",
+    "drug_b": "escitalopram",
+    "severity": "Contraindicated",
+    "mechanism": "Combined MAO-B inhibition and serotonin reuptake inhibition increases serotonergic tone.",
+    "clinical_effect": "Risk of serotonin syndrome.",
+    "management": "Do not combine; allow an appropriate washout period between these medicines as directed by a prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rasagiline",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "Additive serotonergic and MAO-related effects.",
+    "clinical_effect": "Risk of serotonin syndrome and hypertensive reactions.",
+    "management": "Do not combine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "atazanavir",
+    "drug_b": "sildenafil",
+    "severity": "Major",
+    "mechanism": "Atazanavir inhibits CYP3A4 metabolism of sildenafil.",
+    "clinical_effect": "Increased sildenafil levels, risking hypotension and prolonged effects.",
+    "management": "Use a reduced sildenafil dose with extended dosing interval and specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "atazanavir",
+    "drug_b": "rifabutin",
+    "severity": "Major",
+    "mechanism": "Atazanavir inhibits rifabutin metabolism via CYP3A4.",
+    "clinical_effect": "Elevated rifabutin levels, increasing risk of uveitis and other toxicity.",
+    "management": "Rifabutin dose must be reduced (often by 75%) when combined with atazanavir; managed by specialist.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "upadacitinib",
+    "drug_b": "tacrolimus",
+    "severity": "Major",
+    "mechanism": "Additive immunosuppression from combined JAK inhibition and calcineurin inhibition.",
+    "clinical_effect": "Increased risk of serious infection.",
+    "management": "Avoid combination unless specifically directed and closely monitored by a specialist.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "upadacitinib",
+    "drug_b": "methotrexate",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppressive and myelosuppressive effects.",
+    "clinical_effect": "Increased risk of infection and blood count suppression.",
+    "management": "Often used together under specialist supervision with close monitoring of blood counts and infection signs.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "bedaquiline",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4, raising bedaquiline levels, and both drugs prolong the QT interval.",
+    "clinical_effect": "Increased risk of bedaquiline toxicity and dangerous heart rhythms.",
+    "management": "Avoid combination if possible; if necessary, use with ECG monitoring under specialist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "bedaquiline",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "CYP3A4 inhibition raises bedaquiline levels; additive QT prolongation.",
+    "clinical_effect": "Increased risk of bedaquiline toxicity and dangerous heart rhythms.",
+    "management": "Avoid combination; consider an alternative antibiotic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "bedaquiline",
+    "drug_b": "azithromycin",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms.",
+    "management": "Avoid combination when possible; use ECG monitoring if both are necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "bedaquiline",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms.",
+    "management": "Avoid combination when possible; consider an alternative antiemetic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "fostemsavir",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, accelerating fostemsavir metabolism.",
+    "clinical_effect": "Markedly reduced fostemsavir levels, risking HIV treatment failure and resistance.",
+    "management": "Do not combine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "fostemsavir",
+    "drug_b": "rifabutin",
+    "severity": "Major",
+    "mechanism": "Rifabutin induces CYP3A4, reducing fostemsavir levels.",
+    "clinical_effect": "Reduced fostemsavir effectiveness, risking treatment failure.",
+    "management": "Avoid combination; use an alternative antimycobacterial if possible under specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "maraviroc",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, accelerating maraviroc metabolism.",
+    "clinical_effect": "Markedly reduced maraviroc levels, risking HIV treatment failure.",
+    "management": "Do not combine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "maraviroc",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4 metabolism of maraviroc.",
+    "clinical_effect": "Significantly increased maraviroc levels and side effects.",
+    "management": "Reduce maraviroc dose per labeling when combined; managed by specialist.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "thalidomide",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Thalidomide independently increases risk of venous thromboembolism; anticoagulation interplay requires careful management.",
+    "clinical_effect": "Combined use requires careful monitoring; abrupt changes in either drug can affect clotting risk/INR control.",
+    "management": "Coordinate closely with the prescribing specialist; do not adjust either medicine independently.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "thioridazine",
+    "drug_b": "azithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Additive QT-interval prolongation; thioridazine carries a boxed warning for fatal arrhythmias.",
+    "clinical_effect": "Significantly increased risk of dangerous, potentially fatal heart rhythms.",
+    "management": "Do not combine; use an alternative antibiotic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "thioridazine",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Additive QT-interval prolongation; thioridazine carries a boxed warning for fatal arrhythmias.",
+    "clinical_effect": "Significantly increased risk of dangerous, potentially fatal heart rhythms.",
+    "management": "Do not combine; use an alternative antibiotic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "thioridazine",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms.",
+    "management": "Avoid combination; consider an alternative antiemetic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ivosidenib",
+    "drug_b": "azithromycin",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation; ivosidenib carries a boxed warning for QT prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms.",
+    "management": "Avoid combination when possible; use ECG monitoring if both are necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ivosidenib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4, raising ivosidenib levels, and both drugs prolong the QT interval.",
+    "clinical_effect": "Increased risk of ivosidenib toxicity and dangerous heart rhythms.",
+    "management": "Avoid combination if possible; use ECG monitoring under specialist guidance if necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "ivosidenib",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms.",
+    "management": "Avoid combination when possible; consider an alternative antiemetic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "capmatinib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP3A4 metabolism of capmatinib.",
+    "clinical_effect": "Increased capmatinib levels and toxicity risk.",
+    "management": "Avoid combination if possible; monitor closely under oncology guidance if necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "capmatinib",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4 metabolism of capmatinib.",
+    "clinical_effect": "Increased capmatinib levels and toxicity risk.",
+    "management": "Avoid combination; consider an alternative antibiotic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "dabrafenib",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Dabrafenib induces CYP enzymes involved in warfarin metabolism.",
+    "clinical_effect": "Reduced warfarin effect and unpredictable INR control.",
+    "management": "Monitor INR closely with dose changes; adjust warfarin as needed under specialist guidance.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sorafenib",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Mechanism not fully established; sorafenib is associated with increased bleeding and INR fluctuation.",
+    "clinical_effect": "Increased bleeding risk and unpredictable INR control.",
+    "management": "Monitor INR frequently; report unusual bruising or bleeding immediately.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "regorafenib",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Mechanism not fully established; regorafenib is associated with increased bleeding and INR fluctuation.",
+    "clinical_effect": "Increased bleeding risk and unpredictable INR control.",
+    "management": "Monitor INR frequently; report unusual bruising or bleeding immediately.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rucaparib",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Rucaparib may inhibit CYP1A2/CYP2C9 enzymes involved in warfarin metabolism.",
+    "clinical_effect": "Potential for increased warfarin levels and bleeding risk.",
+    "management": "Monitor INR more frequently after starting or stopping rucaparib.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "riluzole",
+    "drug_b": "ciprofloxacin",
+    "severity": "Major",
+    "mechanism": "Ciprofloxacin inhibits CYP1A2, the primary enzyme that metabolizes riluzole.",
+    "clinical_effect": "Significantly increased riluzole levels and toxicity risk, including liver effects.",
+    "management": "Avoid combination if possible; consider an alternative antibiotic.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "rifabutin",
+    "drug_b": "tacrolimus",
+    "severity": "Major",
+    "mechanism": "Rifabutin induces CYP3A4, accelerating tacrolimus metabolism.",
+    "clinical_effect": "Markedly reduced tacrolimus levels, risking transplant organ rejection.",
+    "management": "Avoid combination if possible; if required, tacrolimus levels must be monitored closely with dose adjustment by the transplant team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rifabutin",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Rifabutin induces CYP enzymes involved in warfarin metabolism.",
+    "clinical_effect": "Reduced warfarin effect and unpredictable INR control.",
+    "management": "Monitor INR closely with dose changes.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rifabutin",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole inhibits rifabutin metabolism, raising rifabutin levels.",
+    "clinical_effect": "Increased risk of rifabutin toxicity, including uveitis (eye inflammation).",
+    "management": "Monitor for eye pain/redness; dose adjustment may be needed under specialist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "desogestrel_ethinyl_estradiol",
+    "drug_b": "rifabutin",
+    "severity": "Major",
+    "mechanism": "Rifabutin induces liver enzymes that metabolize estrogen and progestin.",
+    "clinical_effect": "Reduced contraceptive effectiveness and increased breakthrough bleeding risk.",
+    "management": "Use a reliable backup, non-hormonal contraceptive method while taking rifabutin and for a time after stopping it.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "levonorgestrel_ethinyl_estradiol",
+    "drug_b": "rifabutin",
+    "severity": "Major",
+    "mechanism": "Rifabutin induces liver enzymes that metabolize estrogen and progestin.",
+    "clinical_effect": "Reduced contraceptive effectiveness and increased breakthrough bleeding risk.",
+    "management": "Use a reliable backup, non-hormonal contraceptive method while taking rifabutin and for a time after stopping it.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "lenacapavir",
+    "drug_b": "rifabutin",
+    "severity": "Major",
+    "mechanism": "Rifabutin induces CYP3A4, accelerating lenacapavir metabolism.",
+    "clinical_effect": "Reduced lenacapavir levels, risking HIV treatment failure and resistance.",
+    "management": "Avoid combination; use an alternative antimycobacterial under specialist guidance if possible.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "lenacapavir",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, accelerating lenacapavir metabolism.",
+    "clinical_effect": "Markedly reduced lenacapavir levels, risking HIV treatment failure and resistance.",
+    "management": "Do not combine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "clobazam",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive central nervous system and respiratory depression from combined benzodiazepine and opioid use.",
+    "clinical_effect": "Increased risk of profound sedation, slowed breathing, coma, and death.",
+    "management": "Avoid combination if possible; if required, use lowest effective doses with close monitoring, and counsel on naloxone availability.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clobazam",
+    "drug_b": "hydrocodone_acetaminophen",
+    "severity": "Major",
+    "mechanism": "Additive central nervous system and respiratory depression from combined benzodiazepine and opioid use.",
+    "clinical_effect": "Increased risk of profound sedation, slowed breathing, coma, and death.",
+    "management": "Avoid combination if possible; if required, use lowest effective doses with close monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "clobazam",
+    "drug_b": "alprazolam",
+    "severity": "Major",
+    "mechanism": "Additive central nervous system depression from combined benzodiazepines.",
+    "clinical_effect": "Increased sedation and risk of respiratory depression.",
+    "management": "Avoid combining two benzodiazepines unless specifically directed by a specialist.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "elvitegravir_cobicistat_emtricitabine_tenofovir_df",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "The cobicistat booster strongly inhibits CYP3A4 metabolism of simvastatin.",
+    "clinical_effect": "Markedly elevated simvastatin levels, risking severe muscle injury (rhabdomyolysis).",
+    "management": "Do not combine; use an alternative statin such as pravastatin under specialist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "elvitegravir_cobicistat_emtricitabine_tenofovir_df",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, reducing elvitegravir levels.",
+    "clinical_effect": "Markedly reduced elvitegravir levels, risking HIV treatment failure and resistance.",
+    "management": "Do not combine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "darunavir_cobicistat_emtricitabine_tenofovir_af",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "The cobicistat booster strongly inhibits CYP3A4 metabolism of simvastatin.",
+    "clinical_effect": "Markedly elevated simvastatin levels, risking severe muscle injury (rhabdomyolysis).",
+    "management": "Do not combine; use an alternative statin such as pravastatin under specialist guidance.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "darunavir_cobicistat_emtricitabine_tenofovir_af",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, reducing darunavir and cobicistat levels.",
+    "clinical_effect": "Markedly reduced drug levels, risking HIV treatment failure and resistance.",
+    "management": "Do not combine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "teriflunomide",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Teriflunomide may inhibit CYP2C9, the enzyme that metabolizes warfarin.",
+    "clinical_effect": "Potential for increased warfarin levels and bleeding risk.",
+    "management": "Monitor INR more frequently after starting or stopping teriflunomide.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "teriflunomide",
+    "drug_b": "methotrexate",
+    "severity": "Major",
+    "mechanism": "Both drugs carry independent risk of liver toxicity.",
+    "clinical_effect": "Increased risk of liver injury when combined.",
+    "management": "Avoid combination unless closely supervised with frequent liver function monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "repaglinide",
+    "drug_b": "clarithromycin",
+    "severity": "Major",
+    "mechanism": "Clarithromycin strongly inhibits CYP3A4 metabolism of repaglinide.",
+    "clinical_effect": "Significantly increased repaglinide levels, risking severe hypoglycemia.",
+    "management": "Avoid combination if possible; monitor blood sugar closely if used together.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "repaglinide",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "Fluconazole inhibits CYP2C8/CYP3A4 metabolism of repaglinide.",
+    "clinical_effect": "Increased repaglinide levels, risking hypoglycemia.",
+    "management": "Monitor blood sugar closely if combined.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "insulin_glargine_lixisenatide",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Additive blood-sugar-lowering effect from combined insulin and sulfonylurea therapy.",
+    "clinical_effect": "Increased risk of hypoglycemia.",
+    "management": "Monitor blood sugar closely; sulfonylurea dose may need reduction when starting this combination product.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "empagliflozin_metformin",
+    "drug_b": "prednisone",
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids raise blood sugar and can antagonize the glucose-lowering effect.",
+    "clinical_effect": "Reduced blood sugar control while on corticosteroids.",
+    "management": "Monitor blood sugar closely during and after corticosteroid courses; dose adjustment may be needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sodium_polystyrene_sulfonate",
+    "drug_b": "levothyroxine",
+    "severity": "Moderate",
+    "mechanism": "Sodium polystyrene sulfonate can bind other oral medicines in the gastrointestinal tract, reducing their absorption.",
+    "clinical_effect": "Reduced levothyroxine absorption and effectiveness.",
+    "management": "Separate administration by at least 3 hours.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "granisetron_transdermal",
+    "drug_b": "tramadol",
+    "severity": "Moderate",
+    "mechanism": "Additive serotonergic activity from combined 5-HT3 antagonism and serotonergic opioid effects.",
+    "clinical_effect": "Increased risk of serotonin syndrome symptoms (agitation, rapid heartbeat, muscle rigidity).",
+    "management": "Use combination cautiously; educate patient on serotonin syndrome symptoms.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "salmeterol",
+    "drug_b": "metoprolol",
+    "severity": "Moderate",
+    "mechanism": "Beta-blockers can antagonize the bronchodilating effect of beta-agonists and vice versa.",
+    "clinical_effect": "Reduced effectiveness of salmeterol and potential worsening of bronchospasm.",
+    "management": "Use a cardioselective beta-blocker cautiously if needed, with close respiratory monitoring; discuss alternatives with prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "salmeterol",
+    "drug_b": "clarithromycin",
+    "severity": "Moderate",
+    "mechanism": "Clarithromycin inhibits CYP3A4 metabolism of salmeterol.",
+    "clinical_effect": "Increased salmeterol levels, raising risk of cardiovascular side effects (palpitations, QT prolongation).",
+    "management": "Use combination cautiously; monitor for palpitations or dizziness.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "tiotropium_olodaterol",
+    "drug_b": "metoprolol",
+    "severity": "Moderate",
+    "mechanism": "Beta-blockers can antagonize the bronchodilating effect of the olodaterol component.",
+    "clinical_effect": "Reduced bronchodilator effectiveness, particularly relevant in COPD.",
+    "management": "Use a cardioselective beta-blocker cautiously if needed; monitor respiratory status.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pasireotide",
+    "drug_b": "metformin",
+    "severity": "Moderate",
+    "mechanism": "Pasireotide reduces insulin secretion and can cause hyperglycemia.",
+    "clinical_effect": "Reduced blood-sugar control; higher doses of diabetes medicine may be needed.",
+    "management": "Monitor blood sugar closely; adjust diabetes medicine dosing as directed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pasireotide",
+    "drug_b": "glipizide",
+    "severity": "Moderate",
+    "mechanism": "Pasireotide reduces insulin secretion and can cause hyperglycemia.",
+    "clinical_effect": "Reduced blood-sugar control; higher doses of diabetes medicine may be needed.",
+    "management": "Monitor blood sugar closely; adjust diabetes medicine dosing as directed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "pasireotide",
+    "drug_b": "ondansetron",
+    "severity": "Major",
+    "mechanism": "Additive QT-interval prolongation.",
+    "clinical_effect": "Increased risk of dangerous heart rhythms.",
+    "management": "Avoid combination when possible; use ECG monitoring if both are necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "risankizumab",
+    "drug_b": "methotrexate",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppressive effects.",
+    "clinical_effect": "Increased risk of infection.",
+    "management": "May be used together under specialist supervision with monitoring for infection.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "risankizumab",
+    "drug_b": "tacrolimus",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppressive effects.",
+    "clinical_effect": "Increased risk of infection.",
+    "management": "Avoid combination unless specifically directed and closely monitored.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "resmetirom",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "Resmetirom inhibits OATP1B transporters, increasing statin exposure.",
+    "clinical_effect": "Increased statin levels, raising risk of muscle-related side effects.",
+    "management": "Prescriber may reduce statin dose; monitor for muscle pain/weakness.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "resmetirom",
+    "drug_b": "atorvastatin",
+    "severity": "Moderate",
+    "mechanism": "Resmetirom inhibits OATP1B transporters, increasing statin exposure.",
+    "clinical_effect": "Increased statin levels, raising risk of muscle-related side effects.",
+    "management": "Prescriber may reduce statin dose; monitor for muscle pain/weakness.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "brinzolamide_brimonidine",
+    "drug_b": "sertraline",
+    "severity": "Moderate",
+    "mechanism": "Brimonidine is contraindicated with MAO inhibitors; combined CNS/serotonergic effects with other psychiatric medicines warrant caution.",
+    "clinical_effect": "Potential for increased drowsiness or blood pressure changes.",
+    "management": "Use cautiously; report unusual drowsiness or dizziness.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tranylcypromine",
+    "drug_b": "sertraline",
+    "severity": "Contraindicated",
+    "mechanism": "Additive serotonergic and monoamine effects; MAOIs block breakdown of serotonin.",
+    "clinical_effect": "Risk of life-threatening serotonin syndrome.",
+    "management": "Do not combine; requires a washout period of at least 2 weeks (5 weeks after fluoxetine) between switching.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tranylcypromine",
+    "drug_b": "tramadol",
+    "severity": "Contraindicated",
+    "mechanism": "Additive serotonergic activity and lowered seizure threshold.",
+    "clinical_effect": "Risk of serotonin syndrome and seizures.",
+    "management": "Avoid combination entirely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tranylcypromine",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "Additive serotonergic/monoamine effects from an OTC supplement with MAOI activity.",
+    "clinical_effect": "Risk of serotonin syndrome and hypertensive crisis.",
+    "management": "Avoid combination; counsel patient not to use St. John's Wort while on an MAOI.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "elexacaftor_tezacaftor_ivacaftor",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "Fluconazole moderately inhibits CYP3A4, increasing ivacaftor exposure.",
+    "clinical_effect": "Increased risk of Trikafta-related side effects.",
+    "management": "Dose adjustment of Trikafta may be needed per label; consult prescriber before use.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "elexacaftor_tezacaftor_ivacaftor",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort strongly induces CYP3A4, lowering drug levels.",
+    "clinical_effect": "Reduced effectiveness of Trikafta.",
+    "management": "Avoid St. John's Wort during therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "venetoclax",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "CYP3A4 inhibition increases venetoclax exposure.",
+    "clinical_effect": "Increased risk of toxicity, including tumor lysis syndrome.",
+    "management": "Dose reduction of venetoclax required per label; close monitoring, especially during dose ramp-up.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "venetoclax",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition markedly raises venetoclax levels.",
+    "clinical_effect": "Substantially increased tumor lysis syndrome and toxicity risk, especially during initiation/ramp-up.",
+    "management": "Avoid combination; select an alternative antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tofacitinib",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "CYP3A4/2C19 inhibition increases tofacitinib levels.",
+    "clinical_effect": "Increased risk of tofacitinib-related adverse effects.",
+    "management": "Tofacitinib dose reduction may be required; consult prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tofacitinib",
+    "drug_b": "prednisone",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppression from two agents suppressing immune response.",
+    "clinical_effect": "Increased risk of serious infection.",
+    "management": "Often used together under specialist supervision with close infection monitoring; report any infection signs promptly.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tofacitinib",
+    "drug_b": "methotrexate",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppressive effect.",
+    "clinical_effect": "Increased risk of infection; sometimes used together deliberately in rheumatoid arthritis under specialist supervision.",
+    "management": "Use only under specialist supervision with routine lab and infection monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cariprazine",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "CYP3A4 inhibition increases cariprazine exposure.",
+    "clinical_effect": "Increased risk of cariprazine-related side effects (sedation, movement disorders).",
+    "management": "Dose reduction of cariprazine may be needed; consult prescriber.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "vericiguat",
+    "drug_b": "sildenafil",
+    "severity": "Contraindicated",
+    "mechanism": "Both drugs promote vascular smooth muscle relaxation via the nitric oxide-cGMP pathway.",
+    "clinical_effect": "Risk of severe, symptomatic hypotension.",
+    "management": "Do not use together; choose an alternative therapy.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tolvaptan",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "CYP3A4 inhibition increases tolvaptan levels.",
+    "clinical_effect": "Increased risk of tolvaptan-related side effects, including liver enzyme elevation.",
+    "management": "Use with caution; monitor liver function and consider dose adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "toremifene",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Toremifene may potentiate the anticoagulant effect of warfarin.",
+    "clinical_effect": "Increased risk of bleeding/elevated INR.",
+    "management": "Monitor INR more closely when starting or stopping toremifene.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "fluticasone_umeclidinium_vilanterol",
+    "drug_b": "tranylcypromine",
+    "severity": "Major",
+    "mechanism": "MAOIs potentiate the cardiovascular effects of the LABA (vilanterol) component.",
+    "clinical_effect": "Increased risk of arrhythmia or hypertensive crisis.",
+    "management": "Avoid combination within 2 weeks of MAOI use; use alternative bronchodilator therapy.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cobicistat",
+    "drug_b": "simvastatin",
+    "severity": "Contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition markedly increases statin levels.",
+    "clinical_effect": "Significantly increased risk of rhabdomyolysis/severe myopathy.",
+    "management": "Avoid combination; switch to a statin less dependent on CYP3A4 (e.g., pravastatin, rosuvastatin) if needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cobicistat",
+    "drug_b": "sildenafil",
+    "severity": "Major",
+    "mechanism": "CYP3A4 inhibition increases sildenafil exposure.",
+    "clinical_effect": "Increased risk of hypotension and sildenafil-related side effects.",
+    "management": "Use a reduced sildenafil dose with extended dosing interval per label; monitor for hypotension.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tocilizumab",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "IL-6 inhibition can normalize previously suppressed CYP3A4 activity, altering statin metabolism.",
+    "clinical_effect": "Statin levels may change (typically decrease) as inflammation resolves, affecting lipid control.",
+    "management": "Monitor lipid panel and statin response after starting or stopping tocilizumab.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "tocilizumab",
+    "drug_b": "prednisone",
+    "severity": "Moderate",
+    "mechanism": "Additive immunosuppression from two agents suppressing immune response.",
+    "clinical_effect": "Increased risk of serious infection.",
+    "management": "Often used together under specialist supervision with close infection monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "abemaciclib",
+    "drug_b": "fluconazole",
+    "severity": "Major",
+    "mechanism": "CYP3A4 inhibition increases abemaciclib exposure.",
+    "clinical_effect": "Increased risk of neutropenia and diarrhea.",
+    "management": "Abemaciclib dose reduction required per label; consult oncology team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "abemaciclib",
+    "drug_b": "clarithromycin",
+    "severity": "Contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition substantially increases abemaciclib exposure.",
+    "clinical_effect": "Markedly increased toxicity risk.",
+    "management": "Avoid combination; select an alternative antibiotic.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "abemaciclib",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "CYP3A4 induction lowers abemaciclib levels.",
+    "clinical_effect": "Reduced anticancer effectiveness.",
+    "management": "Avoid St. John's Wort during therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "vigabatrin",
+    "drug_b": "alprazolam",
+    "severity": "Moderate",
+    "mechanism": "Additive CNS depressant effects.",
+    "clinical_effect": "Increased sedation, dizziness, and impaired coordination.",
+    "management": "Use combination cautiously; counsel patient on sedation risk and avoiding driving until effects are known.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "gilteritinib",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "CYP3A4 induction lowers gilteritinib levels.",
+    "clinical_effect": "Reduced anticancer effectiveness.",
+    "management": "Avoid St. John's Wort during therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "gilteritinib",
+    "drug_b": "fluconazole",
+    "severity": "Moderate",
+    "mechanism": "CYP3A4 inhibition increases gilteritinib exposure.",
+    "clinical_effect": "Increased risk of QT prolongation and other toxicity.",
+    "management": "Use with caution and increased ECG monitoring; consult oncology team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sofosbuvir_velpatasvir_voxilaprevir",
+    "drug_b": "simvastatin",
+    "severity": "Moderate",
+    "mechanism": "Inhibition of drug transporters increases statin exposure.",
+    "clinical_effect": "Increased risk of statin-related myopathy.",
+    "management": "Consider statin dose reduction or temporary alternative during treatment course.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "sofosbuvir_velpatasvir_voxilaprevir",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces drug transporters/enzymes, lowering antiviral levels.",
+    "clinical_effect": "Reduced hepatitis C treatment effectiveness/risk of treatment failure.",
+    "management": "Avoid St. John's Wort during treatment course.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "sofosbuvir_velpatasvir_voxilaprevir",
+    "drug_b": "omeprazole",
+    "severity": "Moderate",
+    "mechanism": "Reduced gastric acidity decreases velpatasvir solubility and absorption.",
+    "clinical_effect": "Reduced antiviral drug levels/effectiveness.",
+    "management": "Take antiviral with food and separate/limit acid-reducer dosing per specialist guidance; avoid high-dose PPI use if possible.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "idelalisib",
+    "drug_b": "simvastatin",
+    "severity": "Major",
+    "mechanism": "Strong CYP3A4 inhibition raises statin levels.",
+    "clinical_effect": "Increased risk of myopathy/rhabdomyolysis.",
+    "management": "Avoid combination or switch to a statin less dependent on CYP3A4 (e.g., pravastatin, rosuvastatin).",
+    "otc_related": false
+  },
+  {
+    "drug_a": "idelalisib",
+    "drug_b": "st_johns_wort",
+    "severity": "Major",
+    "mechanism": "St. John's Wort induces CYP3A4, lowering idelalisib levels.",
+    "clinical_effect": "Reduced anticancer effectiveness.",
+    "management": "Avoid St. John's Wort during therapy.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "vorinostat",
+    "drug_b": "warfarin",
+    "severity": "Major",
+    "mechanism": "Vorinostat may potentiate the anticoagulant effect of warfarin.",
+    "clinical_effect": "Increased INR and bleeding risk.",
+    "management": "Monitor INR closely and adjust warfarin dose as needed.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "zaleplon",
+    "drug_b": "alprazolam",
+    "severity": "Major",
+    "mechanism": "Additive CNS and respiratory depressant effects.",
+    "clinical_effect": "Increased risk of profound sedation and respiratory depression.",
+    "management": "Avoid combination when possible; if used together, use lowest effective doses with close monitoring.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "zaleplon",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive sedative effects.",
+    "clinical_effect": "Increased drowsiness and impaired coordination the next day.",
+    "management": "Avoid combining with OTC sleep aids/antihistamines.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "cenobamate",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Cenobamate can induce CYP2C9, increasing warfarin metabolism.",
+    "clinical_effect": "Decreased warfarin effect, risk of clot formation.",
+    "management": "Monitor INR closely when starting, changing, or stopping cenobamate.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "trihexyphenidyl",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic effects.",
+    "clinical_effect": "Increased confusion, dry mouth, constipation, and urinary retention, especially in older adults.",
+    "management": "Avoid combining with OTC sedating antihistamines when possible.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "trimipramine",
+    "drug_b": "tramadol",
+    "severity": "Major",
+    "mechanism": "Additive serotonergic activity and lowered seizure threshold.",
+    "clinical_effect": "Increased risk of seizures and serotonin syndrome.",
+    "management": "Avoid combination when possible; use alternative pain management.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "trimipramine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive anticholinergic and sedative effects.",
+    "clinical_effect": "Increased sedation, confusion, dry mouth, and constipation.",
+    "management": "Avoid combining with OTC sedating antihistamines when possible.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "trifluoperazine",
+    "drug_b": "diphenhydramine",
+    "severity": "Moderate",
+    "mechanism": "Additive sedative and anticholinergic effects.",
+    "clinical_effect": "Increased drowsiness, confusion, and anticholinergic side effects.",
+    "management": "Use combination cautiously; counsel on sedation risk.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "valganciclovir",
+    "drug_b": "zidovudine",
+    "severity": "Major",
+    "mechanism": "Additive bone marrow suppression from two myelosuppressive antivirals.",
+    "clinical_effect": "Increased risk of severe neutropenia/anemia.",
+    "management": "Avoid combination if possible; if required, monitor complete blood counts closely and consider dose adjustment.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "trandolapril",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "NSAIDs reduce prostaglandin-mediated vasodilation, blunting the antihypertensive effect and stressing the kidneys.",
+    "clinical_effect": "Reduced blood pressure control and increased risk of kidney injury.",
+    "management": "Use acetaminophen for pain when possible; if NSAID use is needed, monitor blood pressure and kidney function.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "belzutifan",
+    "drug_b": "sildenafil",
+    "severity": "Moderate",
+    "mechanism": "Belzutifan inhibits CYP3A4, potentially increasing sildenafil exposure.",
+    "clinical_effect": "Increased risk of sildenafil-related side effects (hypotension, priapism).",
+    "management": "Use sildenafil cautiously; consider dose adjustment and monitor for hypotension.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "niraparib_abiraterone",
+    "drug_b": "ibuprofen",
+    "severity": "Moderate",
+    "mechanism": "Additive fluid retention and blood pressure elevation from NSAID use combined with abiraterone's mineralocorticoid excess effect.",
+    "clinical_effect": "Worsened fluid retention/hypertension.",
+    "management": "Prefer acetaminophen for pain relief; monitor blood pressure if NSAIDs are used.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "isavuconazonium",
+    "drug_b": "cyclosporine",
+    "severity": "Major",
+    "mechanism": "Isavuconazole inhibits CYP3A4, reducing cyclosporine metabolism.",
+    "clinical_effect": "Significantly increased cyclosporine blood levels, raising risk of nephrotoxicity.",
+    "management": "Reduce cyclosporine dose when starting isavuconazonium and monitor cyclosporine levels closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "letermovir",
+    "drug_b": "cyclosporine",
+    "severity": "Major",
+    "mechanism": "Letermovir and cyclosporine mutually inhibit each other's clearance pathways (OATP1B1 and CYP3A).",
+    "clinical_effect": "Increased levels of both letermovir and cyclosporine.",
+    "management": "Reduce letermovir dose per labeling when combined with cyclosporine; monitor cyclosporine levels closely.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "octreotide",
+    "drug_b": "cyclosporine",
+    "severity": "Major",
+    "mechanism": "Octreotide can decrease intestinal absorption of cyclosporine.",
+    "clinical_effect": "Decreased cyclosporine levels, risking organ transplant rejection.",
+    "management": "Monitor cyclosporine levels closely and adjust dose if octreotide is started or stopped.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "rifabutin",
+    "drug_b": "cyclosporine",
+    "severity": "Major",
+    "mechanism": "Rifabutin induces CYP3A4, accelerating cyclosporine metabolism.",
+    "clinical_effect": "Markedly reduced cyclosporine levels, risking transplant organ rejection.",
+    "management": "Avoid combination if possible; if required, cyclosporine levels must be monitored closely with dose adjustment by the transplant team.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cyclosporine",
+    "drug_b": "simvastatin",
+    "severity": "Major",
+    "mechanism": "Cyclosporine inhibits statin metabolism and transport.",
+    "clinical_effect": "Significantly increased statin levels and risk of myopathy/rhabdomyolysis.",
+    "management": "Avoid combination if possible; if necessary, use the lowest effective statin dose with close monitoring for muscle pain.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cyclosporine",
+    "drug_b": "atorvastatin",
+    "severity": "Major",
+    "mechanism": "Cyclosporine inhibits statin metabolism and transport.",
+    "clinical_effect": "Significantly increased statin levels and risk of myopathy/rhabdomyolysis.",
+    "management": "Use the lowest effective statin dose with close monitoring for muscle pain; some statins are preferred over others with cyclosporine.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "cyclosporine",
+    "drug_b": "st_johns_wort",
+    "severity": "Contraindicated",
+    "mechanism": "St. John's Wort induces CYP3A4, dramatically reducing cyclosporine levels.",
+    "clinical_effect": "Risk of transplant organ rejection due to subtherapeutic cyclosporine levels.",
+    "management": "Do not combine; avoid St. John's Wort entirely while on cyclosporine.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "cyclosporine",
+    "drug_b": "ibuprofen",
+    "severity": "Major",
+    "mechanism": "Additive nephrotoxic effect of NSAIDs and cyclosporine.",
+    "clinical_effect": "Increased risk of kidney injury.",
+    "management": "Avoid NSAIDs if possible; use acetaminophen for pain relief and monitor kidney function if an NSAID is necessary.",
+    "otc_related": true
+  },
+  {
+    "drug_a": "dexamethasone",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids may potentiate anticoagulant effect and increase GI bleeding risk.",
+    "clinical_effect": "Variable increase in INR and bleeding risk.",
+    "management": "Monitor INR, especially with longer steroid courses.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "hydrocortisone_oral",
+    "drug_b": "warfarin",
+    "severity": "Moderate",
+    "mechanism": "Corticosteroids may potentiate anticoagulant effect and increase GI bleeding risk.",
+    "clinical_effect": "Variable increase in INR and bleeding risk.",
+    "management": "Monitor INR, especially with longer steroid courses.",
+    "otc_related": false
+  },
+  {
+    "drug_a": "timolol_oral",
+    "drug_b": "metformin",
+    "severity": "Minor",
+    "mechanism": "Non-selective beta blockade can mask hypoglycemia warning symptoms.",
+    "clinical_effect": "Hypoglycemia may go unrecognized until more severe.",
+    "management": "Monitor blood glucose closely; be aware that sweating may be the only remaining hypoglycemia symptom.",
+    "otc_related": false
   }
 ]

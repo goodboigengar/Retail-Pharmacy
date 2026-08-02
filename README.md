@@ -24,26 +24,29 @@ There are two versions of the app in this repo:
 ## What it does
 
 1. **Database** (`data/drugs.json`, `data/interactions.json` → SQLite
-   `pharmacy.db`, built from `schema.sql`): ~567 commonly dispensed
-   retail-pharmacy medications (Rx, OTC, and specialty/injectable) spanning
-   cardiovascular, diabetes/GLP-1, GI, respiratory, antibiotic/antiviral,
-   pain/opioid, mental health, women's health, urology, dermatology/biologics,
-   ophthalmology, oral oncology, transplant immunosuppression, and a broad
-   range of OTC categories (first aid, foot/dental/eye/ear care, nutrition,
-   skin care, and more), plus ~800 curated pairwise drug interactions
-   (including many flagged as involving an OTC/nonprescription product,
+   `pharmacy.db`, built from `schema.sql`): **1,106** medications (Rx, OTC,
+   and specialty/injectable) spanning cardiovascular, diabetes/GLP-1, GI,
+   respiratory, antibiotic/antiviral, pain/opioid, mental health, women's
+   health, urology, dermatology/biologics, ophthalmology, oncology,
+   transplant immunosuppression, vaccines, and a broad range of OTC
+   categories, plus **1,138** curated pairwise drug interactions (including
+   many flagged as involving an OTC/nonprescription product,
    duplicate-ingredient combination products, and MAOI/opioid-antagonist
    contraindications).
    >
    > There is no single "Medicare formulary" to encode — each Part D/Medicare
    > Advantage plan (thousands of them) publishes its own, and CMS only sets
-   > minimum coverage rules. Rather than reflect any one plan, this dataset
-   > was broadened to cover CMS's required "protected classes"
-   > (antidepressants, antipsychotics, anticonvulsants, immunosuppressants,
-   > antiretrovirals, antineoplastics) more completely, alongside broader
-   > geriatric/chronic-disease and OTC coverage generally relevant to a
-   > Medicare-age population. No plan-specific tier, prior-authorization, or
-   > quantity-limit data is included.
+   > minimum coverage rules. This dataset was reconciled directly against a
+   > real ~1,500-item formulary drug list supplied by the user: every entry
+   > was checked against the existing database (adding brand names where a
+   > match already existed under a different name), and every genuine gap
+   > was added as a full entry — except items that aren't something a retail
+   > pharmacist dispenses to a patient for take-home self-administration
+   > (IV/TPN hospital-compounding components, medical supplies, and
+   > infusion-center-only IV antibiotics), which were excluded and logged
+   > with a reason. No plan-specific tier, prior-authorization, or
+   > quantity-limit data is included, since that varies by plan and isn't
+   > publicly reconstructable from a drug name list alone.
 
 2. **Search** (`/api/search?q=...`, `/api/classes`): search by generic name,
    brand name, or drug class; filter by class. The UI lets a pharmacist check
@@ -110,7 +113,7 @@ patient data, but let me know if you'd rather it be locked down further.
 ### Installing it (colleagues)
 
 Share the Pages URL. Opening it once (with any internet connection) downloads
-and caches the whole app, including all 567 drugs — after that it works with
+and caches the whole app, including all 1,106 drugs — after that it works with
 no signal at all.
 
 - **iPhone:** open the link in **Safari**, tap the **Share** icon, then
@@ -170,7 +173,7 @@ set of keys, no more, no less; note there is intentionally no
 array in `data/interactions.json`, referencing drugs by their `id`. Delete
 `pharmacy.db` and restart the app to rebuild the database with the new data.
 
-Given the size of this dataset (500+ drugs), a validation pass is
+Given the size of this dataset (1,100+ drugs), a validation pass is
 recommended after editing by hand — check for: exact schema key match on
 every drug record, unique ids, and that every interaction's `drug_a`/`drug_b`
 resolve to a real drug id.
