@@ -22,6 +22,40 @@
     }
   }
 
+  async function copyLink(feedbackEl) {
+    const url = window.location.href;
+    try {
+      await navigator.clipboard.writeText(url);
+    } catch (err) {
+      // Fallback for browsers/contexts without Clipboard API access.
+      const textarea = document.createElement("textarea");
+      textarea.value = url;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      try {
+        document.execCommand("copy");
+      } catch (err2) {
+        // ignore; feedback still shows the link for manual copy
+      }
+      document.body.removeChild(textarea);
+    }
+    if (feedbackEl) {
+      feedbackEl.hidden = false;
+      feedbackEl.textContent = `Link copied: ${url} — now open Safari and paste it in.`;
+    }
+  }
+
+  const copyBtnSafari = document.getElementById("copy-link-btn-safari");
+  const copyFeedbackSafari = document.getElementById("copy-link-feedback-safari");
+  if (copyBtnSafari) copyBtnSafari.addEventListener("click", () => copyLink(copyFeedbackSafari));
+
+  const copyBtnOther = document.getElementById("copy-link-btn-other");
+  const copyFeedbackOther = document.getElementById("copy-link-feedback-other");
+  if (copyBtnOther) copyBtnOther.addEventListener("click", () => copyLink(copyFeedbackOther));
+
   const ua = navigator.userAgent;
 
   const isStandalone =
