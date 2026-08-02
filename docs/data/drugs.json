@@ -155,7 +155,7 @@
     "brand_names": [
       "Cozaar"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "description": "Lowers blood pressure and protects kidneys, often used when ACE inhibitors cause cough.",
     "route": "Oral",
@@ -203,7 +203,7 @@
     "brand_names": [
       "Norvasc"
     ],
-    "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Dihydropyridine)",
     "otc_or_rx": "Rx",
     "description": "Relaxes blood vessels to lower blood pressure and treat angina (chest pain).",
     "route": "Oral",
@@ -251,7 +251,7 @@
     "brand_names": [
       "Lopressor"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Slows heart rate and lowers blood pressure; used for hypertension, angina, and after heart attack.",
     "route": "Oral",
@@ -844,7 +844,7 @@
     "brand_names": [
       "Pepcid"
     ],
-    "drug_class": "H2 Blocker",
+    "drug_class": "Histamine H2-Receptor Antagonist",
     "otc_or_rx": "OTC/Rx",
     "description": "Reduces stomach acid to relieve and prevent heartburn and treat ulcers/GERD.",
     "route": "Oral",
@@ -2010,7 +2010,7 @@
     "brand_names": [
       "Neurontin"
     ],
-    "drug_class": "Anticonvulsant / Neuropathic Pain Agent (Gabapentinoid)",
+    "drug_class": "Anticonvulsant",
     "otc_or_rx": "Rx",
     "description": "Treats nerve pain (neuropathy), certain seizures, and restless legs syndrome by calming overactive nerve signals.",
     "route": "Oral",
@@ -2207,7 +2207,7 @@
     "brand_names": [
       "Toprol XL"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2260,7 +2260,7 @@
     "brand_names": [
       "Tenormin"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2313,7 +2313,7 @@
     "brand_names": [
       "Coreg"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2366,7 +2366,7 @@
     "brand_names": [
       "Inderal"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2420,7 +2420,7 @@
     "brand_names": [
       "Zebeta"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2472,7 +2472,7 @@
     "brand_names": [
       "Bystolic"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2524,7 +2524,7 @@
     "brand_names": [
       "Trandate"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2580,7 +2580,7 @@
       "Matzim LA",
       "Tiadylt ER"
     ],
-    "drug_class": "Calcium Channel Blocker (Non-Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Non-Dihydropyridine)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2638,7 +2638,7 @@
       "Calan",
       "Verelan"
     ],
-    "drug_class": "Calcium Channel Blocker (Non-Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Non-Dihydropyridine)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2697,7 +2697,7 @@
       "Procardia XL",
       "Adalat CC"
     ],
-    "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Dihydropyridine)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2749,7 +2749,7 @@
     "brand_names": [
       "Plendil"
     ],
-    "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Dihydropyridine)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture and light.",
@@ -2800,7 +2800,7 @@
     "brand_names": [
       "Diovan"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, protect from moisture.",
@@ -2851,7 +2851,7 @@
     "brand_names": [
       "Benicar"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, protect from moisture.",
@@ -2903,7 +2903,7 @@
     "brand_names": [
       "Avapro"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, protect from moisture.",
@@ -2954,7 +2954,7 @@
     "brand_names": [
       "Atacand"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, protect from moisture.",
@@ -3005,7 +3005,7 @@
     "brand_names": [
       "Micardis"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, protect from moisture.",
@@ -4488,7 +4488,7 @@
     "brand_names": [
       "Cardura"
     ],
-    "drug_class": "Alpha-1 Blocker",
+    "drug_class": "Alpha-1 Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture.",
@@ -4536,7 +4536,7 @@
     "brand_names": [
       "Hytrin"
     ],
-    "drug_class": "Alpha-1 Blocker",
+    "drug_class": "Alpha-1 Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "route": "Oral",
     "storage_instructions": "Store at room temperature, away from moisture.",
@@ -5032,7 +5032,7 @@
     "brand_names": [
       "Caduet"
     ],
-    "drug_class": "Statin/Calcium Channel Blocker Combination",
+    "drug_class": "Statin/Calcium Channel Antagonist Combination",
     "otc_or_rx": "Rx",
     "description": "Combines a blood pressure medication (amlodipine) with a cholesterol-lowering statin (atorvastatin) for patients who need both conditions managed together.",
     "route": "Oral",
@@ -5085,7 +5085,7 @@
     "brand_names": [
       "Hyzaar"
     ],
-    "drug_class": "ARB/Diuretic Combination",
+    "drug_class": "Angiotensin II Receptor Antagonist/Diuretic Combination",
     "otc_or_rx": "Rx",
     "description": "Combines an ARB and a water pill to lower blood pressure more than either medication alone.",
     "route": "Oral",
@@ -5139,7 +5139,7 @@
     "brand_names": [
       "Diovan HCT"
     ],
-    "drug_class": "ARB/Diuretic Combination",
+    "drug_class": "Angiotensin II Receptor Antagonist/Diuretic Combination",
     "otc_or_rx": "Rx",
     "description": "Combines an ARB and a water pill to control blood pressure more effectively than either drug alone.",
     "route": "Oral",
@@ -7830,7 +7830,7 @@
     "brand_names": [
       "Tagamet"
     ],
-    "drug_class": "H2 Blocker",
+    "drug_class": "Histamine H2-Receptor Antagonist",
     "otc_or_rx": "OTC/Rx",
     "description": "Reduces stomach acid production to relieve and prevent heartburn and treat ulcers.",
     "route": "Oral",
@@ -7879,7 +7879,7 @@
     "brand_names": [
       "Axid"
     ],
-    "drug_class": "H2 Blocker",
+    "drug_class": "Histamine H2-Receptor Antagonist",
     "otc_or_rx": "Rx",
     "description": "Reduces stomach acid production to treat and prevent ulcers and GERD.",
     "route": "Oral",
@@ -8128,7 +8128,7 @@
     "brand_names": [
       "Bentyl"
     ],
-    "drug_class": "Antispasmodic (Anticholinergic)",
+    "drug_class": "Anticholinergic (Muscarinic Antagonist)",
     "otc_or_rx": "Rx",
     "description": "Relieves stomach cramps and spasms associated with irritable bowel syndrome.",
     "route": "Oral",
@@ -8183,7 +8183,7 @@
     "brand_names": [
       "Levsin"
     ],
-    "drug_class": "Antispasmodic (Anticholinergic)",
+    "drug_class": "Anticholinergic (Muscarinic Antagonist)",
     "otc_or_rx": "Rx",
     "description": "Reduces stomach and intestinal spasms and cramping associated with IBS and other GI conditions.",
     "route": "Oral",
@@ -15332,7 +15332,7 @@
     "brand_names": [
       "Lyrica"
     ],
-    "drug_class": "Anticonvulsant / Neuropathic Pain Agent (Gabapentinoid)",
+    "drug_class": "Anticonvulsant",
     "otc_or_rx": "Rx (controlled substance, Schedule V)",
     "description": "Used to treat nerve pain (neuropathy, fibromyalgia, shingles pain) and as an add-on treatment for seizures by calming overactive nerve signals.",
     "route": "Oral",
@@ -17312,7 +17312,7 @@
     "brand_names": [
       "Lioresal"
     ],
-    "drug_class": "Antispasmodic (Anticholinergic)",
+    "drug_class": "Skeletal Muscle Relaxant",
     "otc_or_rx": "Rx",
     "description": "Reduces muscle spasticity from conditions such as multiple sclerosis or spinal cord injury.",
     "route": "Oral",
@@ -18916,7 +18916,7 @@
       "EnilloRing",
       "Haloette"
     ],
-    "drug_class": "Combined Oral Contraceptive",
+    "drug_class": "Combined Hormonal Contraceptive (Vaginal Ring)",
     "otc_or_rx": "Rx",
     "description": "Prevents pregnancy by releasing a steady, low dose of estrogen and progestin absorbed through the vaginal lining, which suppresses ovulation.",
     "route": "Vaginal",
@@ -19422,7 +19422,7 @@
     "brand_names": [
       "Flomax"
     ],
-    "drug_class": "Alpha-1 Blocker",
+    "drug_class": "Alpha-1 Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Relaxes muscles in the prostate and bladder neck to improve urine flow in men with an enlarged prostate (benign prostatic hyperplasia).",
     "route": "Oral",
@@ -20530,7 +20530,7 @@
     "brand_names": [
       "Elidel"
     ],
-    "drug_class": "Calcineurin Inhibitor (Immunosuppressant)",
+    "drug_class": "Topical Calcineurin Inhibitor",
     "otc_or_rx": "Rx",
     "description": "A non-steroid cream that calms the immune response in the skin to treat mild-to-moderate eczema, typically used when steroids are not appropriate.",
     "route": "Topical",
@@ -20580,7 +20580,7 @@
     "brand_names": [
       "Protopic"
     ],
-    "drug_class": "Calcineurin Inhibitor (Immunosuppressant)",
+    "drug_class": "Topical Calcineurin Inhibitor",
     "otc_or_rx": "Rx",
     "description": "A non-steroid ointment that calms the immune response in the skin to treat moderate-to-severe eczema, typically used when steroids are not appropriate.",
     "route": "Topical",
@@ -21680,7 +21680,7 @@
       "Timoptic",
       "Betimol"
     ],
-    "drug_class": "Beta Blocker (Ophthalmic)",
+    "drug_class": "Beta-Adrenergic Antagonist (Ophthalmic)",
     "otc_or_rx": "Rx",
     "description": "An eye drop used to lower elevated eye pressure in glaucoma or ocular hypertension by reducing fluid production in the eye.",
     "route": "Ophthalmic",
@@ -21836,7 +21836,7 @@
       "Patanol",
       "Pataday"
     ],
-    "drug_class": "Mast Cell Stabilizer",
+    "drug_class": "Ophthalmic Antihistamine",
     "otc_or_rx": "OTC/Rx",
     "description": "An eye drop used to relieve itchy, red eyes caused by allergies.",
     "route": "Ophthalmic",
@@ -21883,7 +21883,7 @@
     "brand_names": [
       "Zaditor"
     ],
-    "drug_class": "Mast Cell Stabilizer",
+    "drug_class": "Ophthalmic Antihistamine",
     "otc_or_rx": "OTC",
     "description": "An eye drop used to temporarily relieve itchy eyes caused by seasonal allergies.",
     "route": "Ophthalmic",
@@ -22797,7 +22797,7 @@
     "brand_names": [
       "Cardene"
     ],
-    "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Dihydropyridine)",
     "otc_or_rx": "Rx",
     "description": "A medication used to treat high blood pressure and chest pain (angina) by relaxing and widening blood vessels.",
     "route": "Oral",
@@ -22955,7 +22955,7 @@
     "brand_names": [
       "Lopressor HCT"
     ],
-    "drug_class": "Beta Blocker/Diuretic Combination",
+    "drug_class": "Beta-Adrenergic Antagonist/Diuretic Combination",
     "otc_or_rx": "Rx",
     "description": "A combination medication used to treat high blood pressure by slowing the heart rate and reducing fluid volume.",
     "route": "Oral",
@@ -23010,7 +23010,7 @@
     "brand_names": [
       "Ziac"
     ],
-    "drug_class": "Beta Blocker/Diuretic Combination",
+    "drug_class": "Beta-Adrenergic Antagonist/Diuretic Combination",
     "otc_or_rx": "Rx",
     "description": "A combination medication used to treat high blood pressure by slowing the heart rate and reducing fluid volume.",
     "route": "Oral",
@@ -23065,7 +23065,7 @@
     "brand_names": [
       "Lotrel"
     ],
-    "drug_class": "ACE Inhibitor/Calcium Channel Blocker Combination",
+    "drug_class": "ACE Inhibitor/Calcium Channel Antagonist Combination",
     "otc_or_rx": "Rx",
     "description": "A combination medication used to treat high blood pressure by relaxing blood vessels through two complementary mechanisms.",
     "route": "Oral",
@@ -23120,7 +23120,7 @@
     "brand_names": [
       "Exforge"
     ],
-    "drug_class": "ARB/Calcium Channel Blocker Combination",
+    "drug_class": "Angiotensin II Receptor Antagonist/Calcium Channel Antagonist Combination",
     "otc_or_rx": "Rx",
     "description": "A combination medication used to treat high blood pressure by relaxing blood vessels through two complementary mechanisms.",
     "route": "Oral",
@@ -23173,7 +23173,7 @@
     "brand_names": [
       "Azor"
     ],
-    "drug_class": "ARB/Calcium Channel Blocker Combination",
+    "drug_class": "Angiotensin II Receptor Antagonist/Calcium Channel Antagonist Combination",
     "otc_or_rx": "Rx",
     "description": "A combination medication used to treat high blood pressure by relaxing blood vessels through two complementary mechanisms.",
     "route": "Oral",
@@ -23579,7 +23579,7 @@
     "brand_names": [
       "Voquezna"
     ],
-    "drug_class": "Potassium-Competitive Acid Blocker (P-CAB)",
+    "drug_class": "Acid Pump Antagonist (P-CAB)",
     "otc_or_rx": "Rx",
     "description": "Reduces stomach acid production to treat erosive esophagitis, heartburn from GERD, and (in combination with antibiotics) H. pylori infection.",
     "route": "Oral",
@@ -23628,7 +23628,7 @@
     "brand_names": [
       "NasalCrom"
     ],
-    "drug_class": "Mast Cell Stabilizer",
+    "drug_class": "Mast Cell Stabilizer (Nasal/Respiratory)",
     "otc_or_rx": "OTC",
     "description": "A nasal spray that prevents allergy symptoms (sneezing, runny/itchy nose) by stopping the release of histamine from mast cells; works best when started before allergen exposure.",
     "route": "Nasal",
@@ -24263,7 +24263,7 @@
     "brand_names": [
       "Rapaflo"
     ],
-    "drug_class": "Alpha-1 Blocker",
+    "drug_class": "Alpha-1 Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Relaxes muscles in the prostate and bladder neck to improve urine flow in men with benign prostatic hyperplasia (BPH).",
     "route": "Oral",
@@ -24315,7 +24315,7 @@
     "brand_names": [
       "Jalyn"
     ],
-    "drug_class": "Alpha-1 Blocker",
+    "drug_class": "Alpha-1 Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "A combination medication that shrinks the prostate over time and relaxes prostate/bladder muscle to improve urinary symptoms of benign prostatic hyperplasia (BPH).",
     "route": "Oral",
@@ -24517,7 +24517,7 @@
     "brand_names": [
       "Mirvaso"
     ],
-    "drug_class": "Central Alpha-2 Agonist",
+    "drug_class": "Topical Alpha Agonist (Rosacea)",
     "otc_or_rx": "Rx",
     "description": "A topical gel that temporarily reduces the facial redness of rosacea by narrowing blood vessels in the skin.",
     "route": "Topical",
@@ -31329,7 +31329,7 @@
     "brand_names": [
       "Cogentin"
     ],
-    "drug_class": "Anticholinergic (Antiparkinsonian Agent)",
+    "drug_class": "Anticholinergic (Muscarinic Antagonist)",
     "otc_or_rx": "Rx",
     "description": "Used to treat Parkinson's disease symptoms and to control drug-induced extrapyramidal symptoms (e.g., muscle stiffness, tremor) caused by antipsychotic medications.",
     "route": "Oral",
@@ -31865,7 +31865,7 @@
       "Aristada",
       "Aristada Initio"
     ],
-    "drug_class": "Atypical Antipsychotic (Long-Acting Injectable)",
+    "drug_class": "Atypical Antipsychotic",
     "otc_or_rx": "Rx",
     "description": "A long-acting injectable form of aripiprazole used to treat schizophrenia in adults. Aristada Initio is a single-dose formulation used to help start therapy quickly, alongside the first dose of regular Aristada and a short course of oral aripiprazole.",
     "route": "Intramuscular injection, administered by a healthcare provider (gluteal or deltoid muscle)",
@@ -32319,7 +32319,7 @@
       "Betoptic S",
       "Kerlone"
     ],
-    "drug_class": "Beta Blocker (Ophthalmic)",
+    "drug_class": "Beta-Adrenergic Antagonist (Ophthalmic)",
     "otc_or_rx": "Rx",
     "description": "The ophthalmic form is used to lower elevated eye pressure in ocular hypertension and open-angle glaucoma; the oral tablet form is used to treat high blood pressure.",
     "route": "Ophthalmic (eye drops) or oral (tablet)",
@@ -32475,7 +32475,7 @@
     "brand_names": [
       "Sectral"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Used to treat high blood pressure and certain irregular heart rhythms (ventricular arrhythmias).",
     "route": "Oral",
@@ -32528,7 +32528,7 @@
     "brand_names": [
       "Uroxatral"
     ],
-    "drug_class": "Alpha-1 Blocker",
+    "drug_class": "Alpha-1 Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Used to treat symptoms of benign prostatic hyperplasia (BPH), such as difficulty urinating and weak urine stream.",
     "route": "Oral",
@@ -32832,7 +32832,7 @@
       "Atropine Care",
       "Isopto Atropine"
     ],
-    "drug_class": "Anticholinergic (Antimuscarinic)",
+    "drug_class": "Anticholinergic (Muscarinic Antagonist)",
     "otc_or_rx": "Rx",
     "description": "Ophthalmic drops are used to dilate the pupil and temporarily paralyze eye focusing for eye exams, treatment of certain inflammatory eye conditions (uveitis/iritis), amblyopia therapy, and low-dose off-label use for myopia control in children. Oral/sublingual drops are also used to reduce excessive drooling (sialorrhea) in certain neurologic conditions.",
     "route": "Ophthalmic (eye drops) or oral/sublingual drops",
@@ -33197,7 +33197,7 @@
     "brand_names": [
       "Ocupress"
     ],
-    "drug_class": "Beta Blocker (Ophthalmic)",
+    "drug_class": "Beta-Adrenergic Antagonist (Ophthalmic)",
     "otc_or_rx": "Rx",
     "description": "Eye drops that lower elevated pressure inside the eye in open-angle glaucoma or ocular hypertension.",
     "route": "Ophthalmic",
@@ -34264,7 +34264,7 @@
     "brand_names": [
       "Combigan"
     ],
-    "drug_class": "Beta Blocker (Ophthalmic)",
+    "drug_class": "Beta-Adrenergic Antagonist (Ophthalmic)",
     "otc_or_rx": "Rx",
     "description": "Eye drops that lower elevated eye pressure in open-angle glaucoma or ocular hypertension when a single agent is not sufficient.",
     "route": "Ophthalmic",
@@ -34850,7 +34850,7 @@
     "brand_names": [
       "Ampyra"
     ],
-    "drug_class": "Potassium Channel Blocker",
+    "drug_class": "Potassium Channel Inhibitor",
     "otc_or_rx": "Rx",
     "description": "Improves walking speed in adults with multiple sclerosis.",
     "route": "Oral",
@@ -36382,7 +36382,7 @@
     "brand_names": [
       "Edarbi"
     ],
-    "drug_class": "ARB (Angiotensin Receptor Blocker)",
+    "drug_class": "Angiotensin II Receptor Antagonist (ARB)",
     "otc_or_rx": "Rx",
     "description": "Lowers blood pressure by relaxing blood vessels.",
     "route": "Oral",
@@ -36433,7 +36433,7 @@
     "brand_names": [
       "Edarbyclor"
     ],
-    "drug_class": "ARB/Diuretic Combination",
+    "drug_class": "Angiotensin II Receptor Antagonist/Diuretic Combination",
     "otc_or_rx": "Rx",
     "description": "A combination medication used to lower blood pressure when a single agent isn't enough.",
     "route": "Oral",
@@ -36885,7 +36885,7 @@
     "brand_names": [
       "Elestat"
     ],
-    "drug_class": "Mast Cell Stabilizer",
+    "drug_class": "Ophthalmic Antihistamine",
     "otc_or_rx": "Rx",
     "description": "Relieves itching of the eyes associated with allergic conjunctivitis.",
     "route": "Ophthalmic (eye drops)",
@@ -38002,7 +38002,7 @@
       "Carac",
       "Fluoroplex"
     ],
-    "drug_class": "Antimetabolite Chemotherapy (Oncology)",
+    "drug_class": "Topical Chemotherapy (Oncology)",
     "otc_or_rx": "Rx",
     "description": "Treats actinic keratosis and superficial basal cell carcinoma by destroying abnormal skin cells.",
     "route": "Topical",
@@ -38220,7 +38220,7 @@
     "brand_names": [
       "Arixtra"
     ],
-    "drug_class": "Direct Oral Anticoagulant (DOAC)",
+    "drug_class": "Injectable Anticoagulant (Heparin/Factor Xa Inhibitor)",
     "otc_or_rx": "Rx",
     "description": "Prevents and treats blood clots (deep vein thrombosis/pulmonary embolism), particularly after orthopedic surgery.",
     "route": "Subcutaneous injection",
@@ -38680,7 +38680,7 @@
       "Zymaxid",
       "Zymar"
     ],
-    "drug_class": "Fluoroquinolone Antibiotic",
+    "drug_class": "Ophthalmic Antibiotic",
     "otc_or_rx": "Rx",
     "description": "Treats bacterial conjunctivitis (pink eye).",
     "route": "Ophthalmic (eye drops)",
@@ -39206,7 +39206,7 @@
       "Robinul",
       "Cuvposa"
     ],
-    "drug_class": "Anticholinergic (Antimuscarinic)",
+    "drug_class": "Anticholinergic (Muscarinic Antagonist)",
     "otc_or_rx": "Rx",
     "description": "Reduces excessive drooling/saliva production and can be used to treat certain other conditions such as excessive sweating, as directed by a prescriber.",
     "route": "Oral",
@@ -40577,7 +40577,7 @@
     "brand_names": [
       "Invega Sustenna"
     ],
-    "drug_class": "Atypical Antipsychotic (Long-Acting Injectable)",
+    "drug_class": "Atypical Antipsychotic",
     "otc_or_rx": "Rx",
     "description": "A once-monthly long-acting injectable antipsychotic given by a healthcare provider to treat schizophrenia and schizoaffective disorder.",
     "route": "Intramuscular injection (administered by a healthcare provider)",
@@ -40632,7 +40632,7 @@
     "brand_names": [
       "Invega Trinza"
     ],
-    "drug_class": "Atypical Antipsychotic (Long-Acting Injectable)",
+    "drug_class": "Atypical Antipsychotic",
     "otc_or_rx": "Rx",
     "description": "A long-acting antipsychotic injection given every 3 months by a healthcare provider to treat schizophrenia, for patients already stabilized on the once-monthly formulation for at least 4 months.",
     "route": "Intramuscular injection (administered by a healthcare provider)",
@@ -40687,7 +40687,7 @@
     "brand_names": [
       "Invega Hafyera"
     ],
-    "drug_class": "Atypical Antipsychotic (Long-Acting Injectable)",
+    "drug_class": "Atypical Antipsychotic",
     "otc_or_rx": "Rx",
     "description": "The longest-acting antipsychotic injection available, given twice a year by a healthcare provider to treat schizophrenia, for patients already stabilized on the monthly or 3-month formulation.",
     "route": "Intramuscular injection (administered by a healthcare provider)",
@@ -40847,7 +40847,7 @@
       "Corlanor",
       "Ivabradine HCl"
     ],
-    "drug_class": "HCN Channel Blocker (Heart Rate-Lowering Agent)",
+    "drug_class": "HCN Channel Inhibitor (Heart Rate-Lowering Agent)",
     "otc_or_rx": "Rx",
     "description": "An oral medication used to reduce heart rate and hospitalization risk in certain patients with chronic heart failure or stable symptomatic coronary artery disease.",
     "route": "Oral",
@@ -41714,7 +41714,7 @@
     "brand_names": [
       "Kesimpta"
     ],
-    "drug_class": "Monoclonal Antibody (Oncology)",
+    "drug_class": "Other Cytotoxic/Targeted Agent (Oncology)",
     "otc_or_rx": "Rx",
     "description": "A self-injectable biologic medication used to treat relapsing forms of multiple sclerosis by targeting and reducing certain immune cells (B-cells).",
     "route": "Subcutaneous injection",
@@ -42431,7 +42431,7 @@
     "brand_names": [
       "Betagan"
     ],
-    "drug_class": "Beta Blocker (Ophthalmic)",
+    "drug_class": "Beta-Adrenergic Antagonist (Ophthalmic)",
     "otc_or_rx": "Rx",
     "description": "An eye drop that lowers pressure inside the eye to treat glaucoma or ocular hypertension.",
     "route": "Ophthalmic",
@@ -44729,7 +44729,7 @@
     "brand_names": [
       "Corgard"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Used to treat high blood pressure and angina, and sometimes for migraine prevention or portal hypertension.",
     "route": "Oral",
@@ -45530,7 +45530,7 @@
     "brand_names": [
       "Nymalize"
     ],
-    "drug_class": "Calcium Channel Blocker (Dihydropyridine)",
+    "drug_class": "Calcium Channel Antagonist (Dihydropyridine)",
     "otc_or_rx": "Rx",
     "description": "Used to reduce the risk of complications from vasospasm following a subarachnoid hemorrhage (a type of bleeding stroke).",
     "route": "Oral (this drug must NEVER be given intravenously - fatal if injected)",
@@ -46153,7 +46153,7 @@
     "brand_names": [
       "Ogsiveo"
     ],
-    "drug_class": "Gamma Secretase Inhibitor",
+    "drug_class": "Other Cytotoxic/Targeted Agent (Oncology)",
     "otc_or_rx": "Rx",
     "description": "An oral targeted therapy for adults with progressing desmoid tumors who require systemic treatment.",
     "route": "Oral",
@@ -47558,7 +47558,7 @@
     "brand_names": [
       "Visken"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "Used to treat high blood pressure.",
     "route": "Oral",
@@ -53592,7 +53592,7 @@
     "brand_names": [
       "Artane"
     ],
-    "drug_class": "Anticholinergic (Antiparkinsonian Agent)",
+    "drug_class": "Anticholinergic (Muscarinic Antagonist)",
     "otc_or_rx": "Rx",
     "description": "Used to reduce tremor, stiffness, and muscle spasm in Parkinson's disease and drug-induced movement disorders.",
     "route": "Oral",
@@ -55804,7 +55804,7 @@
     "brand_names": [
       "Xdemvy"
     ],
-    "drug_class": "Topical Antiparasitic (Lice/Scabies)",
+    "drug_class": "Ophthalmic Antiparasitic (Demodex Blepharitis)",
     "otc_or_rx": "Rx",
     "description": "Eye drop used to treat Demodex blepharitis, an inflammation of the eyelids caused by Demodex mites.",
     "route": "Ophthalmic",
@@ -56717,7 +56717,7 @@
     "brand_names": [
       "Zoryve"
     ],
-    "drug_class": "PDE4 Inhibitor",
+    "drug_class": "Topical PDE4 Inhibitor",
     "otc_or_rx": "Rx",
     "description": "A topical cream/foam used to treat plaque psoriasis, seborrheic dermatitis, or atopic dermatitis, depending on the specific product; distinct from oral roflumilast used for COPD.",
     "route": "Topical",
@@ -57132,7 +57132,7 @@
     "brand_names": [
       "Blocadren"
     ],
-    "drug_class": "Beta Blocker",
+    "drug_class": "Beta-Adrenergic Antagonist",
     "otc_or_rx": "Rx",
     "description": "A beta blocker taken by mouth to lower blood pressure, prevent migraines, and reduce the risk of a repeat heart attack.",
     "route": "Oral",

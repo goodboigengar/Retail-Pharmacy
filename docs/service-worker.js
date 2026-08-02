@@ -1,4 +1,4 @@
-const CACHE_VERSION = "rxconsult-v8";
+const CACHE_VERSION = "rxconsult-v10";
 
 const PRECACHE_ASSETS = [
   "./",
