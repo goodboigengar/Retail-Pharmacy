@@ -34,38 +34,42 @@
     </div>
 
     <div id="install-ios-safari" class="install-variant" hidden>
-      <p class="install-warning">⚠️ <strong>Important:</strong> this only works if the page is open directly in
-        the <strong>Safari</strong> app — not in the little in-app browser you get from tapping a link inside
-        Messages, Mail, Slack, or similar apps. Those often hide "Add to Home Screen" entirely, even though they
-        look like Safari.</p>
-      <p><strong>Safest way to be sure:</strong></p>
+      <p>You're in Safari — installing takes about 10 seconds:</p>
       <ol class="install-steps">
-        <li>Tap <strong>Copy Link</strong> below.</li>
-        <li>Open the <strong>Safari</strong> app yourself (the blue compass icon on your home screen).</li>
-        <li>Tap the address bar at the top and <strong>paste</strong> the link in, then go.</li>
+        <li><strong>Tap the Share button</strong> <span class="icon-inline icon-share" aria-hidden="true"></span>
+          at the <strong>bottom</strong> of the screen (the square with an arrow pointing up).</li>
+        <li><strong>Scroll down</strong> the menu that pops up and tap <strong>"Add to Home Screen."</strong></li>
+        <li><strong>Tap "Add"</strong> in the top-right corner.</li>
       </ol>
-      <button id="copy-link-btn-safari" class="secondary-btn">Copy Link</button>
-      <p id="copy-link-feedback-safari" class="copy-feedback" hidden>Link copied — now open Safari and paste it in.</p>
-      <p style="margin-top:1rem;"><strong>Once the page is open in Safari:</strong></p>
-      <ol class="install-steps">
-        <li>Tap the <strong>Share</strong> button <span class="icon-inline icon-share" aria-hidden="true"></span>
-          in the Safari toolbar (bottom of the screen).</li>
-        <li>Scroll down the list and tap <strong>"Add to Home Screen."</strong> (If you don't see it at all,
-          you're still not in real Safari — see the warning above.)</li>
-        <li>Tap <strong>"Add"</strong> in the top-right corner.</li>
-      </ol>
+      <p>A new app icon appears on your Home Screen — tap it any time to open the app, even with no internet
+        connection.</p>
+
+      <details class="install-troubleshoot">
+        <summary>Don't see "Add to Home Screen" in step 2?</summary>
+        <p>That means this page is actually open inside another app's built-in browser (Messages, Mail, Slack,
+          etc.), even though it looks like Safari. To fix it:</p>
+        <ol class="install-steps">
+          <li><strong>Tap Copy Link</strong> below.</li>
+          <li><strong>Open the Safari app</strong> yourself — the blue compass icon on your Home Screen.</li>
+          <li><strong>Tap the address bar</strong> at the top, <strong>paste</strong> the link, and go.</li>
+          <li>Then repeat steps 1–3 above.</li>
+        </ol>
+        <button id="copy-link-btn-safari" class="secondary-btn">Copy Link</button>
+        <p id="copy-link-feedback-safari" class="copy-feedback" hidden>Link copied — now open Safari and paste it in.</p>
+      </details>
     </div>
 
     <div id="install-ios-other" class="install-variant" hidden>
-      <p><strong>This browser can't install apps to your iPhone/iPad Home Screen.</strong> You'll need to open
-        this page in the <strong>Safari</strong> app instead.</p>
+      <p><strong>This browser can't add apps to your iPhone/iPad Home Screen.</strong> You'll need to open this
+        page in Safari instead — it only takes a minute:</p>
       <ol class="install-steps">
-        <li>Tap <strong>Copy Link</strong> below.</li>
-        <li>Open the <strong>Safari</strong> app yourself (the blue compass icon on your home screen) —
-          don't rely on an "Open in Safari" menu option, some browsers don't have one.</li>
-        <li>Tap the address bar at the top and <strong>paste</strong> the link in, then go.</li>
-        <li>Once loaded, tap the <strong>Share</strong> button, scroll down, and tap
-          <strong>"Add to Home Screen."</strong></li>
+        <li><strong>Tap Copy Link</strong> below.</li>
+        <li><strong>Open the Safari app</strong> yourself — the blue compass icon on your Home Screen. (Don't
+          look for an "Open in Safari" option in this browser's menu — not all browsers have one.)</li>
+        <li><strong>Tap the address bar</strong> at the top, <strong>paste</strong> the link, and go.</li>
+        <li>Once the page loads in Safari, <strong>tap the Share button</strong>
+          <span class="icon-inline icon-share" aria-hidden="true"></span> at the bottom of the screen.</li>
+        <li><strong>Scroll down</strong> and tap <strong>"Add to Home Screen,"</strong> then tap <strong>"Add."</strong></li>
       </ol>
       <button id="copy-link-btn-other" class="secondary-btn">Copy Link</button>
       <p id="copy-link-feedback-other" class="copy-feedback" hidden>Link copied — now open Safari and paste it in.</p>
