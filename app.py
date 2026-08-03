@@ -34,6 +34,7 @@ def api_search():
             "generic_name": d["generic_name"],
             "brand_names": d["brand_names"],
             "drug_class": d["drug_class"],
+            "broad_class": d["broad_class"],
             "otc_or_rx": d["otc_or_rx"],
             "description": d["description"],
         }
@@ -44,7 +45,7 @@ def api_search():
 
 @app.route("/api/classes")
 def api_classes():
-    return jsonify({"classes": db.get_all_drug_classes()})
+    return jsonify({"classes": db.get_all_broad_classes()})
 
 
 @app.route("/api/consultation", methods=["POST"])

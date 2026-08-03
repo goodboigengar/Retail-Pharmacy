@@ -7,7 +7,8 @@ CREATE TABLE drugs (
     id                          TEXT PRIMARY KEY,
     generic_name                TEXT NOT NULL,
     brand_names                 TEXT NOT NULL,  -- JSON array
-    drug_class                  TEXT NOT NULL,
+    drug_class                  TEXT NOT NULL,  -- specific pharmacology class, shown on the consult
+    broad_class                 TEXT NOT NULL,  -- broad therapeutic category, used for browsing/filtering
     otc_or_rx                   TEXT NOT NULL,
     description                 TEXT NOT NULL,
     route                       TEXT NOT NULL,
@@ -27,6 +28,7 @@ CREATE TABLE drugs (
 
 CREATE INDEX idx_drugs_generic_name ON drugs(generic_name);
 CREATE INDEX idx_drugs_class ON drugs(drug_class);
+CREATE INDEX idx_drugs_broad_class ON drugs(broad_class);
 
 CREATE TABLE interactions (
     id              INTEGER PRIMARY KEY AUTOINCREMENT,

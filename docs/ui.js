@@ -38,7 +38,7 @@
         <input type="checkbox" data-id="${d.id}" ${isChecked ? "checked" : ""}>
         <div>
           <div class="result-name">${escapeHtml(d.generic_name)}${escapeHtml(brandStr)} ${otcBadge(d.otc_or_rx)}</div>
-          <div class="result-meta">${escapeHtml(d.drug_class)}</div>
+          <div class="result-meta">${escapeHtml(d.broad_class)}</div>
           <div class="result-meta">${escapeHtml(d.description)}</div>
         </div>
       `;

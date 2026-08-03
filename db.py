@@ -57,19 +57,20 @@ def _seed(conn):
         conn.execute(
             """
             INSERT INTO drugs (
-                id, generic_name, brand_names, drug_class, otc_or_rx, description,
+                id, generic_name, brand_names, drug_class, broad_class, otc_or_rx, description,
                 route, dosage_forms, typical_dosage, typical_duration,
                 directions_for_use, storage_instructions, contraindications,
                 severe_side_effects_seek_care, common_side_effects,
                 otc_and_other_interactions, action_if_adverse_effects,
                 self_monitoring, missed_dose_instructions
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
             """,
             (
                 d["id"],
                 d["generic_name"],
                 json.dumps(d["brand_names"]),
                 d["drug_class"],
+                d["broad_class"],
                 d["otc_or_rx"],
                 d["description"],
                 d["route"],
@@ -113,7 +114,7 @@ def search_drugs(query, class_filter=None, limit=25):
     """Search by generic name, brand name, or drug class (case-insensitive substring).
 
     If class_filter is set, results are restricted to drugs with an exact
-    drug_class match before the query and limit are applied.
+    broad_class match before the query and limit are applied.
     """
     conn = get_connection()
     try:
@@ -123,7 +124,7 @@ def search_drugs(query, class_filter=None, limit=25):
 
     drugs = [row_to_drug(r) for r in rows]
     if class_filter:
-        drugs = [d for d in drugs if d["drug_class"] == class_filter]
+        drugs = [d for d in drugs if d["broad_class"] == class_filter]
         limit = max(limit, len(drugs))
 
     if not query or not query.strip():
@@ -132,7 +133,7 @@ def search_drugs(query, class_filter=None, limit=25):
     q = query.strip().lower()
     scored = []
     for d in drugs:
-        haystacks = [d["generic_name"].lower(), d["drug_class"].lower()] + [
+        haystacks = [d["generic_name"].lower(), d["drug_class"].lower(), d["broad_class"].lower()] + [
             b.lower() for b in d["brand_names"]
         ]
         if any(q in h for h in haystacks):
@@ -180,12 +181,12 @@ def get_interactions_among(ids):
     return results
 
 
-def get_all_drug_classes():
+def get_all_broad_classes():
     conn = get_connection()
     try:
         rows = conn.execute(
-            "SELECT DISTINCT drug_class FROM drugs ORDER BY drug_class"
+            "SELECT DISTINCT broad_class FROM drugs ORDER BY broad_class"
         ).fetchall()
     finally:
         conn.close()
-    return [r["drug_class"] for r in rows]
+    return [r["broad_class"] for r in rows]

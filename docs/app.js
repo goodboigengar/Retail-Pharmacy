@@ -39,7 +39,7 @@
   function searchDrugs(query, classFilter, limit = 50) {
     let pool = DRUGS;
     if (classFilter) {
-      pool = pool.filter((d) => d.drug_class === classFilter);
+      pool = pool.filter((d) => d.broad_class === classFilter);
       limit = Math.max(limit, pool.length);
     }
     const sorted = [...pool].sort((a, b) => a.generic_name.localeCompare(b.generic_name));
@@ -48,7 +48,7 @@
 
     const scored = [];
     for (const d of sorted) {
-      const haystacks = [d.generic_name.toLowerCase(), d.drug_class.toLowerCase(), ...d.brand_names.map((b) => b.toLowerCase())];
+      const haystacks = [d.generic_name.toLowerCase(), d.drug_class.toLowerCase(), d.broad_class.toLowerCase(), ...d.brand_names.map((b) => b.toLowerCase())];
       if (haystacks.some((h) => h.includes(q))) {
         const starts = haystacks.some((h) => h.startsWith(q));
         scored.push([starts ? 0 : 1, d.generic_name, d]);
@@ -59,7 +59,7 @@
   }
 
   function getAllDrugClasses() {
-    return [...new Set(DRUGS.map((d) => d.drug_class))].sort();
+    return [...new Set(DRUGS.map((d) => d.broad_class))].sort();
   }
 
   function getDrugsByIds(ids) {

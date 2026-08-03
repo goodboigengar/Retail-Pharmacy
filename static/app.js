@@ -39,7 +39,7 @@
         <input type="checkbox" data-id="${d.id}" ${isChecked ? "checked" : ""}>
         <div>
           <div class="result-name">${d.generic_name}${brandStr} ${otcBadge(d.otc_or_rx)}</div>
-          <div class="result-meta">${d.drug_class}</div>
+          <div class="result-meta">${d.broad_class}</div>
           <div class="result-meta">${d.description}</div>
         </div>
       `;
